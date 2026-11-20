@@ -1,0 +1,736 @@
+{
+  "zones_summary": [
+    {
+      "zone_id": 1,
+      "zone_name": "North Eastern Transition Zone",
+      "hq": "Bidar / Aland",
+      "grid_cells": 14,
+      "districts": "Bidar, Kalaburagi",
+      "taluks_sample": "Aurad, Basavakalyan, Bhalki, Bidar, Humnabad, Aland, Chincholi",
+      "major_crops": "Red gram (tur), black gram, green gram, jowar, sugarcane",
+      "annual_obs_mm": 1090.5,
+      "annual_era_mm": 1206.8,
+      "annual_bias_mm": 116.3,
+      "sw_obs_mm": 847.5,
+      "sw_era_mm": 986.2,
+      "sw_bias_mm": 138.7,
+      "sw_r": 0.474,
+      "sw_kge": 0.446,
+      "sw_shift_pct": -12.4,
+      "sw_rainy_days": 62.3,
+      "ne_obs_mm": 127.7,
+      "ne_era_mm": 137.0,
+      "ne_bias_mm": 9.3,
+      "ne_r": 0.501,
+      "ne_kge": 0.449,
+      "ne_shift_pct": -38.4,
+      "ne_rainy_days": 11.7,
+      "sw_to_ne_ratio": 6.63,
+      "max_dry_spell_days": 17,
+      "heavy_days_per_yr": 0.14
+    },
+    {
+      "zone_id": 2,
+      "zone_name": "North Eastern Dry Zone",
+      "hq": "Raichur / Kalaburagi",
+      "grid_cells": 28,
+      "districts": "Kalaburagi, Raichur, Yadgir",
+      "taluks_sample": "Gulbarga, Afzalpur, Chittapur, Jewargi, Sedam, Raichur, Manvi, Deodurga, Yadgir, Shahapur, Shorapur",
+      "major_crops": "Rabi jowar, bajra, pigeonpea, sunflower, cotton, canal paddy",
+      "annual_obs_mm": 832.5,
+      "annual_era_mm": 1005.0,
+      "annual_bias_mm": 172.5,
+      "sw_obs_mm": 615.2,
+      "sw_era_mm": 778.7,
+      "sw_bias_mm": 163.5,
+      "sw_r": 0.467,
+      "sw_kge": 0.396,
+      "sw_shift_pct": -7.0,
+      "sw_rainy_days": 56.1,
+      "ne_obs_mm": 116.0,
+      "ne_era_mm": 149.1,
+      "ne_bias_mm": 33.1,
+      "ne_r": 0.514,
+      "ne_kge": 0.421,
+      "ne_shift_pct": -39.4,
+      "ne_rainy_days": 11.9,
+      "sw_to_ne_ratio": 5.3,
+      "max_dry_spell_days": 10,
+      "heavy_days_per_yr": 0.14
+    },
+    {
+      "zone_id": 3,
+      "zone_name": "Northern Dry Zone",
+      "hq": "Vijayapura / Bagalkote",
+      "grid_cells": 57,
+      "districts": "Bagalkote, Ballari, Belagavi, Gadag, Koppal, Vijayapura",
+      "taluks_sample": "Bijapur, Indi, Sindgi, Mudhol, Badami, Jamkhandi, Ron, Gangavathi, Hospet, Ballari, Athani, Gokak",
+      "major_crops": "Rabi sorghum, chickpea (Bengal gram), maize, bajra, cotton, pomegranate",
+      "annual_obs_mm": 753.7,
+      "annual_era_mm": 944.3,
+      "annual_bias_mm": 190.6,
+      "sw_obs_mm": 480.8,
+      "sw_era_mm": 673.5,
+      "sw_bias_mm": 192.7,
+      "sw_r": 0.372,
+      "sw_kge": 0.229,
+      "sw_shift_pct": -5.7,
+      "sw_rainy_days": 51.6,
+      "ne_obs_mm": 153.0,
+      "ne_era_mm": 172.7,
+      "ne_bias_mm": 19.7,
+      "ne_r": 0.556,
+      "ne_kge": 0.518,
+      "ne_shift_pct": -43.6,
+      "ne_rainy_days": 14.7,
+      "sw_to_ne_ratio": 3.14,
+      "max_dry_spell_days": 10,
+      "heavy_days_per_yr": 0.0
+    },
+    {
+      "zone_id": 4,
+      "zone_name": "Central Dry Zone",
+      "hq": "Hiriyur / Chitradurga",
+      "grid_cells": 23,
+      "districts": "Chitradurga, Davanagere, Tumakuru",
+      "taluks_sample": "Challakere, Chitradurga, Hiriyur, Hosadurga, Holalkere, Jagalur, Pavagada, Sira, Madhugiri",
+      "major_crops": "Groundnut, ragi (finger millet), maize, sunflower, onion, arecanut",
+      "annual_obs_mm": 848.6,
+      "annual_era_mm": 960.2,
+      "annual_bias_mm": 111.6,
+      "sw_obs_mm": 441.4,
+      "sw_era_mm": 578.8,
+      "sw_bias_mm": 137.5,
+      "sw_r": 0.325,
+      "sw_kge": 0.209,
+      "sw_shift_pct": 2.8,
+      "sw_rainy_days": 41.3,
+      "ne_obs_mm": 248.4,
+      "ne_era_mm": 246.3,
+      "ne_bias_mm": -2.1,
+      "ne_r": 0.541,
+      "ne_kge": 0.495,
+      "ne_shift_pct": -33.7,
+      "ne_rainy_days": 19.6,
+      "sw_to_ne_ratio": 1.78,
+      "max_dry_spell_days": 12,
+      "heavy_days_per_yr": 0.0
+    },
+    {
+      "zone_id": 5,
+      "zone_name": "Eastern Dry Zone",
+      "hq": "Hebbal / Bengaluru",
+      "grid_cells": 26,
+      "districts": "Bengaluru Rural, Bengaluru Urban, Chikkaballapura, Kolar, Ramanagara, Tumakuru",
+      "taluks_sample": "Bangalore North/South, Devanahalli, Doddaballapura, Ramanagara, Channapatna, Kolar, Chikkaballapur, Tumkur",
+      "major_crops": "Ragi, redgram, maize, vegetables, mulberry (sericulture), mango, grapes",
+      "annual_obs_mm": 998.3,
+      "annual_era_mm": 1068.7,
+      "annual_bias_mm": 70.4,
+      "sw_obs_mm": 495.4,
+      "sw_era_mm": 568.7,
+      "sw_bias_mm": 73.3,
+      "sw_r": 0.329,
+      "sw_kge": 0.264,
+      "sw_shift_pct": -8.4,
+      "sw_rainy_days": 46.1,
+      "ne_obs_mm": 307.7,
+      "ne_era_mm": 323.0,
+      "ne_bias_mm": 15.2,
+      "ne_r": 0.417,
+      "ne_kge": 0.397,
+      "ne_shift_pct": -29.6,
+      "ne_rainy_days": 27.3,
+      "sw_to_ne_ratio": 1.61,
+      "max_dry_spell_days": 12,
+      "heavy_days_per_yr": 0.14
+    },
+    {
+      "zone_id": 6,
+      "zone_name": "Southern Dry Zone",
+      "hq": "Mandya",
+      "grid_cells": 18,
+      "districts": "Chamarajanagara, Mandya, Mysuru",
+      "taluks_sample": "Mandya, Maddur, Malavalli, Pandavapura, Srirangapatna, Mysuru, Nanjangud, T. Narasipura, Kollegal, Gundlupet",
+      "major_crops": "Sugarcane, paddy (Cauvery command), ragi, pulses, coconut",
+      "annual_obs_mm": 1044.0,
+      "annual_era_mm": 1080.2,
+      "annual_bias_mm": 36.2,
+      "sw_obs_mm": 517.1,
+      "sw_era_mm": 572.4,
+      "sw_bias_mm": 55.4,
+      "sw_r": 0.339,
+      "sw_kge": 0.308,
+      "sw_shift_pct": 4.8,
+      "sw_rainy_days": 53.6,
+      "ne_obs_mm": 291.9,
+      "ne_era_mm": 317.6,
+      "ne_bias_mm": 25.8,
+      "ne_r": 0.399,
+      "ne_kge": 0.385,
+      "ne_shift_pct": -28.2,
+      "ne_rainy_days": 27.0,
+      "sw_to_ne_ratio": 1.77,
+      "max_dry_spell_days": 7,
+      "heavy_days_per_yr": 0.0
+    },
+    {
+      "zone_id": 7,
+      "zone_name": "Southern Transition Zone",
+      "hq": "Navile / Shivamogga / Hassan",
+      "grid_cells": 19,
+      "districts": "Chikkamagaluru, Davanagere, Hassan, Mysuru, Shivamogga",
+      "taluks_sample": "Hassan, Channarayapatna, Holenarasipura, Arkalgud, Belur, Hunsur, Periyapatna, Bhadravathi, Honnali, Tarikere",
+      "major_crops": "Maize, ragi, tobacco, potato, ginger, pulses, paddy",
+      "annual_obs_mm": 1070.4,
+      "annual_era_mm": 1210.3,
+      "annual_bias_mm": 139.9,
+      "sw_obs_mm": 526.4,
+      "sw_era_mm": 745.9,
+      "sw_bias_mm": 219.4,
+      "sw_r": 0.397,
+      "sw_kge": 0.246,
+      "sw_shift_pct": -11.1,
+      "sw_rainy_days": 55.0,
+      "ne_obs_mm": 313.9,
+      "ne_era_mm": 270.9,
+      "ne_bias_mm": -42.9,
+      "ne_r": 0.534,
+      "ne_kge": 0.5,
+      "ne_shift_pct": -33.9,
+      "ne_rainy_days": 26.7,
+      "sw_to_ne_ratio": 1.68,
+      "max_dry_spell_days": 11,
+      "heavy_days_per_yr": 0.14
+    },
+    {
+      "zone_id": 8,
+      "zone_name": "Northern Transition Zone",
+      "hq": "Dharwad",
+      "grid_cells": 19,
+      "districts": "Belagavi, Dharwad, Haveri",
+      "taluks_sample": "Dharwad, Hubballi, Kalghatgi, Kundgol, Haveri, Byadgi, Ranebennur, Bailhongal, Chikkodi, Hukkeri",
+      "major_crops": "Cotton, soybean, Byadgi chilli, maize, wheat, groundnut, sorghum",
+      "annual_obs_mm": 1010.8,
+      "annual_era_mm": 1271.1,
+      "annual_bias_mm": 260.2,
+      "sw_obs_mm": 654.0,
+      "sw_era_mm": 920.1,
+      "sw_bias_mm": 266.0,
+      "sw_r": 0.435,
+      "sw_kge": 0.271,
+      "sw_shift_pct": -19.2,
+      "sw_rainy_days": 64.7,
+      "ne_obs_mm": 195.4,
+      "ne_era_mm": 193.6,
+      "ne_bias_mm": -1.9,
+      "ne_r": 0.553,
+      "ne_kge": 0.514,
+      "ne_shift_pct": -41.5,
+      "ne_rainy_days": 15.9,
+      "sw_to_ne_ratio": 3.35,
+      "max_dry_spell_days": 4,
+      "heavy_days_per_yr": 0.43
+    },
+    {
+      "zone_id": 9,
+      "zone_name": "Hilly Zone (Malnad)",
+      "hq": "Mudigere / Sirsi",
+      "grid_cells": 35,
+      "districts": "Chikkamagaluru, Hassan, Kodagu, Shivamogga, Uttara Kannada",
+      "taluks_sample": "Madikeri, Somwarpet, Virajpet, Sakleshpur, Mudigere, Koppa, Sringeri, Sagar, Hosanagar, Thirthahalli, Sirsi, Yellapur",
+      "major_crops": "Coffee, tea, black pepper, cardamom, arecanut, paddy, ginger, rubber",
+      "annual_obs_mm": 2241.2,
+      "annual_era_mm": 2391.7,
+      "annual_bias_mm": 150.5,
+      "sw_obs_mm": 1714.6,
+      "sw_era_mm": 1750.1,
+      "sw_bias_mm": 35.4,
+      "sw_r": 0.638,
+      "sw_kge": 0.599,
+      "sw_shift_pct": -8.6,
+      "sw_rainy_days": 98.7,
+      "ne_obs_mm": 273.9,
+      "ne_era_mm": 320.0,
+      "ne_bias_mm": 46.1,
+      "ne_r": 0.619,
+      "ne_kge": 0.569,
+      "ne_shift_pct": -36.6,
+      "ne_rainy_days": 26.0,
+      "sw_to_ne_ratio": 6.26,
+      "max_dry_spell_days": 5,
+      "heavy_days_per_yr": 1.86
+    },
+    {
+      "zone_id": 10,
+      "zone_name": "Coastal Zone",
+      "hq": "Brahmavara (Udupi)",
+      "grid_cells": 13,
+      "districts": "Dakshina Kannada, Udupi, Uttara Kannada",
+      "taluks_sample": "Mangaluru, Bantwal, Puttur, Belthangady, Sullia, Udupi, Kundapura, Karkala, Karwar, Ankola, Kumta, Honnavar, Bhatkal",
+      "major_crops": "Kharif paddy, cashew, coconut, arecanut, black pepper, fisheries",
+      "annual_obs_mm": 4306.0,
+      "annual_era_mm": 3650.2,
+      "annual_bias_mm": -655.8,
+      "sw_obs_mm": 3459.5,
+      "sw_era_mm": 2641.4,
+      "sw_bias_mm": -818.0,
+      "sw_r": 0.658,
+      "sw_kge": 0.58,
+      "sw_shift_pct": -8.2,
+      "sw_rainy_days": 108.0,
+      "ne_obs_mm": 449.3,
+      "ne_era_mm": 484.4,
+      "ne_bias_mm": 35.1,
+      "ne_r": 0.531,
+      "ne_kge": 0.51,
+      "ne_shift_pct": -37.2,
+      "ne_rainy_days": 32.4,
+      "sw_to_ne_ratio": 7.7,
+      "max_dry_spell_days": 4,
+      "heavy_days_per_yr": 15.86
+    }
+  ],
+  "yearly_series": {
+    "1": [
+      {
+        "year": 2019,
+        "annual_mm": 884.0,
+        "sw_mm": 676.4,
+        "ne_mm": 184.7
+      },
+      {
+        "year": 2020,
+        "annual_mm": 1374.4,
+        "sw_mm": 1064.6,
+        "ne_mm": 214.9
+      },
+      {
+        "year": 2021,
+        "annual_mm": 1164.9,
+        "sw_mm": 994.6,
+        "ne_mm": 91.3
+      },
+      {
+        "year": 2022,
+        "annual_mm": 1064.2,
+        "sw_mm": 844.1,
+        "ne_mm": 139.7
+      },
+      {
+        "year": 2023,
+        "annual_mm": 972.9,
+        "sw_mm": 728.7,
+        "ne_mm": 41.4
+      },
+      {
+        "year": 2024,
+        "annual_mm": 818.1,
+        "sw_mm": 659.7,
+        "ne_mm": 87.0
+      },
+      {
+        "year": 2025,
+        "annual_mm": 1354.9,
+        "sw_mm": 964.3,
+        "ne_mm": 135.2
+      }
+    ],
+    "2": [
+      {
+        "year": 2019,
+        "annual_mm": 639.2,
+        "sw_mm": 496.0,
+        "ne_mm": 112.2
+      },
+      {
+        "year": 2020,
+        "annual_mm": 1083.3,
+        "sw_mm": 821.7,
+        "ne_mm": 188.7
+      },
+      {
+        "year": 2021,
+        "annual_mm": 838.8,
+        "sw_mm": 604.5,
+        "ne_mm": 148.1
+      },
+      {
+        "year": 2022,
+        "annual_mm": 872.2,
+        "sw_mm": 635.4,
+        "ne_mm": 150.4
+      },
+      {
+        "year": 2023,
+        "annual_mm": 650.4,
+        "sw_mm": 489.0,
+        "ne_mm": 28.7
+      },
+      {
+        "year": 2024,
+        "annual_mm": 670.7,
+        "sw_mm": 517.3,
+        "ne_mm": 80.4
+      },
+      {
+        "year": 2025,
+        "annual_mm": 1073.4,
+        "sw_mm": 742.6,
+        "ne_mm": 103.4
+      }
+    ],
+    "3": [
+      {
+        "year": 2019,
+        "annual_mm": 726.8,
+        "sw_mm": 425.4,
+        "ne_mm": 250.2
+      },
+      {
+        "year": 2020,
+        "annual_mm": 892.9,
+        "sw_mm": 598.8,
+        "ne_mm": 182.0
+      },
+      {
+        "year": 2021,
+        "annual_mm": 768.3,
+        "sw_mm": 466.8,
+        "ne_mm": 179.3
+      },
+      {
+        "year": 2022,
+        "annual_mm": 895.2,
+        "sw_mm": 548.5,
+        "ne_mm": 190.8
+      },
+      {
+        "year": 2023,
+        "annual_mm": 423.1,
+        "sw_mm": 298.5,
+        "ne_mm": 39.5
+      },
+      {
+        "year": 2024,
+        "annual_mm": 678.9,
+        "sw_mm": 428.1,
+        "ne_mm": 146.9
+      },
+      {
+        "year": 2025,
+        "annual_mm": 890.8,
+        "sw_mm": 599.2,
+        "ne_mm": 82.5
+      }
+    ],
+    "4": [
+      {
+        "year": 2019,
+        "annual_mm": 758.4,
+        "sw_mm": 393.5,
+        "ne_mm": 285.8
+      },
+      {
+        "year": 2020,
+        "annual_mm": 819.3,
+        "sw_mm": 537.8,
+        "ne_mm": 164.3
+      },
+      {
+        "year": 2021,
+        "annual_mm": 1041.1,
+        "sw_mm": 372.1,
+        "ne_mm": 473.1
+      },
+      {
+        "year": 2022,
+        "annual_mm": 1145.4,
+        "sw_mm": 651.9,
+        "ne_mm": 260.3
+      },
+      {
+        "year": 2023,
+        "annual_mm": 484.0,
+        "sw_mm": 291.8,
+        "ne_mm": 82.8
+      },
+      {
+        "year": 2024,
+        "annual_mm": 954.8,
+        "sw_mm": 451.5,
+        "ne_mm": 323.8
+      },
+      {
+        "year": 2025,
+        "annual_mm": 737.0,
+        "sw_mm": 390.9,
+        "ne_mm": 148.6
+      }
+    ],
+    "5": [
+      {
+        "year": 2019,
+        "annual_mm": 811.9,
+        "sw_mm": 378.9,
+        "ne_mm": 271.1
+      },
+      {
+        "year": 2020,
+        "annual_mm": 1112.7,
+        "sw_mm": 646.4,
+        "ne_mm": 288.2
+      },
+      {
+        "year": 2021,
+        "annual_mm": 1264.8,
+        "sw_mm": 536.1,
+        "ne_mm": 551.7
+      },
+      {
+        "year": 2022,
+        "annual_mm": 1372.3,
+        "sw_mm": 734.4,
+        "ne_mm": 367.9
+      },
+      {
+        "year": 2023,
+        "annual_mm": 691.9,
+        "sw_mm": 354.3,
+        "ne_mm": 135.2
+      },
+      {
+        "year": 2024,
+        "annual_mm": 844.9,
+        "sw_mm": 386.7,
+        "ne_mm": 335.2
+      },
+      {
+        "year": 2025,
+        "annual_mm": 889.7,
+        "sw_mm": 430.8,
+        "ne_mm": 204.8
+      }
+    ],
+    "6": [
+      {
+        "year": 2019,
+        "annual_mm": 999.4,
+        "sw_mm": 536.6,
+        "ne_mm": 302.0
+      },
+      {
+        "year": 2020,
+        "annual_mm": 967.0,
+        "sw_mm": 529.4,
+        "ne_mm": 227.9
+      },
+      {
+        "year": 2021,
+        "annual_mm": 1156.0,
+        "sw_mm": 443.9,
+        "ne_mm": 514.2
+      },
+      {
+        "year": 2022,
+        "annual_mm": 1566.4,
+        "sw_mm": 849.5,
+        "ne_mm": 369.3
+      },
+      {
+        "year": 2023,
+        "annual_mm": 756.3,
+        "sw_mm": 373.6,
+        "ne_mm": 162.3
+      },
+      {
+        "year": 2024,
+        "annual_mm": 930.5,
+        "sw_mm": 451.0,
+        "ne_mm": 285.0
+      },
+      {
+        "year": 2025,
+        "annual_mm": 932.7,
+        "sw_mm": 435.5,
+        "ne_mm": 182.3
+      }
+    ],
+    "7": [
+      {
+        "year": 2019,
+        "annual_mm": 1156.8,
+        "sw_mm": 641.8,
+        "ne_mm": 367.5
+      },
+      {
+        "year": 2020,
+        "annual_mm": 966.7,
+        "sw_mm": 574.8,
+        "ne_mm": 204.5
+      },
+      {
+        "year": 2021,
+        "annual_mm": 1305.2,
+        "sw_mm": 469.4,
+        "ne_mm": 595.4
+      },
+      {
+        "year": 2022,
+        "annual_mm": 1498.5,
+        "sw_mm": 807.9,
+        "ne_mm": 303.5
+      },
+      {
+        "year": 2023,
+        "annual_mm": 690.9,
+        "sw_mm": 325.9,
+        "ne_mm": 187.7
+      },
+      {
+        "year": 2024,
+        "annual_mm": 1010.8,
+        "sw_mm": 500.9,
+        "ne_mm": 298.0
+      },
+      {
+        "year": 2025,
+        "annual_mm": 863.9,
+        "sw_mm": 364.2,
+        "ne_mm": 240.4
+      }
+    ],
+    "8": [
+      {
+        "year": 2019,
+        "annual_mm": 1268.1,
+        "sw_mm": 840.6,
+        "ne_mm": 366.5
+      },
+      {
+        "year": 2020,
+        "annual_mm": 1035.8,
+        "sw_mm": 741.5,
+        "ne_mm": 165.2
+      },
+      {
+        "year": 2021,
+        "annual_mm": 1072.9,
+        "sw_mm": 621.2,
+        "ne_mm": 236.6
+      },
+      {
+        "year": 2022,
+        "annual_mm": 1185.5,
+        "sw_mm": 697.9,
+        "ne_mm": 219.3
+      },
+      {
+        "year": 2023,
+        "annual_mm": 608.0,
+        "sw_mm": 447.9,
+        "ne_mm": 67.3
+      },
+      {
+        "year": 2024,
+        "annual_mm": 971.7,
+        "sw_mm": 623.5,
+        "ne_mm": 228.2
+      },
+      {
+        "year": 2025,
+        "annual_mm": 934.0,
+        "sw_mm": 605.7,
+        "ne_mm": 85.0
+      }
+    ],
+    "9": [
+      {
+        "year": 2019,
+        "annual_mm": 2633.4,
+        "sw_mm": 2133.3,
+        "ne_mm": 405.2
+      },
+      {
+        "year": 2020,
+        "annual_mm": 2118.2,
+        "sw_mm": 1751.4,
+        "ne_mm": 181.5
+      },
+      {
+        "year": 2021,
+        "annual_mm": 2327.0,
+        "sw_mm": 1525.4,
+        "ne_mm": 452.2
+      },
+      {
+        "year": 2022,
+        "annual_mm": 2397.7,
+        "sw_mm": 1854.8,
+        "ne_mm": 190.0
+      },
+      {
+        "year": 2023,
+        "annual_mm": 1554.9,
+        "sw_mm": 1261.4,
+        "ne_mm": 180.1
+      },
+      {
+        "year": 2024,
+        "annual_mm": 2327.0,
+        "sw_mm": 1819.3,
+        "ne_mm": 304.2
+      },
+      {
+        "year": 2025,
+        "annual_mm": 2329.9,
+        "sw_mm": 1656.7,
+        "ne_mm": 204.2
+      }
+    ],
+    "10": [
+      {
+        "year": 2019,
+        "annual_mm": 4582.4,
+        "sw_mm": 3892.7,
+        "ne_mm": 618.5
+      },
+      {
+        "year": 2020,
+        "annual_mm": 4429.8,
+        "sw_mm": 3815.6,
+        "ne_mm": 393.3
+      },
+      {
+        "year": 2021,
+        "annual_mm": 4477.5,
+        "sw_mm": 3183.4,
+        "ne_mm": 699.6
+      },
+      {
+        "year": 2022,
+        "annual_mm": 4011.7,
+        "sw_mm": 3334.4,
+        "ne_mm": 250.7
+      },
+      {
+        "year": 2023,
+        "annual_mm": 3002.2,
+        "sw_mm": 2518.7,
+        "ne_mm": 374.8
+      },
+      {
+        "year": 2024,
+        "annual_mm": 4663.2,
+        "sw_mm": 3926.9,
+        "ne_mm": 428.3
+      },
+      {
+        "year": 2025,
+        "annual_mm": 4975.4,
+        "sw_mm": 3544.5,
+        "ne_mm": 379.8
+      }
+    ]
+  }
+}

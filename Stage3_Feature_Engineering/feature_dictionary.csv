@@ -1,0 +1,70 @@
+name,group,type,units,description
+target_rainfall_mm,Target,Continuous,mm/day,IMD ground-truth daily rainfall depth on Date d
+target_is_rain,Target,Binary,0/1,Rain occurrence indicator (Rain >= 0.1 mm)
+target_is_heavy_rain,Target,Binary,0/1,Heavy rainfall indicator (Rain >= 35.5 mm)
+latitude,Spatial,Continuous,deg N,Station latitude coordinate
+longitude,Spatial,Continuous,deg E,Station longitude coordinate
+elevation_m,Spatial,Continuous,m,Hypsometric elevation proxy from surface pressure
+slope_deg,Spatial,Continuous,degrees,Local topographic gradient calculated on 0.25 grid
+dist_to_coast_km,Spatial,Continuous,km,Geodesic distance to Arabian Sea coastline
+dist_to_ghats_crest_km,Spatial,Continuous,km,Distance to Western Ghats orographic crest line
+zone_id,Spatial,Categorical,1-10,Official ICAR / UAS Agro-Climatic Zone ID
+subdivision,Spatial,Categorical,Text,IMD meteorological subdivision
+is_coastal_fallback,Spatial Flag,Binary,0/1,Flag for coastal stations touching Arabian Sea ocean cells
+interpolation_method,Spatial Flag,Categorical,Text,Bilinear grid vs nearest land fallback
+month,Temporal,Discrete,1-12,Calendar month
+day_of_year,Temporal,Discrete,1-366,Day of the calendar year
+sin_day_of_year,Temporal,Continuous,"[-1, 1]",Sine cyclical day of year encoding
+cos_day_of_year,Temporal,Continuous,"[-1, 1]",Cosine cyclical day of year encoding
+sin_month,Temporal,Continuous,"[-1, 1]",Sine cyclical month encoding
+cos_month,Temporal,Continuous,"[-1, 1]",Cosine cyclical month encoding
+is_monsoon,Temporal,Binary,0/1,Southwest Monsoon indicator (June to September)
+season,Temporal,Categorical,Text,"Meteorological season: Pre-Monsoon, SW-Monsoon, Post-Monsoon, Winter"
+target_rain_lag_1d,Target Lags,Continuous,mm/day,IMD observed rain on day d-1
+target_rain_lag_2d,Target Lags,Continuous,mm/day,IMD observed rain on day d-2
+target_rain_lag_3d,Target Lags,Continuous,mm/day,IMD observed rain on day d-3
+target_rain_lag_7d,Target Lags,Continuous,mm/day,IMD observed rain on day d-7
+target_rain_lag_14d,Target Lags,Continuous,mm/day,IMD observed rain on day d-14
+target_rain_roll_3d_sum,Target Rolling,Continuous,mm,3-day sum of IMD rain (days d-3 to d-1)
+target_rain_roll_7d_sum,Target Rolling,Continuous,mm,7-day sum of IMD rain (days d-7 to d-1)
+target_rain_roll_14d_sum,Target Rolling,Continuous,mm,14-day sum of IMD rain (days d-14 to d-1)
+target_rain_roll_3d_mean,Target Rolling,Continuous,mm/day,3-day mean of IMD rain (days d-3 to d-1)
+target_rain_roll_7d_mean,Target Rolling,Continuous,mm/day,7-day mean of IMD rain (days d-7 to d-1)
+target_rain_roll_14d_mean,Target Rolling,Continuous,mm/day,14-day mean of IMD rain (days d-14 to d-1)
+target_rain_roll_7d_max,Target Rolling,Continuous,mm/day,7-day maximum daily IMD rain (days d-7 to d-1)
+api_14d,Hydrological Memory,Continuous,mm,Antecedent Precipitation Index over 14 days (decay k=0.85)
+era5_tp_lag_1d,ERA5 Precip,Continuous,mm/day,ERA5 corrected daily rain on day d-1
+era5_tp_lag_2d,ERA5 Precip,Continuous,mm/day,ERA5 corrected daily rain on day d-2
+era5_tp_lag_3d,ERA5 Precip,Continuous,mm/day,ERA5 corrected daily rain on day d-3
+era5_tp_roll_3d_sum,ERA5 Precip,Continuous,mm,3-day sum of ERA5 rain (days d-3 to d-1)
+era5_tp_roll_7d_sum,ERA5 Precip,Continuous,mm,7-day sum of ERA5 rain (days d-7 to d-1)
+t2m_mean_lag_1d,Thermal State,Continuous,deg C,Mean 2m temperature on day d-1
+t2m_min_lag_1d,Thermal State,Continuous,deg C,Minimum 2m temperature on day d-1
+t2m_max_lag_1d,Thermal State,Continuous,deg C,Maximum 2m temperature on day d-1
+temp_range_lag_1d,Thermal State,Continuous,deg C,Diurnal temperature range (Tmax - Tmin) on day d-1
+d2m_mean_lag_1d,Thermal State,Continuous,deg C,Mean 2m dewpoint temperature on day d-1
+dewpoint_depression_lag_1d,Thermal State,Continuous,deg C,Dewpoint depression (T - Td) on day d-1
+t2m_roll_3d_mean,Thermal State,Continuous,deg C,3-day rolling mean of 2m temperature (days d-3 to d-1)
+t2m_roll_7d_mean,Thermal State,Continuous,deg C,7-day rolling mean of 2m temperature (days d-7 to d-1)
+sp_lag_1d,Circulation,Continuous,hPa,Mean surface pressure on day d-1
+wind_speed_lag_1d,Circulation,Continuous,m/s,Mean 10m wind speed on day d-1
+wind_roll_3d_mean,Circulation,Continuous,m/s,3-day rolling mean wind speed (days d-3 to d-1)
+wind_roll_7d_mean,Circulation,Continuous,m/s,7-day rolling mean wind speed (days d-7 to d-1)
+swvl1_lag_1d,Soil Moisture,Continuous,m3/m3,Volumetric soil water layer 1 (0-7cm) on day d-1
+swvl1_lag_3d,Soil Moisture,Continuous,m3/m3,Volumetric soil water layer 1 (0-7cm) on day d-3
+swvl1_lag_7d,Soil Moisture,Continuous,m3/m3,Volumetric soil water layer 1 (0-7cm) on day d-7
+swvl2_lag_1d,Soil Moisture,Continuous,m3/m3,Volumetric soil water layer 2 (7-28cm) on day d-1
+swvl3_lag_1d,Soil Moisture,Continuous,m3/m3,Volumetric soil water layer 3 (28-100cm) on day d-1
+ssrd_lag_1d,Surface Fluxes,Continuous,W/m2,Mean daily downward solar radiation flux on day d-1
+strd_lag_1d,Surface Fluxes,Continuous,W/m2,Mean daily downward thermal radiation flux on day d-1
+slhf_lag_1d,Surface Fluxes,Continuous,W/m2,Mean daily surface latent heat flux on day d-1
+sshf_lag_1d,Surface Fluxes,Continuous,W/m2,Mean daily surface sensible heat flux on day d-1
+ro_lag_1d,Hydrological Balance,Continuous,mm/day,Daily total runoff on day d-1
+sro_lag_1d,Hydrological Balance,Continuous,mm/day,Daily surface runoff on day d-1
+e_lag_1d,Hydrological Balance,Continuous,mm/day,Daily total evaporation depth on day d-1
+pev_lag_1d,Hydrological Balance,Continuous,mm/day,Daily potential evaporation depth on day d-1
+evabs_lag_1d,Hydrological Balance,Continuous,mm/day,Bare soil evaporation depth on day d-1
+evatc_lag_1d,Hydrological Balance,Continuous,mm/day,Canopy top evaporation depth on day d-1
+evavt_lag_1d,Hydrological Balance,Continuous,mm/day,Vegetation transpiration evaporation on day d-1
+src_lag_1d,Hydrological Balance,Continuous,mm,Skin reservoir content on day d-1
+fal_lag_1d,Surface Fluxes,Continuous,0-1,Forecast surface albedo on day d-1

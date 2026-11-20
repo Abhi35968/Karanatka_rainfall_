@@ -1,0 +1,8 @@
+IMD_Rainfall_Intensity_Category,Sample_Count,Percent_Total_Test_Data,Observed_Mean_mm,Observed_Std_mm,Predicted_Mean_mm,Predicted_Std_mm,MAE_mm,RMSE_mm,Mean_Bias_mm,Percentage_Bias_pct,Percent_Underestimated,Structural_Limitation_Note
+No Rain (<0.1 mm),119669,64.96,0.0,0.0,0.77,1.96,0.77,2.1,0.77,Undefined*,0.0,Near-zero background drizzle inflation
+Very Light (0.1–2.4 mm),26590,14.43,0.96,0.69,4.04,4.04,3.29,5.05,3.08,319.1,16.9,Overestimation due to exponential link penalty
+Light (2.5–15.5 mm),25854,14.03,7.03,3.6,7.46,6.53,4.67,6.58,0.43,6.1,53.8,Optimal continuous calibration sweet spot
+Moderate (15.6–64.4 mm),10832,5.88,29.81,12.29,17.22,15.23,16.55,20.21,-12.59,-42.2,83.5,Progressive underestimation onset
+Heavy (64.5–115.5 mm),1067,0.58,81.68,13.12,46.98,28.89,37.58,44.39,-34.71,-42.5,88.6,Severe extreme quantile shrinkage (conditional expectation cap)
+Very Heavy (115.6–204.4 mm),192,0.1,141.52,20.68,71.53,27.63,70.0,77.72,-70.0,-49.5,100.0,Severe extreme quantile shrinkage (conditional expectation cap)
+Extremely Heavy (≥204.5 mm),8,0.0043,225.02,18.7,73.66,27.99,151.36,154.76,-151.36,-67.3,100.0,Severe extreme quantile shrinkage (conditional expectation cap)

@@ -1,0 +1,5 @@
+target_column_name,role_and_status,exact_threshold_definition,Train (2019-2022)_count,Train (2019-2022)_pct,Validation (2023)_count,Validation (2023)_pct,Test (2024-2025)_count,Test (2024-2025)_pct,Full (2019-2025)_count,Full (2019-2025)_pct
+target_is_rain,Project Wet-Day Indicator,target_rainfall_mm >= 0.1 mm,134716,36.9445,25193,27.3896,64543,35.0373,224452,35.0249
+target_is_heavy_rain (EXISTING in Stage 3/3.3),Misattributed Heavy Rain Label,target_rainfall_mm >= 35.5 mm,8626,2.3656,1197,1.3014,4275,2.3207,14098,2.1999
+target_rain_ge_35_5mm (PRESERVED Custom),Custom Diagnostic Threshold,target_rainfall_mm >= 35.5 mm,8626,2.3656,1197,1.3014,4275,2.3207,14098,2.1999
+target_is_heavy_rain (CORRECTED Official IMD),Official IMD Heavy Rain Standard,target_rainfall_mm >= 64.5 mm,2672,0.7328,332,0.3609,1267,0.6878,4271,0.6665

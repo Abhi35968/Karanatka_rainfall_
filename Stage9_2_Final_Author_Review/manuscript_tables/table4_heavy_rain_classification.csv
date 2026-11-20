@@ -1,0 +1,7 @@
+Model_Name,Decision_Threshold,Threshold_Calibration_Source,Hits,Misses,False_Alarms,Correct_Negatives,Precision,POD_Recall,FAR,CSI,HSS,ETS,PR_AUC
+LightGBM_Heavy_FocalLoss,0.53,Frozen threshold p*=0.53 tuned exclusively on 2023 Validation to maximize CSI,595,672,427,182518,0.5822,0.4696,0.4178,0.3512,0.5169,0.3485,0.5084
+LightGBM_Heavy_ClassWeighted,0.96,Frozen threshold p*=0.96 tuned exclusively on 2023 Validation to maximize CSI,688,579,722,182223,0.4879,0.543,0.5121,0.3459,0.5105,0.3427,0.4853
+CatBoost_Heavy_ClassWeighted,0.98,Frozen threshold p*=0.98 tuned exclusively on 2023 Validation to maximize CSI,608,659,515,182430,0.5414,0.4799,0.4586,0.3412,0.5056,0.3383,0.4739
+Rainfall_Persistence,64.5 mm (fixed physical),Physical 64.5 mm threshold applied directly to y_{t-1} observations,484,783,783,182162,0.382,0.382,0.618,0.2361,0.3777,0.2328,
+Raw_ERA5_Land,64.5 mm (fixed physical),Physical 64.5 mm threshold applied directly to raw antecedent total precipitation,231,1036,606,182339,0.276,0.1823,0.724,0.1233,0.2153,0.1206,
+Empirical_Quantile_Mapping_EQM,64.5 mm (fixed physical),Physical 64.5 mm threshold applied to grid-cell-specific quantile-mapped rainfall,372,895,622,182323,0.3742,0.2936,0.6258,0.1969,0.325,0.194,

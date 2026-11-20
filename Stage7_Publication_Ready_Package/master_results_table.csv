@@ -1,0 +1,45 @@
+Model_Name,Prediction_Task,Dataset_Split,Sample_Count,RMSE_mm,MAE_mm,Mean_Bias_mm,PBias_pct,Pearson_r,NSE,Classic_KGE_2009,Modified_KGE_2012,Heavy_CSI_64.5mm,Audited_Status
+Rainfall_Persistence,Baseline Benchmarking,Validation_2023,91980,7.6674,2.5655,0.0,0.0,0.6032,0.2063,0.6032,0.6032,0.3441,MATCH
+Rainfall_Persistence,Baseline Benchmarking,Test_2024_2025,184212,10.3582,3.7508,0.0,0.0,0.5565,0.1129,0.5565,0.5565,0.2361,MATCH
+Station_DOY_Climatology,Baseline Benchmarking,Validation_2023,91980,8.6516,3.9995,1.3863,58.81,0.3993,-0.0105,0.1307,0.0169,0.0128,MATCH
+Station_DOY_Climatology,Baseline Benchmarking,Test_2024_2025,184212,10.1155,4.3078,0.2296,6.54,0.4313,0.154,0.3068,0.2851,0.0144,MATCH
+Antecedent_ERA5_Land,Baseline Benchmarking,Validation_2023,91980,7.4361,2.6873,0.2131,9.04,0.5647,0.2535,0.52,0.4905,0.1592,MATCH
+Antecedent_ERA5_Land,Baseline Benchmarking,Test_2024_2025,184212,10.455,4.1416,0.556,15.85,0.4911,0.0963,0.451,0.4111,0.1233,MATCH
+Empirical_Quantile_Mapping_EQM,Baseline Benchmarking,Validation_2023,91980,8.1535,2.6527,-0.0576,-2.44,0.538,0.1025,0.5364,0.5373,0.2052,MATCH
+Empirical_Quantile_Mapping_EQM,Baseline Benchmarking,Test_2024_2025,184212,11.197,4.2117,0.3867,11.02,0.4941,-0.0366,0.4818,0.4763,0.1969,MATCH
+Ridge_Linear_Baseline,Continuous Rainfall Regression,Validation_2023,91980,6.0139,2.5018,0.349,14.81,0.7187,0.5117,0.5361,0.4707,0.291,MATCH
+Ridge_Linear_Baseline,Continuous Rainfall Regression,Test_2024_2025,184212,7.975,3.3905,0.3308,9.43,0.6894,0.4742,0.5613,0.5184,0.2299,MATCH
+ElasticNet_Linear_Baseline,Continuous Rainfall Regression,Validation_2023,91980,6.0618,2.4524,0.2279,9.67,0.7138,0.5039,0.5331,0.4885,0.256,MATCH
+ElasticNet_Linear_Baseline,Continuous Rainfall Regression,Test_2024_2025,184212,8.0156,3.3999,0.3034,8.65,0.6853,0.4688,0.5496,0.5101,0.2211,MATCH
+LightGBM_RMSE,Continuous Rainfall Regression,Validation_2023,91980,5.6442,2.2322,0.2016,8.55,0.7554,0.5699,0.6341,0.5907,0.4225,MATCH
+LightGBM_RMSE,Continuous Rainfall Regression,Test_2024_2025,184212,7.4982,3.0806,0.2698,7.69,0.732,0.5352,0.619,0.5812,0.3016,MATCH
+LightGBM_Log_OrdinaryInverse,Continuous Rainfall Regression,Validation_2023,91980,6.0075,1.8344,-1.0136,-43.0,0.7505,0.5128,0.3356,0.5025,0.2742,MATCH
+LightGBM_Log_OrdinaryInverse,Continuous Rainfall Regression,Test_2024_2025,184212,7.8497,2.615,-1.3274,-37.83,0.726,0.4906,0.3703,0.5276,0.2271,MATCH
+LightGBM_Log_DuanSmearing,Continuous Rainfall Regression,Validation_2023,91980,5.6913,2.12,-0.191,-8.1,0.7505,0.5627,0.6414,0.6831,0.4211,MATCH
+LightGBM_Log_DuanSmearing,Continuous Rainfall Regression,Test_2024_2025,184212,7.5893,2.9488,-0.2105,-6.0,0.726,0.5238,0.6439,0.6722,0.3509,MATCH
+LightGBM_Tweedie_p1.5,Continuous Rainfall Regression,Validation_2023,91980,5.585,2.0511,-0.0615,-2.61,0.7618,0.5789,0.6349,0.6494,0.4098,MATCH
+LightGBM_Tweedie_p1.5,Continuous Rainfall Regression,Test_2024_2025,184212,7.4427,2.8993,-0.0179,-0.51,0.7363,0.542,0.6218,0.6245,0.2868,MATCH
+CatBoost_Tweedie_p1.5,Continuous Rainfall Regression,Validation_2023,91980,5.5868,2.0882,0.0001,0.0,0.7613,0.5786,0.6401,0.6401,0.4116,MATCH
+CatBoost_Tweedie_p1.5,Continuous Rainfall Regression,Test_2024_2025,184212,7.4335,2.9186,0.0388,1.11,0.737,0.5431,0.6318,0.6261,0.3033,MATCH
+XGBoost_Tweedie_p1.5,Continuous Rainfall Regression,Validation_2023,91980,5.645,2.0892,-0.0516,-2.19,0.7591,0.5698,0.598,0.61,0.3873,MATCH
+XGBoost_Tweedie_p1.5,Continuous Rainfall Regression,Test_2024_2025,184212,7.475,2.9497,0.0012,0.03,0.7346,0.538,0.5955,0.5953,0.2817,MATCH
+Hurdle_DiscreteThreshold_t0.44,Two-Stage Hurdle Architecture,Validation_2023,91980,5.7106,2.1806,0.2009,8.52,0.7486,0.5597,0.6412,0.5987,0.4121,MATCH
+Hurdle_DiscreteThreshold_t0.44,Two-Stage Hurdle Architecture,Test_2024_2025,184212,7.534,3.1144,0.401,11.43,0.7296,0.5307,0.6129,0.559,0.3091,MATCH
+Hurdle_ExpectedValue,Two-Stage Hurdle Architecture,Validation_2023,91980,5.574,2.0886,-0.0102,-0.43,0.7634,0.5805,0.6305,0.6329,0.4121,MATCH
+Hurdle_ExpectedValue,Two-Stage Hurdle Architecture,Test_2024_2025,184212,7.4241,2.93,0.0342,0.97,0.738,0.5443,0.6165,0.6114,0.3072,MATCH
+LightGBM_Rain,Rain Occurrence Classification (>=0.1mm),Validation_2023,91980,,,,,,,,,0.5969,MATCH
+LightGBM_Rain,Rain Occurrence Classification (>=0.1mm),Test_2024_2025,184212,,,,,,,,,0.6666,MATCH
+XGBoost_Rain,Rain Occurrence Classification (>=0.1mm),Validation_2023,91980,,,,,,,,,0.5957,MATCH
+XGBoost_Rain,Rain Occurrence Classification (>=0.1mm),Test_2024_2025,184212,,,,,,,,,0.6672,MATCH
+CatBoost_Rain,Rain Occurrence Classification (>=0.1mm),Validation_2023,91980,,,,,,,,,0.5977,MATCH
+CatBoost_Rain,Rain Occurrence Classification (>=0.1mm),Test_2024_2025,184212,,,,,,,,,0.6701,MATCH
+LightGBM_Heavy_Unweighted,Heavy Rain Classification (>=64.5mm),Validation_2023,91980,,,,,,,,,0.4277,MATCH
+LightGBM_Heavy_Unweighted,Heavy Rain Classification (>=64.5mm),Test_2024_2025,184212,,,,,,,,,0.3317,MATCH
+LightGBM_Heavy_ClassWeighted,Heavy Rain Classification (>=64.5mm),Validation_2023,91980,,,,,,,,,0.4291,MATCH
+LightGBM_Heavy_ClassWeighted,Heavy Rain Classification (>=64.5mm),Test_2024_2025,184212,,,,,,,,,0.3459,MATCH
+LightGBM_Heavy_FocalLoss,Heavy Rain Classification (>=64.5mm),Validation_2023,91980,,,,,,,,,0.4327,MATCH
+LightGBM_Heavy_FocalLoss,Heavy Rain Classification (>=64.5mm),Test_2024_2025,184212,,,,,,,,,0.3512,MATCH
+CatBoost_Heavy_ClassWeighted,Heavy Rain Classification (>=64.5mm),Validation_2023,91980,,,,,,,,,0.4258,MATCH
+CatBoost_Heavy_ClassWeighted,Heavy Rain Classification (>=64.5mm),Test_2024_2025,184212,,,,,,,,,0.3412,MATCH
+XGBoost_Heavy_ClassWeighted,Heavy Rain Classification (>=64.5mm),Validation_2023,91980,,,,,,,,,0.4098,MATCH
+XGBoost_Heavy_ClassWeighted,Heavy Rain Classification (>=64.5mm),Test_2024_2025,184212,,,,,,,,,0.3274,MATCH

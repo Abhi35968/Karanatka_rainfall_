@@ -1,0 +1,359 @@
+# STAGE 4 EXPERIMENTAL CONFIGURATION: RAINFALL ESTIMATION & FORECASTING
+# Project: Machine-Learning-Guided Daily Rainfall Estimation and Forecasting for Karnataka
+# Version: 4.0-CONFIG-FROZEN
+# Author: Senior Hydrometeorological Research Scientist & ML Engineer
+# Status: FROZEN & READY FOR IMPLEMENTATION
+
+metadata:
+  project_name: "karnataka_rainfall_cds"
+  study_area: "Karnataka State, India (252 in-state 0.25 deg IMD grid cells)"
+  temporal_coverage: "2019-01-15 to 2025-12-31 (2,543 calendar days)"
+  target_definition: "Daily rainfall accumulation (mm) over 03:00 UTC Day d-1 to 03:00 UTC Day d"
+  prediction_issue_time: "03:00 UTC on Day d-1 (08:30 IST)"
+  retrospective_assumption: "Archived IMD observations finalized at 03:00 UTC are available retrospectively"
+  random_seed: 42
+
+dataset_paths:
+  full_dataset: "Stage3_4_Final_Release_Audit/data/final_stage3_dataset.parquet"
+  train_dataset: "Stage3_4_Final_Release_Audit/data/final_train_dataset.parquet"
+  validation_dataset: "Stage3_4_Final_Release_Audit/data/final_validation_dataset.parquet"
+  test_dataset: "Stage3_4_Final_Release_Audit/data/final_test_dataset.parquet"
+
+partitions:
+  training:
+    date_start: "2019-01-15"
+    date_end: "2022-12-31"
+    calendar_days: 1447
+    row_count: 364644
+    usage: "Model parameter learning, loss minimization, fitting all preprocessors (scalers, encoders)"
+    warmup_buffer_excluded: "2019-01-01 to 2019-01-14 (3,528 records quarantined for 14-day lags)"
+  validation:
+    date_start: "2023-01-01"
+    date_end: "2023-12-31"
+    calendar_days: 365
+    row_count: 91980
+    usage: "Hyperparameter tuning, early stopping (patience=50), hurdle threshold calibration (p*), feature ablation"
+    climatological_context: "Regional drought year (27.39% rain occurrence vs 36.95% train); out-of-distribution stress test"
+  test:
+    date_start: "2024-01-01"
+    date_end: "2025-12-31"
+    calendar_days: 731
+    row_count: 184212
+    usage: "FROZEN out-of-sample forward evaluation. Evaluated exactly ONCE per final model. Zero feedback."
+
+target_variables:
+  primary_continuous:
+    column_name: "target_rainfall_mm"
+    units: "mm"
+    type: "continuous"
+    description: "IMD gridded rainfall accumulation ending 03:00 UTC Day d"
+  rain_occurrence:
+    column_name: "target_is_rain"
+    threshold_mm: 0.1
+    type: "binary"
+    train_positive_pct: 36.9445
+    description: "Wet day indicator (Rain >= 0.1 mm); Stage 1 Hurdle occurrence target"
+  official_heavy_rain:
+    column_name: "target_is_heavy_rain"
+    threshold_mm: 64.5
+    type: "binary"
+    train_positive_pct: 0.7328
+    validation_positive_pct: 0.3609
+    overall_positive_pct: 0.6665
+    imbalance_ratio: "1:150 (positive class represents only 0.666% of observations)"
+    description: "Official IMD standard heavy rainfall (Rain >= 64.5 mm)"
+  custom_diagnostic_rain:
+    column_name: "target_rain_ge_35_5mm"
+    threshold_mm: 35.5
+    type: "binary"
+    train_positive_pct: 2.3656
+    description: "Custom intermediate diagnostic threshold (Rain >= 35.5 mm)"
+
+feature_space:
+  total_columns: 78
+  primary_predictors_count: 63
+  auxiliary_features_count: 1
+  excluded_columns_count: 14
+
+  primary_predictors:
+    topography_and_spatial:
+      - "elevation_dem_m"          # Copernicus DEM GLO-90 point elevation at centroid (m)
+      - "slope_dem_deg"            # Copernicus DEM regional macro-gradient (degrees, 27.75 km baseline)
+      - "latitude"                 # Centroid latitude
+      - "longitude"                # Centroid longitude
+      - "dist_to_coast_km"         # Distance to Arabian Sea maritime boundary (km)
+      - "dist_to_ghats_crest_km"   # Distance to Western Ghats orographic crest (km)
+    categorical_climate_zones:
+      - "subdivision"              # 4 Meteorological subdivisions (Coastal, Malnad, South Interior Plain, North Interior)
+      - "zone_id"                  # 10 Agro-climatic zones
+    temporal_ephemeris:
+      - "month"                    # Month of year (1-12)
+      - "day_of_year"              # Day of year (1-366)
+      - "sin_day_of_year"          # sin(2*pi*DOY/365.25)
+      - "cos_day_of_year"          # cos(2*pi*DOY/365.25)
+      - "sin_month"                # sin(2*pi*Month/12)
+      - "cos_month"                # cos(2*pi*Month/12)
+      - "is_monsoon"               # Binary indicator for JJAS monsoon season
+    imd_rainfall_memory:
+      - "target_rain_lag_1d"       # Observed IMD rain on Day d-1 (ending 03:00 UTC Day d-1)
+      - "target_rain_lag_2d"       # Observed IMD rain on Day d-2
+      - "target_rain_lag_3d"       # Observed IMD rain on Day d-3
+      - "target_rain_lag_7d"       # Observed IMD rain on Day d-7
+      - "target_rain_lag_14d"      # Observed IMD rain on Day d-14
+      - "target_rain_roll_3d_sum"  # Sum of lags 1, 2, 3
+      - "target_rain_roll_7d_sum"  # Sum of lags 1 to 7
+      - "target_rain_roll_14d_sum" # Sum of lags 1 to 14
+      - "target_rain_roll_3d_mean" # Mean of lags 1, 2, 3
+      - "target_rain_roll_7d_mean" # Mean of lags 1 to 7
+      - "target_rain_roll_14d_mean"# Mean of lags 1 to 14
+      - "target_rain_roll_7d_max"  # Max of lags 1 to 7
+      - "api_14d"                  # Antecedent Precipitation Index (decay k=0.85 over lags 1 to 14)
+    era5_precip_memory:
+      - "era5_tp_lag_1d"           # ERA5-Land IMD-aligned daily precipitation lag 1 (ending 03:00 UTC Day d-1)
+      - "era5_tp_lag_2d"           # ERA5 precip lag 2
+      - "era5_tp_lag_3d"           # ERA5 precip lag 3
+      - "era5_tp_roll_3d_sum"      # ERA5 precip 3-day sum
+      - "era5_tp_roll_7d_sum"      # ERA5 precip 7-day sum
+    atmospheric_state_and_fluxes:
+      - "t2m_mean_lag_1d"          # 2m temperature daily mean (°C)
+      - "t2m_min_lag_1d"           # 2m temperature daily min (°C)
+      - "t2m_max_lag_1d"           # 2m temperature daily max (°C)
+      - "temp_range_lag_1d"        # Diurnal temperature range (°C)
+      - "d2m_mean_lag_1d"          # 2m dewpoint temperature daily mean (°C)
+      - "dewpoint_depression_lag_1d" # t2m_mean - d2m_mean (°C)
+      - "t2m_roll_3d_mean"         # 3-day mean temperature (°C)
+      - "t2m_roll_7d_mean"         # 7-day mean temperature (°C)
+      - "sp_lag_1d"                # Surface pressure daily mean (hPa)
+      - "wind_speed_lag_1d"        # 10m wind speed daily mean (m/s)
+      - "wind_roll_3d_mean"        # 3-day mean wind speed (m/s)
+      - "wind_roll_7d_mean"        # 7-day mean wind speed (m/s)
+      - "swvl1_lag_1d"             # Soil moisture layer 1 (0-7 cm) lag 1 (m3/m3)
+      - "swvl1_lag_3d"             # Soil moisture layer 1 lag 3 (m3/m3)
+      - "swvl1_lag_7d"             # Soil moisture layer 1 lag 7 (m3/m3)
+      - "swvl2_lag_1d"             # Soil moisture layer 2 (7-28 cm) lag 1 (m3/m3)
+      - "swvl3_lag_1d"             # Soil moisture layer 3 (28-100 cm) lag 1 (m3/m3)
+      - "ssrd_lag_1d"              # Surface solar radiation downwards daily sum (J/m2)
+      - "strd_lag_1d"              # Surface thermal radiation downwards daily sum (J/m2)
+      - "slhf_lag_1d"              # Surface latent heat flux daily sum (J/m2)
+      - "sshf_lag_1d"              # Surface sensible heat flux daily sum (J/m2)
+      - "ro_lag_1d"                # Total runoff daily sum (mm)
+      - "sro_lag_1d"               # Surface runoff daily sum (mm)
+      - "e_lag_1d"                 # Total evaporation daily sum (m)
+      - "pev_lag_1d"               # Potential evaporation daily sum (m)
+      - "evabs_lag_1d"             # Bare soil evaporation (m)
+      - "evatc_lag_1d"             # Canopy transpiration (m)
+      - "evavt_lag_1d"             # Vegetation transpiration (m)
+      - "src_lag_1d"               # Skin reservoir content (m)
+      - "fal_lag_1d"               # Forecast albedo
+
+  auxiliary_feature:
+    - "is_coastal_fallback"        # Binary indicator (0/1) for cells requiring IDW due to land-sea masking
+
+  excluded_columns:
+    targets:
+      - "target_rainfall_mm"
+      - "target_is_rain"
+      - "target_is_heavy_rain"
+      - "target_rain_ge_35_5mm"
+    identifiers:
+      - "date"
+      - "station_id"
+      - "district"
+      - "zone_name"
+    protocol_metadata:
+      - "prediction_issue_time"
+      - "target_period"
+    atmospheric_proxies:
+      - "elevation_pressure_proxy_m"
+      - "slope_pressure_proxy_deg"
+    redundant_strings:
+      - "interpolation_method"
+      - "season"
+
+model_hierarchy:
+  tier_0_naive_baselines:
+    persistence:
+      name: "Rainfall Persistence"
+      formula: "y_hat(s, t) = target_rain_lag_1d(s, t)"
+      parameters: "None (zero learning parameters)"
+    doy_climatology:
+      name: "Station Day-of-Year Climatology"
+      formula: "y_hat(s, t) = Gaussian_7d_Smooth(Mean_over_Train(target_rainfall_mm(s, DOY(t))))"
+      parameters: "Station x DOY lookup table calibrated exclusively on 2019-2022 Training partition"
+
+  tier_1_reanalysis_baseline:
+    antecedent_era5:
+      name: "Antecedent ERA5-Land Reanalysis (IMD-Aligned)"
+      formula: "y_hat(s, t) = era5_tp_lag_1d(s, t)"
+      parameters: "None (raw numerical reanalysis precipitation accumulation ending 03:00 UTC Day d-1)"
+
+  tier_2_statistical_bias_correction:
+    empirical_quantile_mapping:
+      name: "Empirical Quantile Mapping (EQM)"
+      formula: "y_hat(s, t) = F_obs_train^{-1}(F_era5_train(era5_tp_lag_1d(s, t)))"
+      calibration: "Fitted per meteorological subdivision on 2019-2022 Training partition"
+      extrapolation: "Constant difference adjustment for values exceeding training maximum"
+
+  tier_3_regularized_linear_models:
+    ridge_regression:
+      name: "Ridge Linear Regression"
+      loss: "L2 regularized MSE"
+      preprocessing: "StandardScaler fitted on Train partition only; TargetEncoder on categorical features"
+      tuning_grid:
+        alpha: [0.01, 0.1, 1.0, 10.0, 100.0, 1000.0]
+      selection_criterion: "Validation RMSE"
+    elastic_net:
+      name: "ElasticNet Regression"
+      loss: "L1 + L2 regularized MSE"
+      preprocessing: "StandardScaler fitted on Train partition only"
+      tuning_grid:
+        alpha: [0.01, 0.1, 1.0, 10.0]
+        l1_ratio: [0.1, 0.5, 0.7, 0.9]
+      selection_criterion: "Validation RMSE"
+
+  tier_4_gradient_boosted_decision_trees:
+    lightgbm_regressor:
+      name: "LightGBM Regressor (Tweedie & RMSE Objectives)"
+      objective: "tweedie"  # Compound Poisson-Gamma regression for zero-inflated continuous rainfall
+      tweedie_variance_power: [1.1, 1.3, 1.5, 1.7]
+      hyperparameter_tuning:
+        n_estimators: 1000
+        learning_rate: [0.01, 0.03, 0.05, 0.1]
+        num_leaves: [31, 63, 127]
+        max_depth: [6, 8, 10, -1]
+        min_child_samples: [20, 50, 100]
+        subsample: [0.7, 0.8, 0.9]
+        colsample_bytree: [0.7, 0.8, 0.9]
+        reg_alpha: [0.0, 0.1, 1.0]
+        reg_lambda: [0.0, 1.0, 5.0]
+      early_stopping:
+        patience: 50
+        validation_metric: "rmse"
+    xgboost_regressor:
+      name: "XGBoost Regressor (reg:tweedie Objective)"
+      objective: "reg:tweedie"
+      tweedie_variance_power: [1.1, 1.3, 1.5]
+      hyperparameter_tuning:
+        n_estimators: 1000
+        learning_rate: [0.01, 0.03, 0.05]
+        max_depth: [5, 7, 9]
+        min_child_weight: [1, 5, 10]
+        subsample: [0.7, 0.8]
+        colsample_bytree: [0.7, 0.8]
+      early_stopping:
+        patience: 50
+        validation_metric: "rmse"
+    catboost_regressor:
+      name: "CatBoost Regressor (Tweedie & RMSE Objectives)"
+      loss_function: "Tweedie:variance_power=1.5"
+      cat_features: ["subdivision", "zone_id"]
+      hyperparameter_tuning:
+        iterations: 1000
+        learning_rate: [0.02, 0.05, 0.1]
+        depth: [6, 8, 10]
+        l2_leaf_reg: [1, 3, 5, 10]
+      early_stopping:
+        patience: 50
+        metric: "RMSE"
+
+  tier_5_two_stage_hurdle_architecture:
+    hurdle_model:
+      name: "Two-Stage Hurdle Architecture (Occurrence Classifier + Intensity Regressor)"
+      stage_1_classifier:
+        model: "LightGBM Binary Classifier"
+        target: "target_is_rain (Rain >= 0.1 mm)"
+        objective: "binary"
+        metric: "binary_logloss"
+        class_weight: "balanced"
+        threshold_calibration:
+          method: "Grid search on 2023 Validation set for p* in [0.20, 0.60] step 0.02"
+          criterion: "Maximize Heidke Skill Score (HSS) and Critical Success Index (CSI_0.1)"
+      stage_2_regressor:
+        model: "LightGBM Regressor"
+        training_subset: "Positive rainfall samples strictly where target_rainfall_mm >= 0.1 mm"
+        target_transformation: "ln(target_rainfall_mm + 1)"
+        objective: "regression"
+        metric: "rmse"
+      synthesis_rule:
+        formula: "y_hat = 0.0 if p_hat < p* else exp(y_hat_reg) - 1"
+
+  heavy_rain_specialized_evaluation:
+    name: "Severe Class Imbalance Strategy for Official Heavy Rain (>= 64.5 mm)"
+    positive_class_ratio: "0.666% (1 in 150 samples)"
+    cost_sensitive_weight: 135.5  # Negative-to-positive ratio in Training set
+    classification_objectives:
+      - "LightGBM with scale_pos_weight = 135.5"
+      - "Focal Loss (gamma = 2.0, alpha = 0.25)"
+      - "Threshold tuning on Validation set to optimize Critical Success Index (CSI_64.5)"
+
+evaluation_metrics:
+  continuous_regression:
+    - name: "Root Mean Squared Error (RMSE)"
+      formula: "sqrt(mean((y - y_hat)^2))"
+      ideal: 0.0
+    - name: "Mean Absolute Error (MAE)"
+      formula: "mean(|y - y_hat|)"
+      ideal: 0.0
+    - name: "Pearson Correlation Coefficient (r)"
+      formula: "cov(y, y_hat) / (std(y) * std(y_hat))"
+      ideal: 1.0
+    - name: "Nash-Sutcliffe Efficiency (NSE)"
+      formula: "1 - sum((y - y_hat)^2) / sum((y - mean(y))^2)"
+      ideal: 1.0
+    - name: "Kling-Gupta Efficiency (KGE-2012)"
+      formula: "1 - sqrt((r - 1)^2 + (beta - 1)^2 + (gamma - 1)^2)"
+      ideal: 1.0
+    - name: "Percent Bias (PBias)"
+      formula: "100 * sum(y - y_hat) / sum(y)"
+      ideal: 0.0
+
+  categorical_contingency_metrics:
+    thresholds_evaluated:
+      - threshold_mm: 0.1
+        label: "Rain Occurrence (Wet Day)"
+      - threshold_mm: 15.6
+        label: "Moderate Rain"
+      - threshold_mm: 35.5
+        label: "Custom Intermediate Diagnostic"
+      - threshold_mm: 64.5
+        label: "Standard IMD Heavy Rain"
+    metrics_computed:
+      - "Probability of Detection (POD / Recall): Hits / (Hits + Misses)"
+      - "False Alarm Ratio (FAR): False_Alarms / (Hits + False_Alarms)"
+      - "Critical Success Index (CSI / Threat Score): Hits / (Hits + Misses + False_Alarms)"
+      - "Equitable Threat Score (ETS): (Hits - Hits_random) / (Hits + Misses + False_Alarms - Hits_random)"
+      - "Heidke Skill Score (HSS): 2*(Hits*Correct_Neg - False_Alarms*Misses) / Denominator"
+      - "F1 Score: 2 * Precision * Recall / (Precision + Recall)"
+
+  probability_calibration:
+    - name: "Brier Score"
+      formula: "mean((p_hat - y_binary)^2)"
+    - name: "Expected Calibration Error (ECE)"
+      bins: 10
+    - name: "Reliability Diagram (Calibration Curve)"
+
+subgroup_evaluations:
+  meteorological_subdivisions:
+    - "Coastal Karnataka (13 stations, orographic windward)"
+    - "South Interior - Malnad (35 stations, Western Ghats crest and transition catchment)"
+    - "South Interior - Plain (86 stations, southern plateau)"
+    - "North Interior Karnataka (118 stations, semi-arid rain-shadow plateau)"
+  seasons:
+    - "Pre-Monsoon (March - May, MAM)"
+    - "Southwest Monsoon (June - September, JJAS)"
+    - "Post-Monsoon (October - November, ON)"
+    - "Winter (December - February, DJF)"
+  rainfall_intensity_regimes:
+    - "Dry Days (y < 0.1 mm)"
+    - "Light Rain (0.1 <= y < 15.6 mm)"
+    - "Moderate Rain (15.6 <= y < 64.5 mm)"
+    - "Heavy Rain (y >= 64.5 mm)"
+
+governance_and_integrity_rules:
+  - "Rule 1: Fit all preprocessors (scalers, encoders, imputers) exclusively on the 364,644 Training records."
+  - "Rule 2: Never expose Validation or Test partitions to preprocessor fitting."
+  - "Rule 3: Use the 91,980 Validation records exclusively for hyperparameter tuning and threshold selection."
+  - "Rule 4: Keep the 184,212 Test records completely frozen until the entire modeling pipeline is frozen."
+  - "Rule 5: Evaluate every single baseline and ML model across the identical 184,212 test instances without dropping rows."
+  - "Rule 6: Never claim an ML model outperforms a baseline unless verified under identical evaluation masks across both continuous and extreme metrics."
+

@@ -1,0 +1,253 @@
+station_id,lat_idx,lon_idx,latitude,longitude,district,zone_id,zone_name,dem_elevation_m
+1,3,10,11.75,76.5,Chamarajanagara,6,Southern Dry Zone,923.82
+2,3,11,11.75,76.75,Chamarajanagara,6,Southern Dry Zone,859.64
+3,4,8,12.0,76.0,Kodagu,9,Hilly Zone (Malnad),840.36
+4,4,9,12.0,76.25,Mysuru,7,Southern Transition Zone,736.73
+5,4,10,12.0,76.5,Mysuru,6,Southern Dry Zone,687.28
+6,4,11,12.0,76.75,Chamarajanagara,6,Southern Dry Zone,707.73
+7,4,12,12.0,77.0,Chamarajanagara,6,Southern Dry Zone,674.04
+8,4,13,12.0,77.25,Chamarajanagara,6,Southern Dry Zone,728.67
+9,4,14,12.0,77.5,Chamarajanagara,6,Southern Dry Zone,443.62
+10,5,7,12.25,75.75,Kodagu,9,Hilly Zone (Malnad),871.76
+11,5,8,12.25,76.0,Kodagu,9,Hilly Zone (Malnad),875.41
+12,5,9,12.25,76.25,Mysuru,7,Southern Transition Zone,795.56
+13,5,10,12.25,76.5,Mysuru,6,Southern Dry Zone,799.58
+14,5,11,12.25,76.75,Mysuru,6,Southern Dry Zone,718.59
+15,5,12,12.25,77.0,Mandya,6,Southern Dry Zone,639.12
+16,5,13,12.25,77.25,Chamarajanagara,6,Southern Dry Zone,620.07
+17,6,6,12.5,75.5,Dakshina Kannada,10,Coastal Zone,178.95
+18,6,7,12.5,75.75,Kodagu,9,Hilly Zone (Malnad),1038.58
+19,6,8,12.5,76.0,Mysuru,7,Southern Transition Zone,872.76
+20,6,9,12.5,76.25,Mysuru,7,Southern Transition Zone,812.55
+21,6,10,12.5,76.5,Mandya,6,Southern Dry Zone,781.24
+22,6,11,12.5,76.75,Mandya,6,Southern Dry Zone,736.49
+23,6,12,12.5,77.0,Mandya,6,Southern Dry Zone,660.34
+24,6,13,12.5,77.25,Ramanagara,5,Eastern Dry Zone,648.76
+25,6,14,12.5,77.5,Ramanagara,5,Eastern Dry Zone,752.05
+26,7,4,12.75,75.0,Dakshina Kannada,10,Coastal Zone,79.79
+27,7,5,12.75,75.25,Dakshina Kannada,10,Coastal Zone,105.69
+28,7,6,12.75,75.5,Dakshina Kannada,10,Coastal Zone,116.04
+29,7,7,12.75,75.75,Hassan,9,Hilly Zone (Malnad),941.8
+30,7,8,12.75,76.0,Hassan,7,Southern Transition Zone,942.15
+31,7,9,12.75,76.25,Hassan,7,Southern Transition Zone,869.3
+32,7,10,12.75,76.5,Mandya,6,Southern Dry Zone,846.53
+33,7,11,12.75,76.75,Mandya,6,Southern Dry Zone,785.83
+34,7,12,12.75,77.0,Mandya,6,Southern Dry Zone,659.37
+35,7,13,12.75,77.25,Ramanagara,5,Eastern Dry Zone,741.93
+36,7,14,12.75,77.5,Bengaluru Urban,5,Eastern Dry Zone,720.78
+37,7,15,12.75,77.75,Bengaluru Urban,5,Eastern Dry Zone,886.41
+38,8,4,13.0,75.0,Dakshina Kannada,10,Coastal Zone,55.78
+39,8,5,13.0,75.25,Dakshina Kannada,10,Coastal Zone,110.84
+40,8,6,13.0,75.5,Dakshina Kannada,10,Coastal Zone,430.11
+41,8,7,13.0,75.75,Hassan,9,Hilly Zone (Malnad),920.76
+42,8,8,13.0,76.0,Hassan,7,Southern Transition Zone,923.28
+43,8,9,13.0,76.25,Hassan,7,Southern Transition Zone,931.37
+44,8,10,13.0,76.5,Hassan,7,Southern Transition Zone,906.61
+45,8,11,13.0,76.75,Mandya,6,Southern Dry Zone,833.28
+46,8,12,13.0,77.0,Tumakuru,5,Eastern Dry Zone,759.25
+47,8,13,13.0,77.25,Ramanagara,5,Eastern Dry Zone,843.08
+48,8,14,13.0,77.5,Bengaluru Urban,5,Eastern Dry Zone,915.28
+49,8,15,13.0,77.75,Bengaluru Urban,5,Eastern Dry Zone,875.2
+50,8,16,13.0,78.0,Kolar,5,Eastern Dry Zone,870.69
+51,8,17,13.0,78.25,Kolar,5,Eastern Dry Zone,838.86
+52,9,3,13.25,74.75,Udupi,10,Coastal Zone,15.77
+53,9,4,13.25,75.0,Udupi,10,Coastal Zone,56.74
+54,9,5,13.25,75.25,Chikkamagaluru,9,Hilly Zone (Malnad),970.81
+55,9,6,13.25,75.5,Chikkamagaluru,9,Hilly Zone (Malnad),757.12
+56,9,7,13.25,75.75,Chikkamagaluru,9,Hilly Zone (Malnad),1057.67
+57,9,8,13.25,76.0,Hassan,7,Southern Transition Zone,846.89
+58,9,9,13.25,76.25,Hassan,7,Southern Transition Zone,858.41
+59,9,10,13.25,76.5,Tumakuru,5,Eastern Dry Zone,848.57
+60,9,11,13.25,76.75,Tumakuru,5,Eastern Dry Zone,820.12
+61,9,12,13.25,77.0,Tumakuru,5,Eastern Dry Zone,805.7
+62,9,13,13.25,77.25,Bengaluru Rural,5,Eastern Dry Zone,923.0
+63,9,14,13.25,77.5,Bengaluru Rural,5,Eastern Dry Zone,908.43
+64,9,15,13.25,77.75,Bengaluru Rural,5,Eastern Dry Zone,893.22
+65,9,16,13.25,78.0,Kolar,5,Eastern Dry Zone,849.23
+66,9,17,13.25,78.25,Kolar,5,Eastern Dry Zone,804.12
+67,9,18,13.25,78.5,Kolar,5,Eastern Dry Zone,745.6
+68,10,3,13.5,74.75,Udupi,10,Coastal Zone,19.73
+69,10,4,13.5,75.0,Udupi,10,Coastal Zone,95.97
+70,10,5,13.5,75.25,Chikkamagaluru,9,Hilly Zone (Malnad),685.68
+71,10,6,13.5,75.5,Chikkamagaluru,9,Hilly Zone (Malnad),803.23
+72,10,7,13.5,75.75,Chikkamagaluru,9,Hilly Zone (Malnad),1599.54
+73,10,8,13.5,76.0,Chikkamagaluru,7,Southern Transition Zone,775.44
+74,10,9,13.5,76.25,Hassan,7,Southern Transition Zone,792.33
+75,10,10,13.5,76.5,Tumakuru,4,Central Dry Zone,742.81
+76,10,11,13.5,76.75,Tumakuru,4,Central Dry Zone,770.26
+77,10,12,13.5,77.0,Tumakuru,4,Central Dry Zone,801.55
+78,10,13,13.5,77.25,Tumakuru,4,Central Dry Zone,765.79
+79,10,14,13.5,77.5,Chikkaballapura,5,Eastern Dry Zone,745.46
+80,10,15,13.5,77.75,Chikkaballapura,5,Eastern Dry Zone,947.26
+81,10,16,13.5,78.0,Chikkaballapura,5,Eastern Dry Zone,851.91
+82,10,17,13.5,78.25,Kolar,5,Eastern Dry Zone,760.61
+83,11,3,13.75,74.75,Udupi,10,Coastal Zone,59.77
+84,11,4,13.75,75.0,Shivamogga,9,Hilly Zone (Malnad),584.72
+85,11,5,13.75,75.25,Shivamogga,9,Hilly Zone (Malnad),659.8
+86,11,6,13.75,75.5,Chikkamagaluru,9,Hilly Zone (Malnad),634.75
+87,11,7,13.75,75.75,Chikkamagaluru,9,Hilly Zone (Malnad),668.73
+88,11,8,13.75,76.0,Chikkamagaluru,7,Southern Transition Zone,765.28
+89,11,9,13.75,76.25,Chitradurga,4,Central Dry Zone,695.52
+90,11,10,13.75,76.5,Chitradurga,4,Central Dry Zone,722.88
+91,11,11,13.75,76.75,Tumakuru,4,Central Dry Zone,665.52
+92,11,13,13.75,77.25,Tumakuru,4,Central Dry Zone,763.61
+93,11,15,13.75,77.75,Chikkaballapura,5,Eastern Dry Zone,751.23
+94,11,16,13.75,78.0,Chikkaballapura,5,Eastern Dry Zone,750.87
+95,12,3,14.0,74.75,Shivamogga,9,Hilly Zone (Malnad),608.85
+96,12,4,14.0,75.0,Shivamogga,9,Hilly Zone (Malnad),573.95
+97,12,5,14.0,75.25,Shivamogga,9,Hilly Zone (Malnad),646.64
+98,12,6,14.0,75.5,Shivamogga,7,Southern Transition Zone,653.41
+99,12,7,14.0,75.75,Shivamogga,7,Southern Transition Zone,616.6
+100,12,8,14.0,76.0,Davanagere,4,Central Dry Zone,699.07
+101,12,9,14.0,76.25,Chitradurga,4,Central Dry Zone,839.79
+102,12,10,14.0,76.5,Chitradurga,4,Central Dry Zone,762.69
+103,12,11,14.0,76.75,Chitradurga,4,Central Dry Zone,587.49
+104,13,2,14.25,74.5,Uttara Kannada,9,Hilly Zone (Malnad),1.12
+105,13,3,14.25,74.75,Uttara Kannada,9,Hilly Zone (Malnad),59.97
+106,13,4,14.25,75.0,Shivamogga,9,Hilly Zone (Malnad),590.75
+107,13,5,14.25,75.25,Shivamogga,9,Hilly Zone (Malnad),659.0
+108,13,6,14.25,75.5,Shivamogga,7,Southern Transition Zone,677.05
+109,13,7,14.25,75.75,Davanagere,7,Southern Transition Zone,647.25
+110,13,8,14.25,76.0,Davanagere,4,Central Dry Zone,599.44
+111,13,9,14.25,76.25,Chitradurga,4,Central Dry Zone,750.34
+112,13,10,14.25,76.5,Chitradurga,4,Central Dry Zone,652.62
+113,13,11,14.25,76.75,Chitradurga,4,Central Dry Zone,572.65
+114,13,13,14.25,77.25,Tumakuru,4,Central Dry Zone,621.56
+115,14,2,14.5,74.5,Uttara Kannada,9,Hilly Zone (Malnad),64.19
+116,14,3,14.5,74.75,Uttara Kannada,9,Hilly Zone (Malnad),526.45
+117,14,4,14.5,75.0,Uttara Kannada,9,Hilly Zone (Malnad),569.31
+118,14,5,14.5,75.25,Shivamogga,9,Hilly Zone (Malnad),625.77
+119,14,6,14.5,75.5,Haveri,8,Northern Transition Zone,595.09
+120,14,7,14.5,75.75,Davanagere,7,Southern Transition Zone,541.22
+121,14,8,14.5,76.0,Davanagere,4,Central Dry Zone,608.12
+122,14,9,14.5,76.25,Davanagere,4,Central Dry Zone,672.07
+123,14,10,14.5,76.5,Chitradurga,4,Central Dry Zone,614.23
+124,14,11,14.5,76.75,Chitradurga,4,Central Dry Zone,530.72
+125,15,1,14.75,74.25,Uttara Kannada,10,Coastal Zone,99.43
+126,15,2,14.75,74.5,Uttara Kannada,9,Hilly Zone (Malnad),89.61
+127,15,3,14.75,74.75,Uttara Kannada,9,Hilly Zone (Malnad),486.88
+128,15,4,14.75,75.0,Uttara Kannada,9,Hilly Zone (Malnad),603.91
+129,15,5,14.75,75.25,Haveri,8,Northern Transition Zone,546.25
+130,15,6,14.75,75.5,Haveri,8,Northern Transition Zone,597.38
+131,15,7,14.75,75.75,Ballari,3,Northern Dry Zone,525.76
+132,15,8,14.75,76.0,Davanagere,4,Central Dry Zone,683.99
+133,15,9,14.75,76.25,Ballari,3,Northern Dry Zone,605.67
+134,15,10,14.75,76.5,Ballari,3,Northern Dry Zone,638.4
+135,15,11,14.75,76.75,Chitradurga,4,Central Dry Zone,650.45
+136,16,2,15.0,74.5,Uttara Kannada,9,Hilly Zone (Malnad),656.63
+137,16,3,15.0,74.75,Uttara Kannada,9,Hilly Zone (Malnad),553.68
+138,16,4,15.0,75.0,Uttara Kannada,9,Hilly Zone (Malnad),528.12
+139,16,5,15.0,75.25,Haveri,8,Northern Transition Zone,588.74
+140,16,6,15.0,75.5,Haveri,8,Northern Transition Zone,572.06
+141,16,7,15.0,75.75,Gadag,3,Northern Dry Zone,540.61
+142,16,8,15.0,76.0,Ballari,3,Northern Dry Zone,599.64
+143,16,9,15.0,76.25,Ballari,3,Northern Dry Zone,536.32
+144,16,10,15.0,76.5,Ballari,3,Northern Dry Zone,640.08
+145,16,11,15.0,76.75,Ballari,3,Northern Dry Zone,627.18
+146,17,2,15.25,74.5,Uttara Kannada,9,Hilly Zone (Malnad),546.0
+147,17,3,15.25,74.75,Uttara Kannada,9,Hilly Zone (Malnad),565.93
+148,17,4,15.25,75.0,Dharwad,8,Northern Transition Zone,571.82
+149,17,5,15.25,75.25,Dharwad,8,Northern Transition Zone,629.76
+150,17,6,15.25,75.5,Gadag,3,Northern Dry Zone,662.37
+151,17,7,15.25,75.75,Gadag,3,Northern Dry Zone,668.16
+152,17,8,15.25,76.0,Koppal,3,Northern Dry Zone,537.17
+153,17,9,15.25,76.25,Koppal,3,Northern Dry Zone,505.96
+154,17,10,15.25,76.5,Ballari,3,Northern Dry Zone,568.94
+155,17,11,15.25,76.75,Ballari,3,Northern Dry Zone,456.16
+156,17,12,15.25,77.0,Ballari,3,Northern Dry Zone,425.24
+157,18,2,15.5,74.5,Belagavi,8,Northern Transition Zone,702.04
+158,18,3,15.5,74.75,Belagavi,8,Northern Transition Zone,645.67
+159,18,4,15.5,75.0,Dharwad,8,Northern Transition Zone,695.78
+160,18,5,15.5,75.25,Dharwad,8,Northern Transition Zone,602.73
+161,18,6,15.5,75.5,Gadag,3,Northern Dry Zone,607.7
+162,18,7,15.5,75.75,Gadag,3,Northern Dry Zone,628.31
+163,18,8,15.5,76.0,Koppal,3,Northern Dry Zone,591.07
+164,18,9,15.5,76.25,Koppal,3,Northern Dry Zone,607.64
+165,18,10,15.5,76.5,Koppal,3,Northern Dry Zone,433.77
+166,18,11,15.5,76.75,Koppal,3,Northern Dry Zone,384.28
+167,19,2,15.75,74.5,Belagavi,8,Northern Transition Zone,736.75
+168,19,3,15.75,74.75,Belagavi,8,Northern Transition Zone,655.84
+169,19,4,15.75,75.0,Belagavi,3,Northern Dry Zone,653.28
+170,19,5,15.75,75.25,Belagavi,3,Northern Dry Zone,618.05
+171,19,6,15.75,75.5,Gadag,3,Northern Dry Zone,568.66
+172,19,7,15.75,75.75,Gadag,3,Northern Dry Zone,577.63
+173,19,8,15.75,76.0,Gadag,3,Northern Dry Zone,776.29
+174,19,9,15.75,76.25,Koppal,3,Northern Dry Zone,625.32
+175,19,10,15.75,76.5,Raichur,2,North Eastern Dry Zone,488.67
+176,19,11,15.75,76.75,Raichur,2,North Eastern Dry Zone,386.24
+177,19,12,15.75,77.0,Ballari,3,Northern Dry Zone,362.99
+178,20,2,16.0,74.5,Belagavi,8,Northern Transition Zone,797.23
+179,20,3,16.0,74.75,Belagavi,8,Northern Transition Zone,733.72
+180,20,4,16.0,75.0,Belagavi,3,Northern Dry Zone,674.21
+181,20,5,16.0,75.25,Belagavi,3,Northern Dry Zone,616.02
+182,20,6,16.0,75.5,Bagalkote,3,Northern Dry Zone,662.32
+183,20,7,16.0,75.75,Bagalkote,3,Northern Dry Zone,626.89
+184,20,8,16.0,76.0,Koppal,3,Northern Dry Zone,570.04
+185,20,9,16.0,76.25,Bagalkote,3,Northern Dry Zone,581.46
+186,20,10,16.0,76.5,Raichur,2,North Eastern Dry Zone,527.33
+187,20,11,16.0,76.75,Raichur,2,North Eastern Dry Zone,412.16
+188,20,12,16.0,77.0,Raichur,2,North Eastern Dry Zone,368.93
+189,20,13,16.0,77.25,Raichur,2,North Eastern Dry Zone,345.46
+190,20,14,16.0,77.5,Raichur,2,North Eastern Dry Zone,346.33
+191,21,2,16.25,74.5,Belagavi,8,Northern Transition Zone,647.6
+192,21,3,16.25,74.75,Belagavi,8,Northern Transition Zone,622.56
+193,21,4,16.25,75.0,Belagavi,3,Northern Dry Zone,555.43
+194,21,5,16.25,75.25,Bagalkote,3,Northern Dry Zone,579.32
+195,21,6,16.25,75.5,Bagalkote,3,Northern Dry Zone,535.18
+196,21,7,16.25,75.75,Bagalkote,3,Northern Dry Zone,550.92
+197,21,8,16.25,76.0,Bagalkote,3,Northern Dry Zone,532.02
+198,21,9,16.25,76.25,Vijayapura,3,Northern Dry Zone,545.26
+199,21,10,16.25,76.5,Raichur,2,North Eastern Dry Zone,444.41
+200,21,11,16.25,76.75,Raichur,2,North Eastern Dry Zone,547.72
+201,21,12,16.25,77.0,Raichur,2,North Eastern Dry Zone,443.19
+202,21,13,16.25,77.25,Raichur,2,North Eastern Dry Zone,385.87
+203,22,2,16.5,74.5,Belagavi,8,Northern Transition Zone,580.0
+204,22,3,16.5,74.75,Belagavi,8,Northern Transition Zone,591.94
+205,22,4,16.5,75.0,Bagalkote,3,Northern Dry Zone,549.49
+206,22,5,16.5,75.25,Bagalkote,3,Northern Dry Zone,571.02
+207,22,6,16.5,75.5,Vijayapura,3,Northern Dry Zone,542.86
+208,22,7,16.5,75.75,Vijayapura,3,Northern Dry Zone,568.61
+209,22,8,16.5,76.0,Vijayapura,3,Northern Dry Zone,574.29
+210,22,9,16.5,76.25,Vijayapura,3,Northern Dry Zone,529.03
+211,22,10,16.5,76.5,Yadgir,2,North Eastern Dry Zone,477.28
+212,22,11,16.5,76.75,Yadgir,2,North Eastern Dry Zone,431.09
+213,22,12,16.5,77.0,Raichur,2,North Eastern Dry Zone,358.68
+214,22,13,16.5,77.25,Yadgir,2,North Eastern Dry Zone,366.45
+215,23,4,16.75,75.0,Belagavi,3,Northern Dry Zone,541.4
+216,23,5,16.75,75.25,Belagavi,3,Northern Dry Zone,587.39
+217,23,6,16.75,75.5,Vijayapura,3,Northern Dry Zone,623.56
+218,23,7,16.75,75.75,Vijayapura,3,Northern Dry Zone,601.59
+219,23,8,16.75,76.0,Vijayapura,3,Northern Dry Zone,557.54
+220,23,9,16.75,76.25,Vijayapura,3,Northern Dry Zone,531.74
+221,23,10,16.75,76.5,Kalaburagi,2,North Eastern Dry Zone,480.51
+222,23,11,16.75,76.75,Yadgir,2,North Eastern Dry Zone,454.6
+223,23,12,16.75,77.0,Yadgir,2,North Eastern Dry Zone,388.14
+224,23,13,16.75,77.25,Yadgir,2,North Eastern Dry Zone,433.52
+225,24,7,17.0,75.75,Vijayapura,3,Northern Dry Zone,536.19
+226,24,8,17.0,76.0,Vijayapura,3,Northern Dry Zone,475.03
+227,24,9,17.0,76.25,Vijayapura,3,Northern Dry Zone,467.09
+228,24,10,17.0,76.5,Kalaburagi,2,North Eastern Dry Zone,423.83
+229,24,11,17.0,76.75,Kalaburagi,2,North Eastern Dry Zone,435.46
+230,24,12,17.0,77.0,Kalaburagi,2,North Eastern Dry Zone,399.04
+231,24,13,17.0,77.25,Kalaburagi,2,North Eastern Dry Zone,490.84
+232,25,7,17.25,75.75,Vijayapura,3,Northern Dry Zone,503.44
+233,25,8,17.25,76.0,Vijayapura,3,Northern Dry Zone,454.28
+234,25,9,17.25,76.25,Kalaburagi,2,North Eastern Dry Zone,441.56
+235,25,10,17.25,76.5,Kalaburagi,2,North Eastern Dry Zone,418.46
+236,25,11,17.25,76.75,Kalaburagi,2,North Eastern Dry Zone,459.26
+237,25,12,17.25,77.0,Kalaburagi,2,North Eastern Dry Zone,442.76
+238,25,13,17.25,77.25,Kalaburagi,2,North Eastern Dry Zone,421.96
+239,26,10,17.5,76.5,Kalaburagi,1,North Eastern Transition Zone,521.62
+240,26,11,17.5,76.75,Kalaburagi,1,North Eastern Transition Zone,567.19
+241,26,12,17.5,77.0,Kalaburagi,1,North Eastern Transition Zone,458.36
+242,26,13,17.5,77.25,Kalaburagi,1,North Eastern Transition Zone,521.56
+243,26,14,17.5,77.5,Kalaburagi,1,North Eastern Transition Zone,615.67
+244,27,11,17.75,76.75,Bidar,1,North Eastern Transition Zone,556.09
+245,27,12,17.75,77.0,Bidar,1,North Eastern Transition Zone,630.01
+246,27,13,17.75,77.25,Bidar,1,North Eastern Transition Zone,625.12
+247,27,14,17.75,77.5,Bidar,1,North Eastern Transition Zone,645.92
+248,28,12,18.0,77.0,Bidar,1,North Eastern Transition Zone,619.08
+249,28,13,18.0,77.25,Bidar,1,North Eastern Transition Zone,581.68
+250,28,14,18.0,77.5,Bidar,1,North Eastern Transition Zone,566.27
+251,29,13,18.25,77.25,Bidar,1,North Eastern Transition Zone,568.15
+252,29,14,18.25,77.5,Bidar,1,North Eastern Transition Zone,505.2

@@ -1,0 +1,47 @@
+metric_category,metric_name,stratum_or_model,reported_in_manuscript,authoritative_source_file,source_value,audit_status,audit_notes
+Continuous Regression,RMSE,LightGBM_Tweedie,7.4427,table3_model_benchmarking.csv,7.4427,MATCH,Overall Test RMSE (mm)
+Continuous Regression,MAE,LightGBM_Tweedie,2.8993,table3_model_benchmarking.csv,2.8993,MATCH,Overall Test MAE (mm)
+Continuous Regression,Mean Bias,LightGBM_Tweedie,-0.0179,table3_model_benchmarking.csv,-0.0179,MATCH,Overall Test Bias (mm)
+Continuous Regression,PBias (%),LightGBM_Tweedie,-0.51,table3_model_benchmarking.csv,-0.51,MATCH,Overall Test Percentage Bias (%)
+Continuous Regression,Pearson r,LightGBM_Tweedie,0.7363,table3_model_benchmarking.csv,0.7363,MATCH,Overall Test Pearson correlation
+Continuous Regression,NSE,LightGBM_Tweedie,0.542,table3_model_benchmarking.csv,0.542,MATCH,Overall Test Nash-Sutcliffe Efficiency
+Continuous Regression,KGE-2012,LightGBM_Tweedie,0.6245,table3_model_benchmarking.csv,0.6245,MATCH,Overall Test Modified KGE
+Continuous Regression,RMSE,CatBoost_Tweedie,7.4335,table3_model_benchmarking.csv,7.4335,MATCH,CatBoost Test RMSE (mm)
+Continuous Regression,MAE,CatBoost_Tweedie,2.9186,table3_model_benchmarking.csv,2.9186,MATCH,CatBoost Test MAE (mm)
+Continuous Regression,Mean Bias,CatBoost_Tweedie,0.0388,table3_model_benchmarking.csv,0.0388,MATCH,CatBoost Test Bias (mm)
+Continuous Regression,KGE-2012,CatBoost_Tweedie,0.6261,table3_model_benchmarking.csv,0.6261,MATCH,CatBoost Test Modified KGE
+Continuous Regression,RMSE,Hurdle_ExpectedValue,7.4241,table3_model_benchmarking.csv,7.4241,MATCH,Lowest RMSE among all continuous models
+Continuous Regression,MAE,Hurdle_ExpectedValue,2.93,table3_model_benchmarking.csv,2.93,MATCH,Hurdle Test MAE (mm)
+Continuous Regression,Pearson r,Hurdle_ExpectedValue,0.738,table3_model_benchmarking.csv,0.738,MATCH,Highest Pearson r among continuous models
+Continuous Regression,NSE,Hurdle_ExpectedValue,0.5443,table3_model_benchmarking.csv,0.5443,MATCH,Highest NSE among continuous models
+Continuous Regression,Heavy CSI,Hurdle_ExpectedValue,0.3072,table3_model_benchmarking.csv,0.3072,MATCH,Highest CSI among continuous models
+Baselines,RMSE,Persistence,10.3582,table3_model_benchmarking.csv,10.3582,MATCH,Persistence Test RMSE
+Baselines,RMSE,Raw_ERA5,10.455,table3_model_benchmarking.csv,10.455,MATCH,Raw ERA5-Land Test RMSE
+Baselines,RMSE,EQM,11.197,table3_model_benchmarking.csv,11.197,MATCH,EQM Test RMSE
+Extreme Classification,Decision Threshold,LightGBM_FocalLoss,0.53,table4_heavy_rain_classification.csv,0.53,MATCH,Operating decision threshold
+Extreme Classification,Hits,LightGBM_FocalLoss,595.0,table4_heavy_rain_classification.csv,595,MATCH,Contingency True Positives
+Extreme Classification,Misses,LightGBM_FocalLoss,672.0,table4_heavy_rain_classification.csv,672,MATCH,Contingency False Negatives
+Extreme Classification,False Alarms,LightGBM_FocalLoss,427.0,table4_heavy_rain_classification.csv,427,MATCH,Contingency False Positives
+Extreme Classification,Precision (%),LightGBM_FocalLoss,58.22,table4_heavy_rain_classification.csv,58.22,MATCH,Precision percentage
+Extreme Classification,Recall / POD (%),LightGBM_FocalLoss,46.96,table4_heavy_rain_classification.csv,46.96,MATCH,Probability of detection
+Extreme Classification,FAR (%),LightGBM_FocalLoss,41.78,table4_heavy_rain_classification.csv,41.78,MATCH,False alarm ratio
+Extreme Classification,CSI,LightGBM_FocalLoss,0.3512,table4_heavy_rain_classification.csv,0.3512,MATCH,Critical success index
+Extreme Classification,HSS,LightGBM_FocalLoss,0.5169,table4_heavy_rain_classification.csv,0.5169,MATCH,Heidke skill score
+Annual Breakdown,RMSE,LightGBM_Tweedie_2024,7.5094,yearly_performance_results.csv,7.5094,MATCH,Reconciled 2024 RMSE
+Annual Breakdown,MAE,LightGBM_Tweedie_2024,3.0074,yearly_performance_results.csv,3.0074,MATCH,Reconciled 2024 MAE
+Annual Breakdown,Bias,LightGBM_Tweedie_2024,0.3442,yearly_performance_results.csv,0.3442,MATCH,Reconciled 2024 Bias
+Annual Breakdown,Pearson r,LightGBM_Tweedie_2024,0.732,yearly_performance_results.csv,0.732,MATCH,Reconciled 2024 Pearson r
+Annual Breakdown,NSE,LightGBM_Tweedie_2024,0.5346,yearly_performance_results.csv,0.5346,MATCH,Reconciled 2024 NSE
+Annual Breakdown,KGE-2012,LightGBM_Tweedie_2024,0.5676,yearly_performance_results.csv,0.5676,MATCH,Reconciled 2024 KGE-2012
+Annual Breakdown,RMSE,LightGBM_Tweedie_2025,7.3752,yearly_performance_results.csv,7.3752,MATCH,Reconciled 2025 RMSE
+Annual Breakdown,MAE,LightGBM_Tweedie_2025,2.7909,yearly_performance_results.csv,2.7909,MATCH,Reconciled 2025 MAE
+Annual Breakdown,Bias,LightGBM_Tweedie_2025,-0.381,yearly_performance_results.csv,-0.381,MATCH,Reconciled 2025 Bias
+Annual Breakdown,Pearson r,LightGBM_Tweedie_2025,0.7426,yearly_performance_results.csv,0.7426,MATCH,Reconciled 2025 Pearson r
+Annual Breakdown,NSE,LightGBM_Tweedie_2025,0.5493,yearly_performance_results.csv,0.5493,MATCH,Reconciled 2025 NSE
+Annual Breakdown,KGE-2012,LightGBM_Tweedie_2025,0.6541,yearly_performance_results.csv,0.6541,MATCH,Reconciled 2025 KGE-2012
+Feature Attribution,Combined Tree Gain Pct,Runoff_ro_plus_sro_focal,54.52,feature_importance_comparison.csv,54.52,MATCH,Tree split gain in Focal Loss heavy rain classifier (28.11% + 26.41%)
+Feature Attribution,Tree Gain Pct,sro_lag_1d_tweedie,34.61,feature_importance_comparison.csv,34.61,MATCH,Tree split gain in continuous LightGBM Tweedie
+Feature Attribution,Permutation Delta RMSE,sro_lag_1d_perm,2.3545,permutation_importance.csv,2.3545,MATCH,"Validation permutation importance delta RMSE (Rank 1, +42.16% increase)"
+Extreme Limitations,Percent Underestimated,Very Heavy (115.6-204.4mm),100.0,table8_rainfall_intensity_limitations.csv,100.0,MATCH,100% of 192 Very Heavy events underestimated
+Extreme Limitations,Percent Underestimated,Extremely Heavy (>=204.5mm),100.0,table8_rainfall_intensity_limitations.csv,100.0,MATCH,100% of 8 Extremely Heavy events underestimated
+Extreme Limitations,Prevalence Pct,Extremely Heavy (>=204.5mm),0.0043,table8_rainfall_intensity_limitations.csv,0.0043,MATCH,"8 events out of 184,212 instances"

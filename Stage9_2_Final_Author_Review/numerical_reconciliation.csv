@@ -1,0 +1,57 @@
+metric_category,metric_name,stratum_or_model,reported_in_manuscript,authoritative_source_file,source_value,audit_status,audit_notes
+Continuous Regression,RMSE,LightGBM Tweedie (Test),7.4427,regression_model_results.csv,7.4427,MATCH,Overall Test RMSE (mm)
+Continuous Regression,MAE,LightGBM Tweedie (Test),2.8993,regression_model_results.csv,2.8993,MATCH,Overall Test MAE (mm)
+Continuous Regression,Mean Bias,LightGBM Tweedie (Test),-0.0179,regression_model_results.csv,-0.0179,MATCH,Overall Test Mean Bias (mm)
+Continuous Regression,Percentage Bias,LightGBM Tweedie (Test),-0.51%,regression_model_results.csv,-0.51%,MATCH,Overall Test Relative Bias (%)
+Continuous Regression,Pearson r,LightGBM Tweedie (Test),0.7363,regression_model_results.csv,0.7363,MATCH,Overall Test Pearson correlation
+Continuous Regression,NSE,LightGBM Tweedie (Test),0.5420,regression_model_results.csv,0.5420,MATCH,Overall Test Nash-Sutcliffe Efficiency
+Continuous Regression,KGE-2012,LightGBM Tweedie (Test),0.6245,regression_model_results.csv,0.6245,MATCH,Overall Test Modified Kling-Gupta Efficiency
+Continuous Regression,RMSE,CatBoost Tweedie (Test),7.4335,regression_model_results.csv,7.4335,MATCH,CatBoost Test RMSE (mm)
+Continuous Regression,KGE-2012,CatBoost Tweedie (Test),0.6261,regression_model_results.csv,0.6261,MATCH,CatBoost Highest Test KGE-2012
+Continuous Regression,RMSE,Hurdle Expected Value (Test),7.4241,hurdle_model_results.csv,7.4241,MATCH,Lowest Overall Test RMSE (mm)
+Continuous Regression,Pearson r,Hurdle Expected Value (Test),0.7380,hurdle_model_results.csv,0.7380,MATCH,Highest Test Pearson correlation
+Continuous Regression,NSE,Hurdle Expected Value (Test),0.5443,hurdle_model_results.csv,0.5443,MATCH,Highest Test Nash-Sutcliffe Efficiency
+Continuous Regression,Heavy CSI,Hurdle Expected Value (Test),0.3072,hurdle_model_results.csv,0.3072,MATCH,Hurdle Test Heavy CSI (>=64.5 mm)
+Baselines,RMSE,Persistence (Test),10.3582,baseline_results.csv,10.3582,MATCH,Persistence Baseline Test RMSE
+Baselines,RMSE,Grid-cell DOY Climatology (Test),10.1155,baseline_results.csv,10.1155,MATCH,Grid-cell DOY Climatology Baseline Test RMSE
+Baselines,RMSE,Raw ERA5-Land (Test),10.4550,baseline_results.csv,10.4550,MATCH,Raw Antecedent ERA5 Baseline Test RMSE
+Baselines,RMSE,EQM (Test),11.1970,baseline_results.csv,11.1970,MATCH,Empirical Quantile Mapping Test RMSE
+Baselines,RMSE,Ridge Regression (Tier 3),7.9750,regression_model_results.csv,7.9750,MATCH,Tier 3 Linear Baseline Test RMSE
+Baselines,RMSE,ElasticNet (Tier 3),8.0156,regression_model_results.csv,8.0156,MATCH,Tier 3 Linear Baseline Test RMSE
+Annual Robustness,2024 RMSE,LightGBM Tweedie (2024),7.5094,yearly_performance_results.csv,7.5094,MATCH,2024 Full Year RMSE (mm)
+Annual Robustness,2024 Bias,LightGBM Tweedie (2024),+0.3442,yearly_performance_results.csv,+0.3442,MATCH,2024 Full Year Bias (mm)
+Annual Robustness,2024 PBias,LightGBM Tweedie (2024),+10.26%,yearly_performance_results.csv,+10.26%,MATCH,2024 Full Year PBias (%)
+Annual Robustness,2024 Pearson r,LightGBM Tweedie (2024),0.7320,yearly_performance_results.csv,0.7320,MATCH,2024 Full Year Pearson r
+Annual Robustness,2024 NSE,LightGBM Tweedie (2024),0.5346,yearly_performance_results.csv,0.5346,MATCH,2024 Full Year NSE
+Annual Robustness,2024 KGE-2012,LightGBM Tweedie (2024),0.5676,yearly_performance_results.csv,0.5676,MATCH,2024 Full Year KGE-2012
+Annual Robustness,2025 RMSE,LightGBM Tweedie (2025),7.3752,yearly_performance_results.csv,7.3752,MATCH,2025 Full Year RMSE (mm)
+Annual Robustness,2025 Bias,LightGBM Tweedie (2025),-0.3810,yearly_performance_results.csv,-0.3810,MATCH,2025 Full Year Bias (mm)
+Annual Robustness,2025 PBias,LightGBM Tweedie (2025),-10.40%,yearly_performance_results.csv,-10.40%,MATCH,2025 Full Year PBias (%)
+Annual Robustness,2025 Pearson r,LightGBM Tweedie (2025),0.7426,yearly_performance_results.csv,0.7426,MATCH,2025 Full Year Pearson r
+Annual Robustness,2025 NSE,LightGBM Tweedie (2025),0.5493,yearly_performance_results.csv,0.5493,MATCH,2025 Full Year NSE
+Annual Robustness,2025 KGE-2012,LightGBM Tweedie (2025),0.6541,yearly_performance_results.csv,0.6541,MATCH,2025 Full Year KGE-2012
+Heavy Rain Detection,Decision Threshold,LightGBM Focal (Test),0.53,heavy_rain_results.csv,0.53,MATCH,Validation-selected decision threshold p*
+Heavy Rain Detection,POD (Recall),LightGBM Focal (Test),46.96%,heavy_rain_results.csv,46.96%,MATCH,Test POD for events >=64.5 mm
+Heavy Rain Detection,Missed Rate,LightGBM Focal (Test),53.04%,heavy_rain_results.csv,53.04%,MATCH,Misses more than half of observed events
+Heavy Rain Detection,Precision,LightGBM Focal (Test),58.22%,heavy_rain_results.csv,58.22%,MATCH,Test Precision
+Heavy Rain Detection,FAR,LightGBM Focal (Test),41.78%,heavy_rain_results.csv,41.78%,MATCH,Test False Alarm Ratio
+Heavy Rain Detection,CSI Threat Score,LightGBM Focal (Test),0.3512,heavy_rain_results.csv,0.3512,MATCH,Test Critical Success Index
+Heavy Rain Detection,PR-AUC,LightGBM Focal (Test),0.5084,heavy_rain_results.csv,0.5084,MATCH,Precision-Recall Area Under Curve
+Heavy Rain Detection,Hits,LightGBM Focal (Test),595,heavy_rain_results.csv,595,MATCH,Contingency Hits count
+Heavy Rain Detection,Misses,LightGBM Focal (Test),672,heavy_rain_results.csv,672,MATCH,Contingency Misses count
+Heavy Rain Detection,False Alarms,LightGBM Focal (Test),427,heavy_rain_results.csv,427,MATCH,Contingency False Alarms count
+Heavy Rain Detection,Correct Negatives,LightGBM Focal (Test),182518,heavy_rain_results.csv,182518,MATCH,Contingency Correct Negatives count
+Intensity Spectrum,No Rain Sample Count,No Rain (<0.1 mm),119669,rainfall_intensity_sensitivity.csv,119669,MATCH,No Rain test sample count (64.96%)
+Intensity Spectrum,Very Heavy Sample Count,Very Heavy (115.6-204.4 mm),192,rainfall_intensity_sensitivity.csv,192,MATCH,Very Heavy test sample count
+Intensity Spectrum,Very Heavy Underestimated,Very Heavy (115.6-204.4 mm),100.0%,rainfall_intensity_sensitivity.csv,100.0%,MATCH,100% underestimation across all 192 events
+Intensity Spectrum,Extremely Heavy Sample Count,Extremely Heavy (>=204.5 mm),8,rainfall_intensity_sensitivity.csv,8,MATCH,Extremely Heavy test count
+Intensity Spectrum,Extremely Heavy Underestimated,Extremely Heavy (>=204.5 mm),100.0%,rainfall_intensity_sensitivity.csv,100.0%,MATCH,100% underestimation across all 8 events
+Intensity Spectrum,Total Events >=115.6 mm,Events >=115.6 mm,200,rainfall_intensity_sensitivity.csv,200,MATCH,192 Very Heavy + 8 Extremely Heavy = 200
+Intensity Spectrum,Events >=115.6 mm Underestimated,Events >=115.6 mm,100.0%,rainfall_intensity_sensitivity.csv,100.0%,MATCH,All 200 events >=115.6 mm underestimated
+Spatial Diagnostics,Coastal Fallback Sample Count,Fallback_Coastal_Only,2193,subgroup_evaluation_results.csv,2193,MATCH,3 stations x 731 days = 2193 samples
+Spatial Diagnostics,Coastal Fallback Cell Count,Fallback_Coastal_Only,3,build_stage3_dataset.py,3,MATCH,"Grid-Cell IDs 52, 68, 125 out of 13 coastal cells"
+Feature Attribution,Permutation Delta RMSE,sro_lag_1d (Validation),+2.3545,permutation_importance.csv,2.3545,MATCH,"Full Validation (N=91,980) Delta RMSE (mm)"
+Feature Attribution,Heavy Classifier Tree Split Gain,ro_lag_1d + sro_lag_1d,54.52%,feature_importance_comparison.csv,54.52%,MATCH,28.11% ro + 26.41% sro in LightGBM Focal Classifier
+Bootstrap Rigor,Bootstrap Replicates,Stationary Block Bootstrap,2000,paired_bootstrap_robustness.csv,2000,MATCH,"2,000 resamples across statewide blocks"
+Bootstrap Rigor,Delta RMSE vs Raw ERA5,LightGBM Tweedie vs Raw ERA5,-3.0109,paired_bootstrap_robustness.csv,-3.0109,MATCH,Mean Delta RMSE (mm)
+Bootstrap Rigor,Empirical p-value Resolution,LightGBM Tweedie vs Raw ERA5,p < 0.0005,paired_bootstrap_robustness.csv,p < 0.0005,MATCH,"Empirical p-value resolution limit for 2,000 replicates"

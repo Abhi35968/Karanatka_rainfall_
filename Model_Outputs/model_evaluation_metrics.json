@@ -1,0 +1,15 @@
+{
+  "regression": {
+    "model": "XGBoost Regressor",
+    "rmse": 78.6248,
+    "mae": 30.0064,
+    "r2": 0.4819,
+    "pearson_r": 0.6955,
+    "csi_rain_threshold": 0.7173
+  },
+  "classification": {
+    "model": "XGBoost Classifier",
+    "accuracy": 0.7368,
+    "macro_f1": 0.6449
+  }
+}

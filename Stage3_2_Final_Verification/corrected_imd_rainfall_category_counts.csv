@@ -1,0 +1,11 @@
+category_name,category_type,threshold_definition,train_count,train_pct,val_count,val_pct,test_count,test_pct,overall_count,overall_pct
+No Rain,Official IMD Category (Mutually Exclusive),< 0.1 mm,229928,63.0555,66787,72.6104,119669,64.9627,416384,64.9751
+Very Light Rain,Official IMD Category (Mutually Exclusive),0.1 to 2.4 mm (0.1 <= y < 2.5 mm),53094,14.5605,11048,12.0113,26590,14.4345,90732,14.1584
+Light Rain,Official IMD Category (Mutually Exclusive),2.5 to 15.5 mm (2.5 <= y < 15.6 mm),55864,15.3201,10124,11.0067,25854,14.0349,91842,14.3316
+Moderate Rain,Official IMD Category (Mutually Exclusive),15.6 to 64.4 mm (15.6 <= y < 64.5 mm),23086,6.3311,3689,4.0107,10832,5.8802,37607,5.8684
+Heavy Rain,Official IMD Category (Mutually Exclusive),64.5 to 115.5 mm (64.5 <= y < 115.6 mm),2210,0.6061,271,0.2946,1067,0.5792,3548,0.5537
+Very Heavy Rain,Official IMD Category (Mutually Exclusive),115.6 to 204.4 mm (115.6 <= y < 204.5 mm),429,0.1176,59,0.0641,192,0.1042,680,0.1061
+Extremely Heavy Rain,Official IMD Category (Mutually Exclusive),>= 204.5 mm,33,0.009,2,0.0022,8,0.0043,43,0.0067
+Rain Occurrence (Wet Day),Diagnostic / Project Occurrence Indicator,>= 0.1 mm,134716,36.9445,25193,27.3896,64543,35.0373,224452,35.0249
+Custom rain_ge_35_5mm,Custom Experimental Threshold,>= 35.5 mm,8626,2.3656,1197,1.3014,4275,2.3207,14098,2.1999
+Total Heavy Rain Combined,Diagnostic / Aggregated Indicator,>= 64.5 mm (Heavy + Very Heavy + Extremely Heavy),2672,0.7328,332,0.3609,1267,0.6878,4271,0.6665

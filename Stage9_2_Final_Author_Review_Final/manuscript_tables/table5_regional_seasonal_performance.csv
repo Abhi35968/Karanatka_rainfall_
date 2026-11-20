@@ -1,0 +1,11 @@
+Stratum_Type,Stratum_Name,Sample_Count,Observed_Mean_mm,ML_RMSE_mm,Persistence_RMSE_mm,Raw_ERA5_RMSE_mm,ML_Mean_Bias_mm,ML_PBias_pct,ML_Pearson_r,ML_KGE_2012,ML_Heavy_CSI_64.5mm
+Meteorological Subdivision,Coastal Karnataka All 13 cells,9503,13.1855,14.9475,20.3843,19.3674,-1.3244,-10.04,0.8261,0.7407,0.362
+Meteorological Subdivision,Malnad 35 cells,25585,6.3706,9.3018,12.7091,13.2843,0.1661,2.61,0.8043,0.7256,0.3441
+Meteorological Subdivision,North Interior Karnataka 118 cells,86258,2.3758,6.4317,9.0913,9.5698,0.0196,0.83,0.5274,0.3676,0.0296
+Meteorological Subdivision,South Interior Karnataka 86 cells,62866,2.4364,6.0472,8.5112,8.1312,0.0531,2.18,0.5513,0.3723,0.0
+Meteorological Subdivision,Coastal Fallback Only 3 cells IDs 52 68 125,2193,13.8286,15.5086,21.61,20.3891,-0.8294,-6.0,0.828,0.7504,0.3898
+Meteorological Subdivision,Coastal Native Land Only 10 cells,7310,12.9925,14.7751,20.0019,19.0503,-1.4729,-11.34,0.8258,0.7356,0.3516
+Seasonal Regime,Southwest Monsoon JJAS,61488,7.0215,10.1883,14.1842,14.9381,0.1431,2.04,0.7545,0.6451,0.3355
+Seasonal Regime,Post Monsoon Northeast OND,46368,2.1379,6.1093,8.829,7.9161,0.0612,2.86,0.5628,0.3823,0.0
+Seasonal Regime,Pre Monsoon MAM,46368,2.4463,6.6839,8.9736,8.6417,-0.3207,-13.11,0.6717,0.4859,0.093
+Seasonal Regime,Winter JF,29988,0.0698,0.806,1.2303,1.2443,-0.0023,-3.3,0.4881,0.3436,0.0

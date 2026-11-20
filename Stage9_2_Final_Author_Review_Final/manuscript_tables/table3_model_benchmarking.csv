@@ -1,0 +1,13 @@
+Model_Hierarchy_Tier,Model_Name,Loss_Objective,RMSE_mm,MAE_mm,Mean_Bias_mm,PBias_pct,Pearson_r,NSE,Classic_KGE_2009,Modified_KGE_2012,Heavy_CSI_64.5mm
+Tier 0 (Naive Baselines),Rainfall Persistence,Zero Learning,10.3582,3.7508,0.0,0.0,0.5565,0.1129,0.5565,0.5565,0.2361
+Tier 0 (Naive Baselines),Grid-cell DOY Climatology,Zero Learning,10.1155,4.3078,0.2296,6.54,0.4313,0.154,0.3068,0.2851,0.0144
+Tier 1 (Raw Reanalysis),Antecedent ERA5-Land Total Precip,Zero Learning,10.455,4.1416,0.556,15.85,0.4911,0.0963,0.451,0.4111,0.1233
+Tier 2 (Statistical Downscaling),Empirical Quantile Mapping (EQM),Non-Parametric Knots,11.197,4.2117,0.3867,11.02,0.4941,-0.0366,0.4818,0.4763,0.1969
+Tier 3 (Linear Baselines),Ridge Regression,L2 Regularized Linear,7.975,3.3905,0.3308,9.43,0.6894,0.4742,0.5613,0.5184,0.2299
+Tier 3 (Linear Baselines),ElasticNet Regression,L1/L2 Regularized Linear,8.0156,3.3999,0.3034,8.65,0.6853,0.4688,0.5496,0.5101,0.2211
+Tier 4 (Machine Learning),LightGBM RMSE,RMSE (L2),7.4982,3.0806,0.2698,7.69,0.732,0.5352,0.619,0.5812,0.3016
+Tier 4 (Machine Learning),LightGBM Log OrdinaryInverse,Log MSE,7.8497,2.615,-1.3274,-37.83,0.726,0.4906,0.3703,0.5276,0.2271
+Tier 4 (Machine Learning),LightGBM Log DuanSmearing,Log MSE,7.5893,2.9488,-0.2105,-6.0,0.726,0.5238,0.6439,0.6722,0.3509
+Tier 4 (Machine Learning),LightGBM Tweedie p1.5,Compound Poisson-Gamma (p=1.5),7.4427,2.8993,-0.0179,-0.51,0.7363,0.542,0.6218,0.6245,0.2868
+Tier 4 (Machine Learning),CatBoost Tweedie p1.5,Compound Poisson-Gamma (p=1.5),7.4335,2.9186,0.0388,1.11,0.737,0.5431,0.6318,0.6261,0.3033
+Tier 4 (Machine Learning),Hurdle ExpectedValue,Two-Stage Hurdle Expected Value,7.4241,2.93,0.0342,0.97,0.738,0.5443,0.6165,0.6114,0.3072

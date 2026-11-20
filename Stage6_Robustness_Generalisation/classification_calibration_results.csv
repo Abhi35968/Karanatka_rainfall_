@@ -1,0 +1,5 @@
+task,model,calibrated_threshold,base_event_rate,Brier_Score,Brier_Skill_Score,ECE,MCE,Hits,Misses,False_Alarms,Correct_Negatives,Precision,POD_Recall,FAR,CSI,HSS,ETS
+Rain_Occurrence (>=0.1mm),LightGBM_Rain_Classifier,0.44,0.3504,0.099311,0.5637,0.0112,0.0375,55119,9424,18147,101522,0.7523,0.854,0.2477,0.6666,0.6811,0.5165
+Heavy_Rain (>=64.5mm),LightGBM_Focal_Loss,0.53,0.0069,0.02301,-2.3687,0.1273,0.2965,595,672,427,182518,0.5822,0.4696,0.4178,0.3512,0.5169,0.3485
+Heavy_Rain (>=64.5mm),LightGBM_Class_Weighted,0.96,0.0069,0.039462,-4.7772,0.0746,0.7917,688,579,722,182223,0.4879,0.543,0.5121,0.3459,0.5105,0.3427
+Heavy_Rain (>=64.5mm),CatBoost_Class_Weighted,0.98,0.0069,0.041916,-5.1365,0.0849,0.7993,608,659,515,182430,0.5414,0.4799,0.4586,0.3412,0.5056,0.3383

@@ -1,0 +1,8 @@
+category,Train (2019-2022)_count,Train (2019-2022)_pct,Validation (2023)_count,Validation (2023)_pct,Test (2024-2025)_count,Test (2024-2025)_pct,Overall (2019-2025)_count,Overall (2019-2025)_pct
+Rain Occurrence (>=0.1 mm),134716,36.945,25193,27.39,64543,35.037,224452,35.025
+Light Rain (0.1 to 15.5 mm),108958,29.881,21172,23.018,52444,28.469,182574,28.49
+Moderate Rain (>=15.6 mm),25758,7.064,4021,4.372,12099,6.568,41878,6.535
+Standard Heavy Rain (>=64.5 mm),2672,0.733,332,0.361,1267,0.688,4271,0.666
+Very Heavy Rain (>=115.6 mm),462,0.127,61,0.066,200,0.109,723,0.113
+Extremely Heavy Rain (>=204.5 mm),33,0.009,2,0.002,8,0.004,43,0.007
+Experimental Rather Heavy (>=35.5 mm),8626,2.366,1197,1.301,4275,2.321,14098,2.2

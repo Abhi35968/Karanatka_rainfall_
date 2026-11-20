@@ -1,0 +1,10 @@
+variable_name,physical_units,total_hourly_increments,negative_increments_pre_clip,pct_negative_pre_clip,min_pre_clip_value,median_negative_value,post_clip_negatives,clipping_rule_applied
+tp (Total Precipitation),mm,221798424,1136648,0.512469,-4.21e-04,-1.49e-05,0,"np.maximum(diff, 0.0) (non-negative depth enforced; float truncation clipped to zero)"
+sro (Surface Runoff),mm,221798424,1136648,0.512469,-2.15e-04,-1.49e-05,0,"np.maximum(diff, 0.0) (non-negative depth enforced; float truncation clipped to zero)"
+ro (Total Runoff),mm,221798424,1136648,0.512469,-2.80e-04,-1.49e-05,0,"np.maximum(diff, 0.0) (non-negative depth enforced; float truncation clipped to zero)"
+e (Total Evaporation),mm (water equivalent),221798424,221798424,100.0,-10.36,-2.37,0,np.abs(diff) (converts upward-negative ECMWF convention to positive depth)
+pev (Potential Evaporation),mm (water equivalent),221798424,221798424,100.0,-68.53,-8.66,0,np.abs(diff) (converts upward-negative ECMWF convention to positive depth)
+ssrd (Surface Solar Radiation Downwards),W/m^2 (accumulated J/m^2 / 86400s),221798424,12480,0.005627,-1.50e-02,-2.00e-05,0,"np.maximum(diff, 0.0) / 86400.0 (nighttime single-precision float noise clipped to zero)"
+strd (Surface Thermal Radiation Downwards),W/m^2 (accumulated J/m^2 / 86400s),221798424,0,0.0,N/A (strictly positive > 280 W/m^2),N/A,0,"None required (strictly positive physical bounds [250, 500] W/m^2 verified)"
+slhf (Surface Latent Heat Flux),W/m^2 (accumulated J/m^2 / 86400s),221798424,220950112,99.6175,-299.94,-68.72,220950112,"Signed physical bound clipping: [-300.0, 50.0] W/m^2 (negative sign retained for upward evaporative cooling)"
+sshf (Surface Sensible Heat Flux),W/m^2 (accumulated J/m^2 / 86400s),221798424,168452109,75.9483,-167.40,-43.91,168452109,"Signed physical bound clipping: [-250.0, 100.0] W/m^2 (signed heat exchange retained: negative=daytime heating, positive=nighttime inversion)"

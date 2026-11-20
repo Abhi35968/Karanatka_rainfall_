@@ -1,0 +1,10 @@
+accounting_category,grid_cells,daily_hours,calendar_days,total_increments,pct_of_theoretical_total,notes
+1. Total Spatial Grid Cells in Bounding Box,4131,24,2557,253511208,100.0,"Full 7-year reanalysis bounding box (81 latitudes x 51 longitudes, 2019-2025)"
+2. Land-Sea Mask Excluded Marine Cells (Ocean),394,24,2557,24179008,9.5376,ERA5-Land ocean mask over Arabian Sea (strictly invariant: 394 NaNs across all 84 months)
+3. Valid Terrestrial Land Grid Cells,3737,24,2557,229332200,90.4624,Land cells with valid physical atmospheric and land-surface data (4131 - 394 = 3737)
+4. Evaluated Days in Stage 2 Increment Counter,3737,24,2473,221798424,87.4906,Days where len(day_steps) == 24 in corrected_era5_processing.py (2557 total - 84 boundary days)
+5. Month-Boundary Days Bypassed by Counter (Land),3737,24,84,7533792,2.9718,Final day of each month where step 24 resided in subsequent monthly file (84 days x 24h x 3737 cells)
+6. Month-Boundary Days Bypassed by Counter (Marine),394,24,84,794304,0.3133,Ocean mask cells on bypassed month-boundary days (84 days x 24h x 394 cells)
+7. Additional Missing/NaN Values over Land,3737,24,2473,0,0.0,Zero missing or invalid increments over land during evaluated periods (100% complete data)
+8. Total Excluded Increments (Relative to 2557 Days),Variable,24,Variable,31712784,12.5094,"Disaggregated into 24,179,008 marine ocean increments + 7,533,792 uncounted boundary land increments"
+9. Total Excluded Increments (Relative to 2543 Days Baseline),Variable,24,Variable,30324768,12.0278,"252,123,192 (2543d max) - 221,798,424 (evaluated): 23,384,688 marine in eval days + 6,940,080 net days"

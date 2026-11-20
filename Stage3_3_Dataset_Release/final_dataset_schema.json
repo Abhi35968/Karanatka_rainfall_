@@ -1,0 +1,410 @@
+{
+  "dataset_title": "Karnataka Daily Rainfall Forecasting Integrated Spatiotemporal Dataset",
+  "version": "Stage 3.3 Release Gate (Integrated)",
+  "creation_timestamp": "2026-11-10T02:17:00.323815",
+  "spatial_coverage": "Karnataka State, India (252 in-state 0.25 deg IMD grid cells)",
+  "temporal_coverage": "2019-01-15 to 2025-12-31 (2,543 calendar days)",
+  "total_records": 640836,
+  "total_columns": 77,
+  "partitions": {
+    "training": {
+      "rows": 364644,
+      "dates": "2019-01-15 to 2022-12-31"
+    },
+    "validation": {
+      "rows": 91980,
+      "dates": "2023-01-01 to 2023-12-31"
+    },
+    "test": {
+      "rows": 184212,
+      "dates": "2024-01-01 to 2025-12-31"
+    }
+  },
+  "columns": [
+    {
+      "column_name": "date",
+      "data_type": "datetime64[ns]",
+      "sample_value": "2019-01-15 00:00:00"
+    },
+    {
+      "column_name": "station_id",
+      "data_type": "int64",
+      "sample_value": "1"
+    },
+    {
+      "column_name": "district",
+      "data_type": "object",
+      "sample_value": "Chamarajanagara"
+    },
+    {
+      "column_name": "zone_id",
+      "data_type": "int64",
+      "sample_value": "6"
+    },
+    {
+      "column_name": "zone_name",
+      "data_type": "object",
+      "sample_value": "Southern Dry Zone"
+    },
+    {
+      "column_name": "latitude",
+      "data_type": "float64",
+      "sample_value": "11.75"
+    },
+    {
+      "column_name": "longitude",
+      "data_type": "float64",
+      "sample_value": "76.5"
+    },
+    {
+      "column_name": "subdivision",
+      "data_type": "object",
+      "sample_value": "South Interior Karnataka"
+    },
+    {
+      "column_name": "elevation_pressure_proxy_m",
+      "data_type": "float64",
+      "sample_value": "953.44"
+    },
+    {
+      "column_name": "slope_pressure_proxy_deg",
+      "data_type": "float64",
+      "sample_value": "0.229"
+    },
+    {
+      "column_name": "elevation_dem_m",
+      "data_type": "float32",
+      "sample_value": "923.82"
+    },
+    {
+      "column_name": "slope_dem_deg",
+      "data_type": "float32",
+      "sample_value": "0.253"
+    },
+    {
+      "column_name": "dist_to_coast_km",
+      "data_type": "float64",
+      "sample_value": "140.73"
+    },
+    {
+      "column_name": "dist_to_ghats_crest_km",
+      "data_type": "float64",
+      "sample_value": "76.27"
+    },
+    {
+      "column_name": "is_coastal_fallback",
+      "data_type": "int64",
+      "sample_value": "0"
+    },
+    {
+      "column_name": "interpolation_method",
+      "data_type": "object",
+      "sample_value": "bilinear_grid"
+    },
+    {
+      "column_name": "target_rainfall_mm",
+      "data_type": "float32",
+      "sample_value": "0.0"
+    },
+    {
+      "column_name": "target_is_rain",
+      "data_type": "int64",
+      "sample_value": "0"
+    },
+    {
+      "column_name": "target_is_heavy_rain",
+      "data_type": "int64",
+      "sample_value": "0"
+    },
+    {
+      "column_name": "target_period",
+      "data_type": "object",
+      "sample_value": "03:00 UTC (d-1) to 03:00 UTC (d)"
+    },
+    {
+      "column_name": "prediction_issue_time",
+      "data_type": "object",
+      "sample_value": "03:00 UTC (d-1)"
+    },
+    {
+      "column_name": "month",
+      "data_type": "int8",
+      "sample_value": "1"
+    },
+    {
+      "column_name": "day_of_year",
+      "data_type": "int16",
+      "sample_value": "15"
+    },
+    {
+      "column_name": "sin_day_of_year",
+      "data_type": "float32",
+      "sample_value": "0.25518242"
+    },
+    {
+      "column_name": "cos_day_of_year",
+      "data_type": "float32",
+      "sample_value": "0.96689296"
+    },
+    {
+      "column_name": "sin_month",
+      "data_type": "float32",
+      "sample_value": "0.5"
+    },
+    {
+      "column_name": "cos_month",
+      "data_type": "float32",
+      "sample_value": "0.8660254"
+    },
+    {
+      "column_name": "is_monsoon",
+      "data_type": "int64",
+      "sample_value": "0"
+    },
+    {
+      "column_name": "season",
+      "data_type": "object",
+      "sample_value": "Winter"
+    },
+    {
+      "column_name": "target_rain_lag_1d",
+      "data_type": "float32",
+      "sample_value": "0.0"
+    },
+    {
+      "column_name": "target_rain_lag_2d",
+      "data_type": "float32",
+      "sample_value": "0.0"
+    },
+    {
+      "column_name": "target_rain_lag_3d",
+      "data_type": "float32",
+      "sample_value": "0.0"
+    },
+    {
+      "column_name": "target_rain_lag_7d",
+      "data_type": "float32",
+      "sample_value": "0.0"
+    },
+    {
+      "column_name": "target_rain_lag_14d",
+      "data_type": "float32",
+      "sample_value": "0.0"
+    },
+    {
+      "column_name": "target_rain_roll_3d_sum",
+      "data_type": "float32",
+      "sample_value": "0.0"
+    },
+    {
+      "column_name": "target_rain_roll_7d_sum",
+      "data_type": "float32",
+      "sample_value": "0.0"
+    },
+    {
+      "column_name": "target_rain_roll_14d_sum",
+      "data_type": "float32",
+      "sample_value": "0.0"
+    },
+    {
+      "column_name": "target_rain_roll_3d_mean",
+      "data_type": "float32",
+      "sample_value": "0.0"
+    },
+    {
+      "column_name": "target_rain_roll_7d_mean",
+      "data_type": "float32",
+      "sample_value": "0.0"
+    },
+    {
+      "column_name": "target_rain_roll_14d_mean",
+      "data_type": "float32",
+      "sample_value": "0.0"
+    },
+    {
+      "column_name": "target_rain_roll_7d_max",
+      "data_type": "float32",
+      "sample_value": "0.0"
+    },
+    {
+      "column_name": "api_14d",
+      "data_type": "float32",
+      "sample_value": "0.0"
+    },
+    {
+      "column_name": "era5_tp_lag_1d",
+      "data_type": "float32",
+      "sample_value": "0.0009"
+    },
+    {
+      "column_name": "era5_tp_lag_2d",
+      "data_type": "float32",
+      "sample_value": "0.0"
+    },
+    {
+      "column_name": "era5_tp_lag_3d",
+      "data_type": "float32",
+      "sample_value": "0.0022"
+    },
+    {
+      "column_name": "era5_tp_roll_3d_sum",
+      "data_type": "float32",
+      "sample_value": "0.0031"
+    },
+    {
+      "column_name": "era5_tp_roll_7d_sum",
+      "data_type": "float32",
+      "sample_value": "0.0076"
+    },
+    {
+      "column_name": "t2m_mean_lag_1d",
+      "data_type": "float32",
+      "sample_value": "20.08"
+    },
+    {
+      "column_name": "t2m_min_lag_1d",
+      "data_type": "float32",
+      "sample_value": "11.52"
+    },
+    {
+      "column_name": "t2m_max_lag_1d",
+      "data_type": "float32",
+      "sample_value": "28.17"
+    },
+    {
+      "column_name": "temp_range_lag_1d",
+      "data_type": "float32",
+      "sample_value": "16.65"
+    },
+    {
+      "column_name": "d2m_mean_lag_1d",
+      "data_type": "float32",
+      "sample_value": "9.38"
+    },
+    {
+      "column_name": "dewpoint_depression_lag_1d",
+      "data_type": "float32",
+      "sample_value": "10.7"
+    },
+    {
+      "column_name": "t2m_roll_3d_mean",
+      "data_type": "float32",
+      "sample_value": "20.146667"
+    },
+    {
+      "column_name": "t2m_roll_7d_mean",
+      "data_type": "float32",
+      "sample_value": "19.84"
+    },
+    {
+      "column_name": "sp_lag_1d",
+      "data_type": "float32",
+      "sample_value": "904.32"
+    },
+    {
+      "column_name": "wind_speed_lag_1d",
+      "data_type": "float32",
+      "sample_value": "1.74"
+    },
+    {
+      "column_name": "wind_roll_3d_mean",
+      "data_type": "float32",
+      "sample_value": "1.6466666"
+    },
+    {
+      "column_name": "wind_roll_7d_mean",
+      "data_type": "float32",
+      "sample_value": "1.6685715"
+    },
+    {
+      "column_name": "swvl1_lag_1d",
+      "data_type": "float32",
+      "sample_value": "0.2"
+    },
+    {
+      "column_name": "swvl1_lag_3d",
+      "data_type": "float32",
+      "sample_value": "0.2021"
+    },
+    {
+      "column_name": "swvl1_lag_7d",
+      "data_type": "float32",
+      "sample_value": "0.2083"
+    },
+    {
+      "column_name": "swvl2_lag_1d",
+      "data_type": "float32",
+      "sample_value": "0.2529"
+    },
+    {
+      "column_name": "swvl3_lag_1d",
+      "data_type": "float32",
+      "sample_value": "0.3159"
+    },
+    {
+      "column_name": "ssrd_lag_1d",
+      "data_type": "float32",
+      "sample_value": "264.83"
+    },
+    {
+      "column_name": "strd_lag_1d",
+      "data_type": "float32",
+      "sample_value": "313.02"
+    },
+    {
+      "column_name": "slhf_lag_1d",
+      "data_type": "float32",
+      "sample_value": "-46.38"
+    },
+    {
+      "column_name": "sshf_lag_1d",
+      "data_type": "float32",
+      "sample_value": "-72.35"
+    },
+    {
+      "column_name": "ro_lag_1d",
+      "data_type": "float32",
+      "sample_value": "0.1765"
+    },
+    {
+      "column_name": "sro_lag_1d",
+      "data_type": "float32",
+      "sample_value": "0.0"
+    },
+    {
+      "column_name": "e_lag_1d",
+      "data_type": "float32",
+      "sample_value": "1.6024"
+    },
+    {
+      "column_name": "pev_lag_1d",
+      "data_type": "float32",
+      "sample_value": "12.4488"
+    },
+    {
+      "column_name": "evabs_lag_1d",
+      "data_type": "float32",
+      "sample_value": "1.4712"
+    },
+    {
+      "column_name": "evatc_lag_1d",
+      "data_type": "float32",
+      "sample_value": "0.0012"
+    },
+    {
+      "column_name": "evavt_lag_1d",
+      "data_type": "float32",
+      "sample_value": "0.0022"
+    },
+    {
+      "column_name": "src_lag_1d",
+      "data_type": "float32",
+      "sample_value": "0.0002"
+    },
+    {
+      "column_name": "fal_lag_1d",
+      "data_type": "float32",
+      "sample_value": "0.1382"
+    }
+  ]
+}

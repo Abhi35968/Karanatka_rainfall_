@@ -1,0 +1,1303 @@
+{
+  "metadata": {
+    "region": "Karnataka, India",
+    "bounding_box": {
+      "min_lat": 11.0,
+      "max_lat": 19.0,
+      "min_lon": 74.0,
+      "max_lon": 79.0
+    },
+    "period": "2019-2025",
+    "total_days": 2557,
+    "land_grid_points": 639,
+    "total_collocated_records": 1582783,
+    "calibration_years": [
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "validation_years": [
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "overall_comparison": {
+    "pipeline_resample_sum": {
+      "N": 1582783,
+      "mean_obs_mm": 3.212,
+      "mean_sim_mm": 44.487,
+      "mean_bias_mm": 41.275,
+      "pbias_pct": 1285.12,
+      "mae_mm": 41.687,
+      "rmse_mm": 111.268,
+      "nrmse": 34.644,
+      "pearson_r": 0.5244,
+      "spearman_rho": 0.6439,
+      "r2": -112.4464,
+      "kge": -11.8625,
+      "nse": -112.4464,
+      "pod": 0.9903,
+      "far": 0.5332,
+      "csi": 0.4646,
+      "fbi": 2.1216,
+      "intensity_labels": [
+        "No Rain (<0.1)",
+        "Very Light (0.1-2.4)",
+        "Light (2.5-15.5)",
+        "Moderate (15.6-64.4)",
+        "Heavy (64.5-115.5)",
+        "Very Heavy (>=115.6)"
+      ],
+      "obs_intensity_pct": [
+        68.08,
+        12.75,
+        13.02,
+        5.59,
+        0.47,
+        0.1
+      ],
+      "sim_intensity_pct": [
+        32.29,
+        14.19,
+        16.37,
+        18.24,
+        7.62,
+        11.31
+      ]
+    },
+    "true_era5_24h_raw": {
+      "N": 1582783,
+      "mean_obs_mm": 3.212,
+      "mean_sim_mm": 3.526,
+      "mean_bias_mm": 0.314,
+      "pbias_pct": 9.78,
+      "mae_mm": 3.723,
+      "rmse_mm": 9.819,
+      "nrmse": 3.057,
+      "pearson_r": 0.4838,
+      "spearman_rho": 0.6179,
+      "r2": 0.1166,
+      "kge": 0.4189,
+      "nse": 0.1166,
+      "pod": 0.9345,
+      "far": 0.4595,
+      "csi": 0.5208,
+      "fbi": 1.7289,
+      "intensity_labels": [
+        "No Rain (<0.1)",
+        "Very Light (0.1-2.4)",
+        "Light (2.5-15.5)",
+        "Moderate (15.6-64.4)",
+        "Heavy (64.5-115.5)",
+        "Very Heavy (>=115.6)"
+      ],
+      "obs_intensity_pct": [
+        68.08,
+        12.75,
+        13.02,
+        5.59,
+        0.47,
+        0.1
+      ],
+      "sim_intensity_pct": [
+        44.82,
+        28.04,
+        21.16,
+        5.67,
+        0.29,
+        0.03
+      ]
+    },
+    "linear_scaling": {
+      "N": 1582783,
+      "mean_obs_mm": 3.212,
+      "mean_sim_mm": 3.304,
+      "mean_bias_mm": 0.092,
+      "pbias_pct": 2.88,
+      "mae_mm": 3.613,
+      "rmse_mm": 9.639,
+      "nrmse": 3.001,
+      "pearson_r": 0.4814,
+      "spearman_rho": 0.6185,
+      "r2": 0.1486,
+      "kge": 0.4227,
+      "nse": 0.1486,
+      "pod": 0.9337,
+      "far": 0.4575,
+      "csi": 0.5224,
+      "fbi": 1.721,
+      "intensity_labels": [
+        "No Rain (<0.1)",
+        "Very Light (0.1-2.4)",
+        "Light (2.5-15.5)",
+        "Moderate (15.6-64.4)",
+        "Heavy (64.5-115.5)",
+        "Very Heavy (>=115.6)"
+      ],
+      "obs_intensity_pct": [
+        68.08,
+        12.75,
+        13.02,
+        5.59,
+        0.47,
+        0.1
+      ],
+      "sim_intensity_pct": [
+        45.07,
+        28.41,
+        21.06,
+        5.2,
+        0.23,
+        0.03
+      ]
+    },
+    "power_transformation": {
+      "N": 1582783,
+      "mean_obs_mm": 3.212,
+      "mean_sim_mm": 3.334,
+      "mean_bias_mm": 0.123,
+      "pbias_pct": 3.82,
+      "mae_mm": 3.75,
+      "rmse_mm": 11.186,
+      "nrmse": 3.483,
+      "pearson_r": 0.4538,
+      "spearman_rho": 0.6153,
+      "r2": -0.1466,
+      "kge": 0.4524,
+      "nse": -0.1466,
+      "pod": 0.8893,
+      "far": 0.4203,
+      "csi": 0.5406,
+      "fbi": 1.5342,
+      "intensity_labels": [
+        "No Rain (<0.1)",
+        "Very Light (0.1-2.4)",
+        "Light (2.5-15.5)",
+        "Moderate (15.6-64.4)",
+        "Heavy (64.5-115.5)",
+        "Very Heavy (>=115.6)"
+      ],
+      "obs_intensity_pct": [
+        68.08,
+        12.75,
+        13.02,
+        5.59,
+        0.47,
+        0.1
+      ],
+      "sim_intensity_pct": [
+        51.03,
+        26.77,
+        16.78,
+        4.81,
+        0.44,
+        0.16
+      ]
+    },
+    "quantile_mapping_eqm": {
+      "N": 1582783,
+      "mean_obs_mm": 3.212,
+      "mean_sim_mm": 3.319,
+      "mean_bias_mm": 0.107,
+      "pbias_pct": 3.33,
+      "mae_mm": 3.816,
+      "rmse_mm": 10.838,
+      "nrmse": 3.375,
+      "pearson_r": 0.4691,
+      "spearman_rho": 0.5777,
+      "r2": -0.0764,
+      "kge": 0.4677,
+      "nse": -0.0764,
+      "pod": 0.6802,
+      "far": 0.3166,
+      "csi": 0.5172,
+      "fbi": 0.9953,
+      "intensity_labels": [
+        "No Rain (<0.1)",
+        "Very Light (0.1-2.4)",
+        "Light (2.5-15.5)",
+        "Moderate (15.6-64.4)",
+        "Heavy (64.5-115.5)",
+        "Very Heavy (>=115.6)"
+      ],
+      "obs_intensity_pct": [
+        68.08,
+        12.75,
+        13.02,
+        5.59,
+        0.47,
+        0.1
+      ],
+      "sim_intensity_pct": [
+        68.23,
+        12.43,
+        12.87,
+        5.89,
+        0.49,
+        0.1
+      ]
+    }
+  },
+  "validation_period_2023_2025": {
+    "raw_era5": {
+      "N": 678424,
+      "mean_obs_mm": 2.956,
+      "mean_sim_mm": 3.391,
+      "mean_bias_mm": 0.435,
+      "pbias_pct": 14.72,
+      "mae_mm": 3.532,
+      "rmse_mm": 9.604,
+      "nrmse": 3.249,
+      "pearson_r": 0.4856,
+      "spearman_rho": 0.6137,
+      "r2": 0.0875,
+      "kge": 0.4124,
+      "nse": 0.0875,
+      "pod": 0.9322,
+      "far": 0.4711,
+      "csi": 0.5094,
+      "fbi": 1.7625,
+      "intensity_labels": [
+        "No Rain (<0.1)",
+        "Very Light (0.1-2.4)",
+        "Light (2.5-15.5)",
+        "Moderate (15.6-64.4)",
+        "Heavy (64.5-115.5)",
+        "Very Heavy (>=115.6)"
+      ],
+      "obs_intensity_pct": [
+        69.93,
+        12.39,
+        12.08,
+        5.07,
+        0.44,
+        0.09
+      ],
+      "sim_intensity_pct": [
+        47.0,
+        27.64,
+        19.52,
+        5.5,
+        0.31,
+        0.04
+      ]
+    },
+    "eqm_bias_corrected": {
+      "N": 678424,
+      "mean_obs_mm": 2.956,
+      "mean_sim_mm": 3.218,
+      "mean_bias_mm": 0.262,
+      "pbias_pct": 8.86,
+      "mae_mm": 3.634,
+      "rmse_mm": 10.689,
+      "nrmse": 3.616,
+      "pearson_r": 0.4661,
+      "spearman_rho": 0.5736,
+      "r2": -0.1303,
+      "kge": 0.458,
+      "nse": -0.1303,
+      "pod": 0.6658,
+      "far": 0.3263,
+      "csi": 0.5035,
+      "fbi": 0.9883,
+      "intensity_labels": [
+        "No Rain (<0.1)",
+        "Very Light (0.1-2.4)",
+        "Light (2.5-15.5)",
+        "Moderate (15.6-64.4)",
+        "Heavy (64.5-115.5)",
+        "Very Heavy (>=115.6)"
+      ],
+      "obs_intensity_pct": [
+        69.93,
+        12.39,
+        12.08,
+        5.07,
+        0.44,
+        0.09
+      ],
+      "sim_intensity_pct": [
+        70.28,
+        11.64,
+        11.72,
+        5.77,
+        0.49,
+        0.11
+      ]
+    }
+  },
+  "agroclimatic_zones": {
+    "Statewide": {
+      "raw": {
+        "N": 1582783,
+        "mean_obs_mm": 3.212,
+        "mean_sim_mm": 3.526,
+        "mean_bias_mm": 0.314,
+        "pbias_pct": 9.78,
+        "mae_mm": 3.723,
+        "rmse_mm": 9.819,
+        "nrmse": 3.057,
+        "pearson_r": 0.4838,
+        "spearman_rho": 0.6179,
+        "r2": 0.1166,
+        "kge": 0.4189,
+        "nse": 0.1166,
+        "pod": 0.9345,
+        "far": 0.4595,
+        "csi": 0.5208,
+        "fbi": 1.7289,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          68.08,
+          12.75,
+          13.02,
+          5.59,
+          0.47,
+          0.1
+        ],
+        "sim_intensity_pct": [
+          44.82,
+          28.04,
+          21.16,
+          5.67,
+          0.29,
+          0.03
+        ]
+      },
+      "eqm": {
+        "N": 1582783,
+        "mean_obs_mm": 3.212,
+        "mean_sim_mm": 3.319,
+        "mean_bias_mm": 0.107,
+        "pbias_pct": 3.33,
+        "mae_mm": 3.816,
+        "rmse_mm": 10.838,
+        "nrmse": 3.375,
+        "pearson_r": 0.4691,
+        "spearman_rho": 0.5777,
+        "r2": -0.0764,
+        "kge": 0.4677,
+        "nse": -0.0764,
+        "pod": 0.6802,
+        "far": 0.3166,
+        "csi": 0.5172,
+        "fbi": 0.9953,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          68.08,
+          12.75,
+          13.02,
+          5.59,
+          0.47,
+          0.1
+        ],
+        "sim_intensity_pct": [
+          68.23,
+          12.43,
+          12.87,
+          5.89,
+          0.49,
+          0.1
+        ]
+      }
+    },
+    "Coastal & Ghats": {
+      "raw": {
+        "N": 191775,
+        "mean_obs_mm": 6.814,
+        "mean_sim_mm": 6.488,
+        "mean_bias_mm": -0.326,
+        "pbias_pct": -4.79,
+        "mae_mm": 5.728,
+        "rmse_mm": 14.234,
+        "nrmse": 2.089,
+        "pearson_r": 0.6332,
+        "spearman_rho": 0.7505,
+        "r2": 0.385,
+        "kge": 0.5779,
+        "nse": 0.385,
+        "pod": 0.9692,
+        "far": 0.3363,
+        "csi": 0.65,
+        "fbi": 1.4602,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          57.34,
+          13.18,
+          17.08,
+          10.07,
+          1.81,
+          0.5
+        ],
+        "sim_intensity_pct": [
+          37.71,
+          23.87,
+          25.98,
+          11.21,
+          1.11,
+          0.12
+        ]
+      },
+      "eqm": {
+        "N": 191775,
+        "mean_obs_mm": 6.814,
+        "mean_sim_mm": 6.904,
+        "mean_bias_mm": 0.09,
+        "pbias_pct": 1.32,
+        "mae_mm": 6.11,
+        "rmse_mm": 15.292,
+        "nrmse": 2.244,
+        "pearson_r": 0.6319,
+        "spearman_rho": 0.7315,
+        "r2": 0.2902,
+        "kge": 0.6283,
+        "nse": 0.2902,
+        "pod": 0.8272,
+        "far": 0.2069,
+        "csi": 0.6804,
+        "fbi": 1.043,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          57.34,
+          13.18,
+          17.08,
+          10.07,
+          1.81,
+          0.5
+        ],
+        "sim_intensity_pct": [
+          55.51,
+          14.56,
+          16.75,
+          11.07,
+          1.69,
+          0.42
+        ]
+      }
+    },
+    "South Interior": {
+      "raw": {
+        "N": 531856,
+        "mean_obs_mm": 3.059,
+        "mean_sim_mm": 3.429,
+        "mean_bias_mm": 0.369,
+        "pbias_pct": 12.07,
+        "mae_mm": 3.885,
+        "rmse_mm": 9.519,
+        "nrmse": 3.111,
+        "pearson_r": 0.3773,
+        "spearman_rho": 0.5683,
+        "r2": -0.0595,
+        "kge": 0.313,
+        "nse": -0.0595,
+        "pod": 0.9331,
+        "far": 0.4891,
+        "csi": 0.4929,
+        "fbi": 1.8263,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          66.55,
+          13.44,
+          14.02,
+          5.62,
+          0.32,
+          0.04
+        ],
+        "sim_intensity_pct": [
+          38.92,
+          31.72,
+          24.03,
+          5.13,
+          0.19,
+          0.02
+        ]
+      },
+      "eqm": {
+        "N": 531856,
+        "mean_obs_mm": 3.059,
+        "mean_sim_mm": 3.159,
+        "mean_bias_mm": 0.099,
+        "pbias_pct": 3.25,
+        "mae_mm": 3.968,
+        "rmse_mm": 10.613,
+        "nrmse": 3.469,
+        "pearson_r": 0.3504,
+        "spearman_rho": 0.5169,
+        "r2": -0.317,
+        "kge": 0.3493,
+        "nse": -0.317,
+        "pod": 0.6694,
+        "far": 0.3568,
+        "csi": 0.4881,
+        "fbi": 1.0407,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          66.55,
+          13.44,
+          14.02,
+          5.62,
+          0.32,
+          0.04
+        ],
+        "sim_intensity_pct": [
+          65.19,
+          14.01,
+          14.68,
+          5.72,
+          0.34,
+          0.05
+        ]
+      }
+    },
+    "North Interior": {
+      "raw": {
+        "N": 859152,
+        "mean_obs_mm": 2.502,
+        "mean_sim_mm": 2.925,
+        "mean_bias_mm": 0.423,
+        "pbias_pct": 16.9,
+        "mae_mm": 3.175,
+        "rmse_mm": 8.734,
+        "nrmse": 3.491,
+        "pearson_r": 0.4054,
+        "spearman_rho": 0.6046,
+        "r2": -0.0721,
+        "kge": 0.3371,
+        "nse": -0.0721,
+        "pod": 0.9239,
+        "far": 0.4714,
+        "csi": 0.5066,
+        "fbi": 1.7479,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          71.43,
+          12.23,
+          11.48,
+          4.56,
+          0.26,
+          0.04
+        ],
+        "sim_intensity_pct": [
+          50.06,
+          26.69,
+          18.3,
+          4.76,
+          0.17,
+          0.02
+        ]
+      },
+      "eqm": {
+        "N": 859152,
+        "mean_obs_mm": 2.502,
+        "mean_sim_mm": 2.617,
+        "mean_bias_mm": 0.115,
+        "pbias_pct": 4.61,
+        "mae_mm": 3.211,
+        "rmse_mm": 9.721,
+        "nrmse": 3.885,
+        "pearson_r": 0.3785,
+        "spearman_rho": 0.5622,
+        "r2": -0.3279,
+        "kge": 0.3766,
+        "nse": -0.3279,
+        "pod": 0.6391,
+        "far": 0.3248,
+        "csi": 0.4888,
+        "fbi": 0.9465,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          71.43,
+          12.23,
+          11.48,
+          4.56,
+          0.26,
+          0.04
+        ],
+        "sim_intensity_pct": [
+          72.96,
+          10.97,
+          10.88,
+          4.83,
+          0.31,
+          0.06
+        ]
+      }
+    }
+  },
+  "yearly_metrics": {
+    "2019": {
+      "raw": {
+        "N": 225935,
+        "mean_obs_mm": 3.122,
+        "mean_sim_mm": 3.464,
+        "mean_bias_mm": 0.341,
+        "pbias_pct": 10.93,
+        "mae_mm": 3.555,
+        "rmse_mm": 9.172,
+        "nrmse": 2.938,
+        "pearson_r": 0.5516,
+        "spearman_rho": 0.6125,
+        "r2": 0.2742,
+        "kge": 0.4215,
+        "nse": 0.2742,
+        "pod": 0.9459,
+        "far": 0.4832,
+        "csi": 0.502,
+        "fbi": 1.8302,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          68.8,
+          12.68,
+          12.64,
+          5.3,
+          0.45,
+          0.12
+        ],
+        "sim_intensity_pct": [
+          42.9,
+          27.82,
+          23.83,
+          5.19,
+          0.24,
+          0.01
+        ]
+      },
+      "eqm": {
+        "N": 225935,
+        "mean_obs_mm": 3.122,
+        "mean_sim_mm": 3.18,
+        "mean_bias_mm": 0.057,
+        "pbias_pct": 1.84,
+        "mae_mm": 3.529,
+        "rmse_mm": 9.955,
+        "nrmse": 3.188,
+        "pearson_r": 0.547,
+        "spearman_rho": 0.5841,
+        "r2": 0.145,
+        "kge": 0.54,
+        "nse": 0.145,
+        "pod": 0.7189,
+        "far": 0.34,
+        "csi": 0.5246,
+        "fbi": 1.0894,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          68.8,
+          12.68,
+          12.64,
+          5.3,
+          0.45,
+          0.12
+        ],
+        "sim_intensity_pct": [
+          66.01,
+          13.97,
+          14.02,
+          5.49,
+          0.4,
+          0.09
+        ]
+      }
+    },
+    "2020": {
+      "raw": {
+        "N": 226554,
+        "mean_obs_mm": 3.468,
+        "mean_sim_mm": 3.652,
+        "mean_bias_mm": 0.184,
+        "pbias_pct": 5.3,
+        "mae_mm": 3.991,
+        "rmse_mm": 10.397,
+        "nrmse": 2.998,
+        "pearson_r": 0.4605,
+        "spearman_rho": 0.613,
+        "r2": 0.086,
+        "kge": 0.4127,
+        "nse": 0.086,
+        "pod": 0.9246,
+        "far": 0.4515,
+        "csi": 0.525,
+        "fbi": 1.6857,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          66.96,
+          12.59,
+          13.73,
+          6.12,
+          0.48,
+          0.12
+        ],
+        "sim_intensity_pct": [
+          44.3,
+          27.82,
+          21.72,
+          5.79,
+          0.32,
+          0.05
+        ]
+      },
+      "eqm": {
+        "N": 226554,
+        "mean_obs_mm": 3.468,
+        "mean_sim_mm": 3.406,
+        "mean_bias_mm": -0.063,
+        "pbias_pct": -1.8,
+        "mae_mm": 4.088,
+        "rmse_mm": 11.398,
+        "nrmse": 3.286,
+        "pearson_r": 0.4535,
+        "spearman_rho": 0.5731,
+        "r2": -0.0984,
+        "kge": 0.4527,
+        "nse": -0.0984,
+        "pod": 0.678,
+        "far": 0.3071,
+        "csi": 0.5213,
+        "fbi": 0.9785,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          66.96,
+          12.59,
+          13.73,
+          6.12,
+          0.48,
+          0.12
+        ],
+        "sim_intensity_pct": [
+          67.67,
+          12.35,
+          13.55,
+          5.77,
+          0.54,
+          0.13
+        ]
+      }
+    },
+    "2021": {
+      "raw": {
+        "N": 225935,
+        "mean_obs_mm": 3.524,
+        "mean_sim_mm": 3.761,
+        "mean_bias_mm": 0.237,
+        "pbias_pct": 6.73,
+        "mae_mm": 4.163,
+        "rmse_mm": 10.542,
+        "nrmse": 2.991,
+        "pearson_r": 0.4145,
+        "spearman_rho": 0.6128,
+        "r2": 0.0101,
+        "kge": 0.3653,
+        "nse": 0.0101,
+        "pod": 0.9382,
+        "far": 0.432,
+        "csi": 0.5475,
+        "fbi": 1.652,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          63.79,
+          14.51,
+          14.93,
+          6.2,
+          0.48,
+          0.09
+        ],
+        "sim_intensity_pct": [
+          40.19,
+          30.4,
+          23.06,
+          6.04,
+          0.29,
+          0.02
+        ]
+      },
+      "eqm": {
+        "N": 225935,
+        "mean_obs_mm": 3.524,
+        "mean_sim_mm": 3.596,
+        "mean_bias_mm": 0.072,
+        "pbias_pct": 2.05,
+        "mae_mm": 4.362,
+        "rmse_mm": 11.82,
+        "nrmse": 3.354,
+        "pearson_r": 0.3871,
+        "spearman_rho": 0.5507,
+        "r2": -0.2447,
+        "kge": 0.3867,
+        "nse": -0.2447,
+        "pod": 0.6747,
+        "far": 0.3093,
+        "csi": 0.5182,
+        "fbi": 0.9768,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          63.79,
+          14.51,
+          14.93,
+          6.2,
+          0.48,
+          0.09
+        ],
+        "sim_intensity_pct": [
+          64.63,
+          14.08,
+          14.31,
+          6.35,
+          0.53,
+          0.09
+        ]
+      }
+    },
+    "2022": {
+      "raw": {
+        "N": 225935,
+        "mean_obs_mm": 3.499,
+        "mean_sim_mm": 3.63,
+        "mean_bias_mm": 0.13,
+        "pbias_pct": 3.73,
+        "mae_mm": 3.756,
+        "rmse_mm": 9.732,
+        "nrmse": 2.781,
+        "pearson_r": 0.5142,
+        "spearman_rho": 0.6402,
+        "r2": 0.1673,
+        "kge": 0.4718,
+        "nse": 0.1673,
+        "pod": 0.9358,
+        "far": 0.4392,
+        "csi": 0.54,
+        "fbi": 1.6687,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          67.25,
+          12.3,
+          13.57,
+          6.28,
+          0.53,
+          0.08
+        ],
+        "sim_intensity_pct": [
+          45.34,
+          27.29,
+          20.94,
+          6.14,
+          0.24,
+          0.05
+        ]
+      },
+      "eqm": {
+        "N": 225935,
+        "mean_obs_mm": 3.499,
+        "mean_sim_mm": 3.395,
+        "mean_bias_mm": -0.104,
+        "pbias_pct": -2.98,
+        "mae_mm": 3.835,
+        "rmse_mm": 10.524,
+        "nrmse": 3.008,
+        "pearson_r": 0.5041,
+        "spearman_rho": 0.6123,
+        "r2": 0.0263,
+        "kge": 0.503,
+        "nse": 0.0263,
+        "pod": 0.6913,
+        "far": 0.2816,
+        "csi": 0.5439,
+        "fbi": 0.9623,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          67.25,
+          12.3,
+          13.57,
+          6.28,
+          0.53,
+          0.08
+        ],
+        "sim_intensity_pct": [
+          68.48,
+          11.66,
+          13.03,
+          6.29,
+          0.47,
+          0.08
+        ]
+      }
+    },
+    "2023": {
+      "raw": {
+        "N": 225935,
+        "mean_obs_mm": 2.301,
+        "mean_sim_mm": 2.614,
+        "mean_bias_mm": 0.313,
+        "pbias_pct": 13.61,
+        "mae_mm": 2.836,
+        "rmse_mm": 8.136,
+        "nrmse": 3.536,
+        "pearson_r": 0.4809,
+        "spearman_rho": 0.5872,
+        "r2": 0.0908,
+        "kge": 0.4087,
+        "nse": 0.0908,
+        "pod": 0.912,
+        "far": 0.5212,
+        "csi": 0.4576,
+        "fbi": 1.905,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          73.97,
+          11.34,
+          10.38,
+          3.96,
+          0.29,
+          0.06
+        ],
+        "sim_intensity_pct": [
+          50.42,
+          29.12,
+          16.14,
+          4.12,
+          0.18,
+          0.02
+        ]
+      },
+      "eqm": {
+        "N": 225935,
+        "mean_obs_mm": 2.301,
+        "mean_sim_mm": 2.41,
+        "mean_bias_mm": 0.109,
+        "pbias_pct": 4.73,
+        "mae_mm": 2.892,
+        "rmse_mm": 9.326,
+        "nrmse": 4.053,
+        "pearson_r": 0.4468,
+        "spearman_rho": 0.5436,
+        "r2": -0.1946,
+        "kge": 0.4442,
+        "nse": -0.1946,
+        "pod": 0.6111,
+        "far": 0.3619,
+        "csi": 0.4538,
+        "fbi": 0.9577,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          73.97,
+          11.34,
+          10.38,
+          3.96,
+          0.29,
+          0.06
+        ],
+        "sim_intensity_pct": [
+          75.07,
+          10.74,
+          9.48,
+          4.31,
+          0.31,
+          0.08
+        ]
+      }
+    },
+    "2024": {
+      "raw": {
+        "N": 226554,
+        "mean_obs_mm": 3.161,
+        "mean_sim_mm": 3.857,
+        "mean_bias_mm": 0.696,
+        "pbias_pct": 22.01,
+        "mae_mm": 3.905,
+        "rmse_mm": 10.256,
+        "nrmse": 3.244,
+        "pearson_r": 0.4859,
+        "spearman_rho": 0.6169,
+        "r2": 0.0642,
+        "kge": 0.3806,
+        "nse": 0.0642,
+        "pod": 0.9548,
+        "far": 0.4684,
+        "csi": 0.5185,
+        "fbi": 1.7962,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          68.88,
+          12.6,
+          12.51,
+          5.39,
+          0.5,
+          0.11
+        ],
+        "sim_intensity_pct": [
+          44.11,
+          27.28,
+          21.98,
+          6.21,
+          0.38,
+          0.05
+        ]
+      },
+      "eqm": {
+        "N": 226554,
+        "mean_obs_mm": 3.161,
+        "mean_sim_mm": 3.64,
+        "mean_bias_mm": 0.479,
+        "pbias_pct": 15.15,
+        "mae_mm": 3.981,
+        "rmse_mm": 11.341,
+        "nrmse": 3.588,
+        "pearson_r": 0.4752,
+        "spearman_rho": 0.579,
+        "r2": -0.1442,
+        "kge": 0.4504,
+        "nse": -0.1442,
+        "pod": 0.7109,
+        "far": 0.3357,
+        "csi": 0.523,
+        "fbi": 1.07,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          68.88,
+          12.6,
+          12.51,
+          5.39,
+          0.5,
+          0.11
+        ],
+        "sim_intensity_pct": [
+          66.7,
+          13.0,
+          13.26,
+          6.29,
+          0.61,
+          0.15
+        ]
+      }
+    },
+    "2025": {
+      "raw": {
+        "N": 225935,
+        "mean_obs_mm": 3.406,
+        "mean_sim_mm": 3.702,
+        "mean_bias_mm": 0.296,
+        "pbias_pct": 8.69,
+        "mae_mm": 3.856,
+        "rmse_mm": 10.263,
+        "nrmse": 3.013,
+        "pearson_r": 0.4853,
+        "spearman_rho": 0.632,
+        "r2": 0.1026,
+        "kge": 0.4339,
+        "nse": 0.1026,
+        "pod": 0.9268,
+        "far": 0.4273,
+        "csi": 0.5479,
+        "fbi": 1.6185,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          66.93,
+          13.24,
+          13.34,
+          5.86,
+          0.52,
+          0.1
+        ],
+        "sim_intensity_pct": [
+          46.47,
+          26.52,
+          20.41,
+          6.18,
+          0.38,
+          0.04
+        ]
+      },
+      "eqm": {
+        "N": 225935,
+        "mean_obs_mm": 3.406,
+        "mean_sim_mm": 3.603,
+        "mean_bias_mm": 0.197,
+        "pbias_pct": 5.78,
+        "mae_mm": 4.026,
+        "rmse_mm": 11.277,
+        "nrmse": 3.311,
+        "pearson_r": 0.4667,
+        "spearman_rho": 0.591,
+        "r2": -0.0835,
+        "kge": 0.462,
+        "nse": -0.0835,
+        "pod": 0.6664,
+        "far": 0.2875,
+        "csi": 0.5252,
+        "fbi": 0.9354,
+        "intensity_labels": [
+          "No Rain (<0.1)",
+          "Very Light (0.1-2.4)",
+          "Light (2.5-15.5)",
+          "Moderate (15.6-64.4)",
+          "Heavy (64.5-115.5)",
+          "Very Heavy (>=115.6)"
+        ],
+        "obs_intensity_pct": [
+          66.93,
+          13.24,
+          13.34,
+          5.86,
+          0.52,
+          0.1
+        ],
+        "sim_intensity_pct": [
+          69.07,
+          11.19,
+          12.42,
+          6.7,
+          0.53,
+          0.1
+        ]
+      }
+    }
+  }
+}

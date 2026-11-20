@@ -1,0 +1,31 @@
+# LaTeX Auxiliary & Compilation Files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.log
+*.out
+*.toc
+*.synctex
+*.synctex.gz
+*.pdfsync
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.bcf
+*.run.xml
+
+# Temporary files & Editor artifacts
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

@@ -1,0 +1,253 @@
+station_id,elevation_dem_m,latitude,longitude,district,zone_name,subdivision,elevation_pressure_proxy_m,slope_pressure_proxy_deg,slope_dem_deg,elevation_diff_m,abs_elevation_diff_m
+1,923.82,11.75,76.5,Chamarajanagara,Southern Dry Zone,South Interior Karnataka,953.44,0.229,0.253,29.62,29.62
+2,859.64,11.75,76.75,Chamarajanagara,Southern Dry Zone,South Interior Karnataka,897.97,0.212,0.171,38.33,38.33
+3,840.36,12.0,76.0,Kodagu,Hilly Zone (Malnad),Malnad,870.51,0.15,0.115,30.15,30.15
+4,736.73,12.0,76.25,Mysuru,Southern Transition Zone,South Interior Karnataka,728.84,0.16,0.173,-7.89,7.89
+5,687.28,12.0,76.5,Mysuru,Southern Dry Zone,South Interior Karnataka,738.74,0.222,0.132,51.46,51.46
+6,707.73,12.0,76.75,Chamarajanagara,Southern Dry Zone,South Interior Karnataka,700.24,0.234,0.146,-7.49,7.49
+7,674.04,12.0,77.0,Chamarajanagara,Southern Dry Zone,South Interior Karnataka,670.99,0.192,0.042,-3.05,3.05
+8,728.67,12.0,77.25,Chamarajanagara,Southern Dry Zone,South Interior Karnataka,882.07,0.239,0.268,153.4,153.4
+9,443.62,12.0,77.5,Chamarajanagara,Southern Dry Zone,South Interior Karnataka,628.99,0.267,0.301,185.37,185.37
+10,871.76,12.25,75.75,Kodagu,Hilly Zone (Malnad),Malnad,845.14,0.055,0.172,-26.62,26.62
+11,875.41,12.25,76.0,Kodagu,Hilly Zone (Malnad),Malnad,868.04,0.05,0.087,-7.37,7.37
+12,795.56,12.25,76.25,Mysuru,Southern Transition Zone,South Interior Karnataka,804.62,0.162,0.112,9.06,9.06
+13,799.58,12.25,76.5,Mysuru,Southern Dry Zone,South Interior Karnataka,740.57,0.132,0.127,-59.01,59.01
+14,718.59,12.25,76.75,Mysuru,Southern Dry Zone,South Interior Karnataka,682.0,0.092,0.172,-36.59,36.59
+15,639.12,12.25,77.0,Mandya,Southern Dry Zone,South Interior Karnataka,656.36,0.03,0.105,17.24,17.24
+16,620.07,12.25,77.25,Chamarajanagara,Southern Dry Zone,South Interior Karnataka,654.87,0.21,0.085,34.8,34.8
+17,178.95,12.5,75.5,Dakshina Kannada,Coastal Zone,Coastal Karnataka,406.89,0.554,0.911,227.94,227.94
+18,1038.58,12.5,75.75,Kodagu,Hilly Zone (Malnad),Malnad,892.73,0.465,0.737,-145.85,145.85
+19,872.76,12.5,76.0,Mysuru,Southern Transition Zone,South Interior Karnataka,846.22,0.087,0.249,-26.54,26.54
+20,812.55,12.5,76.25,Mysuru,Southern Transition Zone,South Interior Karnataka,815.74,0.097,0.123,3.19,3.19
+21,781.24,12.5,76.5,Mandya,Southern Dry Zone,South Interior Karnataka,765.53,0.152,0.094,-15.71,15.71
+22,736.49,12.5,76.75,Mandya,Southern Dry Zone,South Interior Karnataka,721.56,0.175,0.145,-14.93,14.93
+23,660.34,12.5,77.0,Mandya,Southern Dry Zone,South Interior Karnataka,663.85,0.053,0.095,3.51,3.51
+24,648.76,12.5,77.25,Ramanagara,Eastern Dry Zone,South Interior Karnataka,678.69,0.119,0.159,29.93,29.93
+25,752.05,12.5,77.5,Ramanagara,Eastern Dry Zone,South Interior Karnataka,731.83,0.059,0.114,-20.22,20.22
+26,79.79,12.75,75.0,Dakshina Kannada,Coastal Zone,Coastal Karnataka,79.76,0.12,0.037,-0.03,0.03
+27,105.69,12.75,75.25,Dakshina Kannada,Coastal Zone,Coastal Karnataka,190.55,0.139,0.039,84.86,84.86
+28,116.04,12.75,75.5,Dakshina Kannada,Coastal Zone,Coastal Karnataka,206.28,0.707,0.922,90.24,90.24
+29,941.8,12.75,75.75,Hassan,Hilly Zone (Malnad),Malnad,849.67,0.733,0.883,-92.13,92.13
+30,942.15,12.75,76.0,Hassan,Southern Transition Zone,South Interior Karnataka,897.8,0.105,0.093,-44.35,44.35
+31,869.3,12.75,76.25,Hassan,Southern Transition Zone,South Interior Karnataka,848.63,0.106,0.159,-20.67,20.67
+32,846.53,12.75,76.5,Mandya,Southern Dry Zone,South Interior Karnataka,851.64,0.103,0.157,5.11,5.11
+33,785.83,12.75,76.75,Mandya,Southern Dry Zone,South Interior Karnataka,815.39,0.196,0.222,29.56,29.56
+34,659.37,12.75,77.0,Mandya,Southern Dry Zone,South Interior Karnataka,683.49,0.14,0.112,24.12,24.12
+35,741.93,12.75,77.25,Ramanagara,Eastern Dry Zone,South Interior Karnataka,746.27,0.2,0.211,4.34,4.34
+36,720.78,12.75,77.5,Bengaluru Urban,Eastern Dry Zone,South Interior Karnataka,749.96,0.181,0.228,29.18,29.18
+37,886.41,12.75,77.75,Bengaluru Urban,Eastern Dry Zone,South Interior Karnataka,867.78,0.125,0.176,-18.63,18.63
+38,55.78,13.0,75.0,Dakshina Kannada,Coastal Zone,Coastal Karnataka,102.64,0.151,0.063,46.86,46.86
+39,110.84,13.0,75.25,Dakshina Kannada,Coastal Zone,Coastal Karnataka,227.31,0.805,0.977,116.47,116.47
+40,430.11,13.0,75.5,Dakshina Kannada,Coastal Zone,Coastal Karnataka,518.03,0.943,1.084,87.92,87.92
+41,920.76,13.0,75.75,Hassan,Hilly Zone (Malnad),Malnad,922.54,0.478,0.536,1.78,1.78
+42,923.28,13.0,76.0,Hassan,Southern Transition Zone,South Interior Karnataka,948.17,0.027,0.099,24.89,24.89
+43,931.37,13.0,76.25,Hassan,Southern Transition Zone,South Interior Karnataka,907.36,0.099,0.021,-24.01,24.01
+44,906.61,13.0,76.5,Hassan,Southern Transition Zone,South Interior Karnataka,859.49,0.116,0.104,-47.12,47.12
+45,833.28,13.0,76.75,Mandya,Southern Dry Zone,South Interior Karnataka,800.22,0.085,0.16,-33.06,33.06
+46,759.25,13.0,77.0,Tumakuru,Eastern Dry Zone,South Interior Karnataka,779.87,0.123,0.151,20.62,20.62
+47,843.08,13.0,77.25,Ramanagara,Eastern Dry Zone,South Interior Karnataka,860.02,0.15,0.25,16.94,16.94
+48,915.28,13.0,77.5,Bengaluru Urban,Eastern Dry Zone,South Interior Karnataka,855.61,0.131,0.197,-59.67,59.67
+49,875.2,13.0,77.75,Bengaluru Urban,Eastern Dry Zone,South Interior Karnataka,876.49,0.041,0.048,1.29,1.29
+50,870.69,13.0,78.0,Kolar,Eastern Dry Zone,South Interior Karnataka,894.33,0.08,0.044,23.64,23.64
+51,838.86,13.0,78.25,Kolar,Eastern Dry Zone,South Interior Karnataka,806.05,0.094,0.049,-32.81,32.81
+52,15.77,13.25,74.75,Udupi,Coastal Zone,Coastal Karnataka,74.49,0.083,0.044,58.72,58.72
+53,56.74,13.25,75.0,Udupi,Coastal Zone,Coastal Karnataka,151.33,0.827,1.014,94.59,94.59
+54,970.81,13.25,75.25,Chikkamagaluru,Hilly Zone (Malnad),Malnad,843.16,0.779,0.951,-127.65,127.65
+55,757.12,13.25,75.5,Chikkamagaluru,Hilly Zone (Malnad),Malnad,776.17,0.295,0.396,19.05,19.05
+56,1057.67,13.25,75.75,Chikkamagaluru,Hilly Zone (Malnad),Malnad,990.3,0.188,0.707,-67.37,67.37
+57,846.89,13.25,76.0,Hassan,Southern Transition Zone,South Interior Karnataka,876.34,0.198,0.261,29.45,29.45
+58,858.41,13.25,76.25,Hassan,Southern Transition Zone,South Interior Karnataka,877.65,0.144,0.144,19.24,19.24
+59,848.57,13.25,76.5,Tumakuru,Eastern Dry Zone,South Interior Karnataka,827.59,0.148,0.174,-20.98,20.98
+60,820.12,13.25,76.75,Tumakuru,Eastern Dry Zone,South Interior Karnataka,803.19,0.049,0.079,-16.93,16.93
+61,805.7,13.25,77.0,Tumakuru,Eastern Dry Zone,South Interior Karnataka,785.26,0.07,0.118,-20.44,20.44
+62,923.0,13.25,77.25,Bengaluru Rural,Eastern Dry Zone,South Interior Karnataka,868.6,0.109,0.135,-54.4,54.4
+63,908.43,13.25,77.5,Bengaluru Rural,Eastern Dry Zone,South Interior Karnataka,875.41,0.091,0.178,-33.02,33.02
+64,893.22,13.25,77.75,Bengaluru Rural,Eastern Dry Zone,South Interior Karnataka,866.9,0.01,0.097,-26.32,26.32
+65,849.23,13.25,78.0,Kolar,Eastern Dry Zone,South Interior Karnataka,866.7,0.09,0.096,17.47,17.47
+66,804.12,13.25,78.25,Kolar,Eastern Dry Zone,South Interior Karnataka,807.9,0.14,0.136,3.78,3.78
+67,745.6,13.25,78.5,Kolar,Eastern Dry Zone,South Interior Karnataka,734.66,0.078,0.062,-10.94,10.94
+68,19.73,13.5,74.75,Udupi,Coastal Zone,Coastal Karnataka,87.52,0.161,0.093,67.79,67.79
+69,95.97,13.5,75.0,Udupi,Coastal Zone,Coastal Karnataka,238.82,0.645,0.893,142.85,142.85
+70,685.68,13.5,75.25,Chikkamagaluru,Hilly Zone (Malnad),Malnad,624.54,0.581,0.817,-61.14,61.14
+71,803.23,13.5,75.5,Chikkamagaluru,Hilly Zone (Malnad),Malnad,759.98,0.484,0.978,-43.25,43.25
+72,1599.54,13.5,75.75,Chikkamagaluru,Hilly Zone (Malnad),Malnad,1072.44,0.307,0.403,-527.1,527.1
+73,775.44,13.5,76.0,Chikkamagaluru,Southern Transition Zone,South Interior Karnataka,794.66,0.33,0.861,19.22,19.22
+74,792.33,13.5,76.25,Hassan,Southern Transition Zone,South Interior Karnataka,777.26,0.191,0.172,-15.07,15.07
+75,742.81,13.5,76.5,Tumakuru,Central Dry Zone,South Interior Karnataka,738.33,0.102,0.132,-4.48,4.48
+76,770.26,13.5,76.75,Tumakuru,Central Dry Zone,South Interior Karnataka,780.92,0.149,0.171,10.66,10.66
+77,801.55,13.5,77.0,Tumakuru,Central Dry Zone,South Interior Karnataka,791.09,0.03,0.006,-10.46,10.46
+78,765.79,13.5,77.25,Tumakuru,Central Dry Zone,South Interior Karnataka,808.91,0.138,0.175,43.12,43.12
+79,745.46,13.5,77.5,Chikkaballapura,Eastern Dry Zone,South Interior Karnataka,767.77,0.135,0.256,22.31,22.31
+80,947.26,13.5,77.75,Chikkaballapura,Eastern Dry Zone,South Interior Karnataka,880.84,0.136,0.185,-66.42,66.42
+81,851.91,13.5,78.0,Chikkaballapura,Eastern Dry Zone,South Interior Karnataka,831.02,0.143,0.223,-20.89,20.89
+82,760.61,13.5,78.25,Kolar,Eastern Dry Zone,South Interior Karnataka,808.61,0.024,0.107,48.0,48.0
+83,59.77,13.75,74.75,Udupi,Coastal Zone,Coastal Karnataka,87.15,0.588,0.825,27.38,27.38
+84,584.72,13.75,75.0,Shivamogga,Hilly Zone (Malnad),Malnad,443.19,0.701,0.806,-141.53,141.53
+85,659.8,13.75,75.25,Shivamogga,Hilly Zone (Malnad),Malnad,671.19,0.26,0.067,11.39,11.39
+86,634.75,13.75,75.5,Chikkamagaluru,Hilly Zone (Malnad),Malnad,687.33,0.097,0.155,52.58,52.58
+87,668.73,13.75,75.75,Chikkamagaluru,Hilly Zone (Malnad),Malnad,695.23,0.47,1.024,26.5,26.5
+88,765.28,13.75,76.0,Chikkamagaluru,Southern Transition Zone,South Interior Karnataka,776.44,0.1,0.084,11.16,11.16
+89,695.52,13.75,76.25,Chitradurga,Central Dry Zone,South Interior Karnataka,701.77,0.055,0.067,6.25,6.25
+90,722.88,13.75,76.5,Chitradurga,Central Dry Zone,South Interior Karnataka,729.3,0.062,0.038,6.42,6.42
+91,665.52,13.75,76.75,Tumakuru,Central Dry Zone,South Interior Karnataka,669.12,0.178,0.198,3.6,3.6
+92,763.61,13.75,77.25,Tumakuru,Central Dry Zone,South Interior Karnataka,736.64,0.075,0.002,-26.97,26.97
+93,751.23,13.75,77.75,Chikkaballapura,Eastern Dry Zone,South Interior Karnataka,752.86,0.132,0.202,1.63,1.63
+94,750.87,13.75,78.0,Chikkaballapura,Eastern Dry Zone,South Interior Karnataka,749.73,0.084,0.104,-1.14,1.14
+95,608.85,14.0,74.75,Shivamogga,Hilly Zone (Malnad),Malnad,523.52,0.388,0.037,-85.33,85.33
+96,573.95,14.0,75.0,Shivamogga,Hilly Zone (Malnad),Malnad,553.53,0.188,0.041,-20.42,20.42
+97,646.64,14.0,75.25,Shivamogga,Hilly Zone (Malnad),Malnad,646.16,0.126,0.085,-0.48,0.48
+98,653.41,14.0,75.5,Shivamogga,Southern Transition Zone,South Interior Karnataka,669.41,0.045,0.054,16.0,16.0
+99,616.6,14.0,75.75,Shivamogga,Southern Transition Zone,South Interior Karnataka,626.27,0.085,0.053,9.67,9.67
+100,699.07,14.0,76.0,Davanagere,Central Dry Zone,South Interior Karnataka,698.02,0.206,0.293,-1.05,1.05
+101,839.79,14.0,76.25,Chitradurga,Central Dry Zone,South Interior Karnataka,755.64,0.028,0.088,-84.15,84.15
+102,762.69,14.0,76.5,Chitradurga,Central Dry Zone,South Interior Karnataka,688.5,0.153,0.278,-74.19,74.19
+103,587.49,14.0,76.75,Chitradurga,Central Dry Zone,South Interior Karnataka,620.22,0.117,0.21,32.73,32.73
+104,1.12,14.25,74.5,Uttara Kannada,Hilly Zone (Malnad),Malnad,98.92,0.399,0.09,97.8,97.8
+105,59.97,14.25,74.75,Uttara Kannada,Hilly Zone (Malnad),Malnad,461.81,0.506,0.634,401.84,401.84
+106,590.75,14.25,75.0,Shivamogga,Hilly Zone (Malnad),Malnad,574.4,0.197,0.638,-16.35,16.35
+107,659.0,14.25,75.25,Shivamogga,Hilly Zone (Malnad),Malnad,646.71,0.085,0.094,-12.29,12.29
+108,677.05,14.25,75.5,Shivamogga,Southern Transition Zone,South Interior Karnataka,649.17,0.083,0.061,-27.88,27.88
+109,647.25,14.25,75.75,Davanagere,Southern Transition Zone,South Interior Karnataka,618.04,0.062,0.114,-29.21,29.21
+110,599.44,14.25,76.0,Davanagere,Central Dry Zone,South Interior Karnataka,627.38,0.145,0.144,27.94,27.94
+111,750.34,14.25,76.25,Chitradurga,Central Dry Zone,South Interior Karnataka,727.07,0.101,0.182,-23.27,23.27
+112,652.62,14.25,76.5,Chitradurga,Central Dry Zone,South Interior Karnataka,679.21,0.167,0.244,26.59,26.59
+113,572.65,14.25,76.75,Chitradurga,Central Dry Zone,South Interior Karnataka,580.41,0.125,0.103,7.76,7.76
+114,621.56,14.25,77.25,Tumakuru,Central Dry Zone,South Interior Karnataka,604.48,0.0,0.0,-17.08,17.08
+115,64.19,14.5,74.5,Uttara Kannada,Hilly Zone (Malnad),Malnad,195.61,0.402,0.501,131.42,131.42
+116,526.45,14.5,74.75,Uttara Kannada,Hilly Zone (Malnad),Malnad,522.37,0.383,0.696,-4.08,4.08
+117,569.31,14.5,75.0,Uttara Kannada,Hilly Zone (Malnad),Malnad,553.92,0.103,0.107,-15.39,15.39
+118,625.77,14.5,75.25,Shivamogga,Hilly Zone (Malnad),Malnad,618.37,0.097,0.12,-7.4,7.4
+119,595.09,14.5,75.5,Haveri,Northern Transition Zone,North Interior Karnataka,595.13,0.069,0.122,0.04,0.04
+120,541.22,14.5,75.75,Davanagere,Southern Transition Zone,South Interior Karnataka,570.42,0.056,0.126,29.2,29.2
+121,608.12,14.5,76.0,Davanagere,Central Dry Zone,South Interior Karnataka,614.29,0.111,0.165,6.17,6.17
+122,672.07,14.5,76.25,Davanagere,Central Dry Zone,South Interior Karnataka,674.05,0.114,0.149,1.98,1.98
+123,614.23,14.5,76.5,Chitradurga,Central Dry Zone,South Interior Karnataka,632.31,0.133,0.151,18.08,18.08
+124,530.72,14.5,76.75,Chitradurga,Central Dry Zone,South Interior Karnataka,553.99,0.084,0.12,23.27,23.27
+125,99.43,14.75,74.25,Uttara Kannada,Coastal Zone,Coastal Karnataka,188.99,0.11,0.01,89.56,89.56
+126,89.61,14.75,74.5,Uttara Kannada,Hilly Zone (Malnad),Malnad,292.24,0.402,0.738,202.63,202.63
+127,486.88,14.75,74.75,Uttara Kannada,Hilly Zone (Malnad),Malnad,492.04,0.314,0.55,5.16,5.16
+128,603.91,14.75,75.0,Uttara Kannada,Hilly Zone (Malnad),Malnad,586.58,0.075,0.076,-17.33,17.33
+129,546.25,14.75,75.25,Haveri,Northern Transition Zone,North Interior Karnataka,562.46,0.018,0.039,16.21,16.21
+130,597.38,14.75,75.5,Haveri,Northern Transition Zone,North Interior Karnataka,603.76,0.018,0.032,6.38,6.38
+131,525.76,14.75,75.75,Ballari,Northern Dry Zone,North Interior Karnataka,567.53,0.033,0.092,41.77,41.77
+132,683.99,14.75,76.0,Davanagere,Central Dry Zone,South Interior Karnataka,626.32,0.065,0.086,-57.67,57.67
+133,605.67,14.75,76.25,Ballari,Northern Dry Zone,North Interior Karnataka,617.78,0.131,0.148,12.11,12.11
+134,638.4,14.75,76.5,Ballari,Northern Dry Zone,North Interior Karnataka,642.69,0.086,0.055,4.29,4.29
+135,650.45,14.75,76.75,Chitradurga,Central Dry Zone,South Interior Karnataka,571.3,0.098,0.1,-79.15,79.15
+136,656.63,15.0,74.5,Uttara Kannada,Hilly Zone (Malnad),Malnad,427.38,0.319,0.484,-229.25,229.25
+137,553.68,15.0,74.75,Uttara Kannada,Hilly Zone (Malnad),Malnad,514.78,0.142,0.16,-38.9,38.9
+138,528.12,15.0,75.0,Uttara Kannada,Hilly Zone (Malnad),Malnad,557.23,0.11,0.05,29.11,29.11
+139,588.74,15.0,75.25,Haveri,Northern Transition Zone,North Interior Karnataka,617.13,0.064,0.098,28.39,28.39
+140,572.06,15.0,75.5,Haveri,Northern Transition Zone,North Interior Karnataka,578.69,0.085,0.085,6.63,6.63
+141,540.61,15.0,75.75,Gadag,Northern Dry Zone,North Interior Karnataka,548.5,0.055,0.15,7.89,7.89
+142,599.64,15.0,76.0,Ballari,Northern Dry Zone,North Interior Karnataka,579.52,0.07,0.152,-20.12,20.12
+143,536.32,15.0,76.25,Ballari,Northern Dry Zone,North Interior Karnataka,547.93,0.165,0.112,11.61,11.61
+144,640.08,15.0,76.5,Ballari,Northern Dry Zone,North Interior Karnataka,700.49,0.105,0.121,60.41,60.41
+145,627.18,15.0,76.75,Ballari,Northern Dry Zone,North Interior Karnataka,614.16,0.133,0.201,-13.02,13.02
+146,546.0,15.25,74.5,Uttara Kannada,Hilly Zone (Malnad),Malnad,587.87,0.283,0.052,41.87,41.87
+147,565.93,15.25,74.75,Uttara Kannada,Hilly Zone (Malnad),Malnad,522.52,0.149,0.099,-43.41,43.41
+148,571.82,15.25,75.0,Dharwad,Northern Transition Zone,North Interior Karnataka,596.24,0.171,0.186,24.42,24.42
+149,629.76,15.25,75.25,Dharwad,Northern Transition Zone,North Interior Karnataka,620.61,0.054,0.098,-9.15,9.15
+150,662.37,15.25,75.5,Gadag,Northern Dry Zone,North Interior Karnataka,645.94,0.04,0.055,-16.43,16.43
+151,668.16,15.25,75.75,Gadag,Northern Dry Zone,North Interior Karnataka,621.23,0.116,0.162,-46.93,46.93
+152,537.17,15.25,76.0,Koppal,Northern Dry Zone,North Interior Karnataka,558.2,0.111,0.174,21.03,21.03
+153,505.96,15.25,76.25,Koppal,Northern Dry Zone,North Interior Karnataka,517.94,0.054,0.081,11.98,11.98
+154,568.94,15.25,76.5,Ballari,Northern Dry Zone,North Interior Karnataka,567.28,0.231,0.22,-1.66,1.66
+155,456.16,15.25,76.75,Ballari,Northern Dry Zone,North Interior Karnataka,478.65,0.221,0.294,22.49,22.49
+156,425.24,15.25,77.0,Ballari,Northern Dry Zone,North Interior Karnataka,454.09,0.026,0.033,28.85,28.85
+157,702.04,15.5,74.5,Belagavi,Northern Transition Zone,North Interior Karnataka,693.14,0.133,0.206,-8.9,8.9
+158,645.67,15.5,74.75,Belagavi,Northern Transition Zone,North Interior Karnataka,658.64,0.147,0.093,12.97,12.97
+159,695.78,15.5,75.0,Dharwad,Northern Transition Zone,North Interior Karnataka,688.35,0.07,0.096,-7.43,7.43
+160,602.73,15.5,75.25,Dharwad,Northern Transition Zone,North Interior Karnataka,623.85,0.077,0.095,21.12,21.12
+161,607.7,15.5,75.5,Gadag,Northern Dry Zone,North Interior Karnataka,617.09,0.058,0.101,9.39,9.39
+162,628.31,15.5,75.75,Gadag,Northern Dry Zone,North Interior Karnataka,613.82,0.051,0.095,-14.49,14.49
+163,591.07,15.5,76.0,Koppal,Northern Dry Zone,North Interior Karnataka,587.29,0.079,0.248,-3.78,3.78
+164,607.64,15.5,76.25,Koppal,Northern Dry Zone,North Interior Karnataka,599.46,0.148,0.209,-8.18,8.18
+165,433.77,15.5,76.5,Koppal,Northern Dry Zone,North Interior Karnataka,480.57,0.193,0.253,46.8,46.8
+166,384.28,15.5,76.75,Koppal,Northern Dry Zone,North Interior Karnataka,435.37,0.072,0.09,51.09,51.09
+167,736.75,15.75,74.5,Belagavi,Northern Transition Zone,North Interior Karnataka,711.26,0.077,0.131,-25.49,25.49
+168,655.84,15.75,74.75,Belagavi,Northern Transition Zone,North Interior Karnataka,664.9,0.103,0.128,9.06,9.06
+169,653.28,15.75,75.0,Belagavi,Northern Dry Zone,North Interior Karnataka,653.41,0.05,0.046,0.13,0.13
+170,618.05,15.75,75.25,Belagavi,Northern Dry Zone,North Interior Karnataka,626.53,0.068,0.092,8.48,8.48
+171,568.66,15.75,75.5,Gadag,Northern Dry Zone,North Interior Karnataka,590.5,0.048,0.071,21.84,21.84
+172,577.63,15.75,75.75,Gadag,Northern Dry Zone,North Interior Karnataka,582.09,0.051,0.223,4.46,4.46
+173,776.29,15.75,76.0,Gadag,Northern Dry Zone,North Interior Karnataka,633.74,0.03,0.056,-142.55,142.55
+174,625.32,15.75,76.25,Koppal,Northern Dry Zone,North Interior Karnataka,608.74,0.157,0.31,-16.58,16.58
+175,488.67,15.75,76.5,Raichur,North Eastern Dry Zone,North Interior Karnataka,491.25,0.202,0.274,2.58,2.58
+176,386.24,15.75,76.75,Raichur,North Eastern Dry Zone,North Interior Karnataka,426.99,0.109,0.138,40.75,40.75
+177,362.99,15.75,77.0,Ballari,Northern Dry Zone,North Interior Karnataka,389.69,0.04,0.026,26.7,26.7
+178,797.23,16.0,74.5,Belagavi,Northern Transition Zone,North Interior Karnataka,750.0,0.025,0.115,-47.23,47.23
+179,733.72,16.0,74.75,Belagavi,Northern Transition Zone,North Interior Karnataka,738.08,0.101,0.137,4.36,4.36
+180,674.21,16.0,75.0,Belagavi,Northern Dry Zone,North Interior Karnataka,661.47,0.144,0.162,-12.74,12.74
+181,616.02,16.0,75.25,Belagavi,Northern Dry Zone,North Interior Karnataka,622.19,0.06,0.042,6.17,6.17
+182,662.32,16.0,75.5,Bagalkote,Northern Dry Zone,North Interior Karnataka,619.93,0.042,0.036,-42.39,42.39
+183,626.89,16.0,75.75,Bagalkote,Northern Dry Zone,North Interior Karnataka,592.79,0.048,0.103,-34.1,34.1
+184,570.04,16.0,76.0,Koppal,Northern Dry Zone,North Interior Karnataka,579.04,0.102,0.257,9.0,9.0
+185,581.46,16.0,76.25,Bagalkote,Northern Dry Zone,North Interior Karnataka,565.04,0.094,0.095,-16.42,16.42
+186,527.33,16.0,76.5,Raichur,North Eastern Dry Zone,North Interior Karnataka,531.01,0.138,0.187,3.68,3.68
+187,412.16,16.0,76.75,Raichur,North Eastern Dry Zone,North Interior Karnataka,436.91,0.164,0.238,24.75,24.75
+188,368.93,16.0,77.0,Raichur,North Eastern Dry Zone,North Interior Karnataka,394.17,0.098,0.109,25.24,25.24
+189,345.46,16.0,77.25,Raichur,North Eastern Dry Zone,North Interior Karnataka,366.71,0.06,0.048,21.25,21.25
+190,346.33,16.0,77.5,Raichur,North Eastern Dry Zone,North Interior Karnataka,349.91,0.018,0.001,3.58,3.58
+191,647.6,16.25,74.5,Belagavi,Northern Transition Zone,North Interior Karnataka,690.79,0.171,0.226,43.19,43.19
+192,622.56,16.25,74.75,Belagavi,Northern Transition Zone,North Interior Karnataka,630.9,0.194,0.177,8.34,8.34
+193,555.43,16.25,75.0,Belagavi,Northern Dry Zone,North Interior Karnataka,583.22,0.092,0.137,27.79,27.79
+194,579.32,16.25,75.25,Bagalkote,Northern Dry Zone,North Interior Karnataka,587.39,0.05,0.051,8.07,8.07
+195,535.18,16.25,75.5,Bagalkote,Northern Dry Zone,North Interior Karnataka,562.99,0.078,0.127,27.81,27.81
+196,550.92,16.25,75.75,Bagalkote,Northern Dry Zone,North Interior Karnataka,563.44,0.032,0.06,12.52,12.52
+197,532.02,16.25,76.0,Bagalkote,Northern Dry Zone,North Interior Karnataka,539.15,0.034,0.008,7.13,7.13
+198,545.26,16.25,76.25,Vijayapura,Northern Dry Zone,North Interior Karnataka,532.92,0.059,0.109,-12.34,12.34
+199,444.41,16.25,76.5,Raichur,North Eastern Dry Zone,North Interior Karnataka,487.58,0.056,0.052,43.17,43.17
+200,547.72,16.25,76.75,Raichur,North Eastern Dry Zone,North Interior Karnataka,497.68,0.049,0.02,-50.04,50.04
+201,443.19,16.25,77.0,Raichur,North Eastern Dry Zone,North Interior Karnataka,449.83,0.103,0.174,6.64,6.64
+202,385.87,16.25,77.25,Raichur,North Eastern Dry Zone,North Interior Karnataka,402.28,0.064,0.065,16.41,16.41
+203,580.0,16.5,74.5,Belagavi,Northern Transition Zone,North Interior Karnataka,596.45,0.098,0.071,16.45,16.45
+204,591.94,16.5,74.75,Belagavi,Northern Transition Zone,North Interior Karnataka,587.52,0.047,0.046,-4.42,4.42
+205,549.49,16.5,75.0,Bagalkote,Northern Dry Zone,North Interior Karnataka,584.8,0.014,0.027,35.31,35.31
+206,571.02,16.5,75.25,Bagalkote,Northern Dry Zone,North Interior Karnataka,578.9,0.04,0.011,7.88,7.88
+207,542.86,16.5,75.5,Vijayapura,Northern Dry Zone,North Interior Karnataka,548.53,0.066,0.091,5.67,5.67
+208,568.61,16.5,75.75,Vijayapura,Northern Dry Zone,North Interior Karnataka,573.97,0.06,0.062,5.36,5.36
+209,574.29,16.5,76.0,Vijayapura,Northern Dry Zone,North Interior Karnataka,587.23,0.05,0.05,12.94,12.94
+210,529.03,16.5,76.25,Vijayapura,Northern Dry Zone,North Interior Karnataka,546.87,0.105,0.105,17.84,17.84
+211,477.28,16.5,76.5,Yadgir,North Eastern Dry Zone,North Interior Karnataka,490.68,0.147,0.112,13.4,13.4
+212,431.09,16.5,76.75,Yadgir,North Eastern Dry Zone,North Interior Karnataka,410.23,0.102,0.16,-20.86,20.86
+213,358.68,16.5,77.0,Raichur,North Eastern Dry Zone,North Interior Karnataka,398.21,0.047,0.09,39.53,39.53
+214,366.45,16.5,77.25,Yadgir,North Eastern Dry Zone,North Interior Karnataka,403.2,0.035,0.05,36.75,36.75
+215,541.4,16.75,75.0,Belagavi,Northern Dry Zone,North Interior Karnataka,573.14,0.028,0.05,31.74,31.74
+216,587.39,16.75,75.25,Belagavi,Northern Dry Zone,North Interior Karnataka,596.56,0.061,0.09,9.17,9.17
+217,623.56,16.75,75.5,Vijayapura,Northern Dry Zone,North Interior Karnataka,627.04,0.082,0.085,3.48,3.48
+218,601.59,16.75,75.75,Vijayapura,Northern Dry Zone,North Interior Karnataka,605.38,0.052,0.079,3.79,3.79
+219,557.54,16.75,76.0,Vijayapura,Northern Dry Zone,North Interior Karnataka,578.68,0.11,0.127,21.14,21.14
+220,531.74,16.75,76.25,Vijayapura,Northern Dry Zone,North Interior Karnataka,543.28,0.116,0.105,11.54,11.54
+221,480.51,16.75,76.5,Kalaburagi,North Eastern Dry Zone,North Interior Karnataka,485.56,0.084,0.1,5.05,5.05
+222,454.6,16.75,76.75,Yadgir,North Eastern Dry Zone,North Interior Karnataka,476.75,0.097,0.1,22.15,22.15
+223,388.14,16.75,77.0,Yadgir,North Eastern Dry Zone,North Interior Karnataka,405.14,0.064,0.047,17.0,17.0
+224,433.52,16.75,77.25,Yadgir,North Eastern Dry Zone,North Interior Karnataka,435.8,0.124,0.137,2.28,2.28
+225,536.19,17.0,75.75,Vijayapura,Northern Dry Zone,North Interior Karnataka,572.59,0.123,0.121,36.4,36.4
+226,475.03,17.0,76.0,Vijayapura,Northern Dry Zone,North Interior Karnataka,502.1,0.14,0.13,27.07,27.07
+227,467.09,17.0,76.25,Vijayapura,Northern Dry Zone,North Interior Karnataka,489.95,0.107,0.108,22.86,22.86
+228,423.83,17.0,76.5,Kalaburagi,North Eastern Dry Zone,North Interior Karnataka,449.14,0.051,0.073,25.31,25.31
+229,435.46,17.0,76.75,Kalaburagi,North Eastern Dry Zone,North Interior Karnataka,452.52,0.017,0.027,17.06,17.06
+230,399.04,17.0,77.0,Kalaburagi,North Eastern Dry Zone,North Interior Karnataka,443.75,0.083,0.082,44.71,44.71
+231,490.84,17.0,77.25,Kalaburagi,North Eastern Dry Zone,North Interior Karnataka,518.58,0.083,0.1,27.74,27.74
+232,503.44,17.25,75.75,Vijayapura,Northern Dry Zone,North Interior Karnataka,511.63,0.075,0.063,8.19,8.19
+233,454.28,17.25,76.0,Vijayapura,Northern Dry Zone,North Interior Karnataka,474.68,0.067,0.07,20.4,20.4
+234,441.56,17.25,76.25,Kalaburagi,North Eastern Dry Zone,North Interior Karnataka,455.39,0.041,0.047,13.83,13.83
+235,418.46,17.25,76.5,Kalaburagi,North Eastern Dry Zone,North Interior Karnataka,455.49,0.068,0.103,37.03,37.03
+236,459.26,17.25,76.75,Kalaburagi,North Eastern Dry Zone,North Interior Karnataka,461.46,0.087,0.139,2.2,2.2
+237,442.76,17.25,77.0,Kalaburagi,North Eastern Dry Zone,North Interior Karnataka,446.75,0.048,0.073,3.99,3.99
+238,421.96,17.25,77.25,Kalaburagi,North Eastern Dry Zone,North Interior Karnataka,456.04,0.03,0.039,34.08,34.08
+239,521.62,17.5,76.5,Kalaburagi,North Eastern Transition Zone,North Interior Karnataka,514.31,0.065,0.117,-7.31,7.31
+240,567.19,17.5,76.75,Kalaburagi,North Eastern Transition Zone,North Interior Karnataka,536.56,0.123,0.121,-30.63,30.63
+241,458.36,17.5,77.0,Kalaburagi,North Eastern Transition Zone,North Interior Karnataka,489.72,0.182,0.2,31.36,31.36
+242,521.56,17.5,77.25,Kalaburagi,North Eastern Transition Zone,North Interior Karnataka,546.19,0.189,0.27,24.63,24.63
+243,615.67,17.5,77.5,Kalaburagi,North Eastern Transition Zone,North Interior Karnataka,575.1,0.053,0.107,-40.57,40.57
+244,556.09,17.75,76.75,Bidar,North Eastern Transition Zone,North Interior Karnataka,578.18,0.065,0.081,22.09,22.09
+245,630.01,17.75,77.0,Bidar,North Eastern Transition Zone,North Interior Karnataka,623.21,0.123,0.182,-6.8,6.8
+246,625.12,17.75,77.25,Bidar,North Eastern Transition Zone,North Interior Karnataka,615.45,0.056,0.064,-9.67,9.67
+247,645.92,17.75,77.5,Bidar,North Eastern Transition Zone,North Interior Karnataka,616.31,0.001,0.056,-29.61,29.61
+248,619.08,18.0,77.0,Bidar,North Eastern Transition Zone,North Interior Karnataka,602.06,0.022,0.042,-17.02,17.02
+249,581.68,18.0,77.25,Bidar,North Eastern Transition Zone,North Interior Karnataka,599.83,0.046,0.082,18.15,18.15
+250,566.27,18.0,77.5,Bidar,North Eastern Transition Zone,North Interior Karnataka,574.01,0.07,0.146,7.74,7.74
+251,568.15,18.25,77.25,Bidar,North Eastern Transition Zone,North Interior Karnataka,581.57,0.035,0.07,13.42,13.42
+252,505.2,18.25,77.5,Bidar,North Eastern Transition Zone,North Interior Karnataka,554.03,0.036,0.093,48.83,48.83

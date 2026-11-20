@@ -1,0 +1,8 @@
+Quantile,Observed_IMD_mm,LightGBM_Tweedie_mm,CatBoost_Tweedie_mm,Hurdle_ExpectedValue_mm,Raw_ERA5_mm,EQM_mm
+50th Percentile,0.0,0.48,0.57,0.62,0.33,0.0
+75th Percentile,1.31,3.7,3.8,3.88,3.69,1.61
+90th Percentile,9.7,9.91,9.8,9.9,12.25,11.55
+95th Percentile,20.05,14.82,14.73,14.6,20.15,23.3
+99th Percentile,55.2,40.71,41.91,40.32,46.08,58.14
+99.5th Percentile,73.01,56.58,58.67,57.63,62.01,67.12
+99.9th Percentile,118.57,88.46,89.63,85.26,98.71,110.06

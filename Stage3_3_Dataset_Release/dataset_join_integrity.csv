@@ -1,0 +1,17 @@
+check_id,check_name,expected_value,actual_value,status,details
+C01,Unique Stations in Topography Source,252,252,PASSED,Must cover all in-state IMD stations.
+C02,No Duplicate Keys in Topography Table,252,252,PASSED,Zero duplicate station_id rows.
+C03,Full Integrated Dataset Row Count,640836,640836,PASSED,Exact row count preservation.
+C04,Train Integrated Dataset Row Count,364644,364644,PASSED,Exact train partition preservation.
+C05,Validation Integrated Dataset Row Count,91980,91980,PASSED,Exact validation partition preservation.
+C06,Test Integrated Dataset Row Count,184212,184212,PASSED,Exact test partition preservation.
+C07,Partition Row Sum Equality,640836,640836,PASSED,Train + Val + Test = Full.
+C08,No Missing Values in elevation_dem_m,0,0,PASSED,"All 640,836 rows must have valid DEM elevation."
+C09,No Missing Values in slope_dem_deg,0,0,PASSED,"All 640,836 rows must have valid DEM slope."
+C10,Target Rainfall Unchanged Post-Join,True,True,PASSED,Target rainfall values must be bitwise identical.
+C11,Date Sequence Unchanged Post-Join,True,True,PASSED,Calendar dates must match row-by-row.
+C12,Station ID Sequence Unchanged Post-Join,True,True,PASSED,Station IDs must match row-by-row.
+C13,DEM Value Fidelity for Station 1,923.82,923.82,PASSED,Station 1 DEM matches source CSV.
+C14,Summit Elevation Fidelity (Station 72),1599.54,1599.54,PASSED,Station 72 DEM matches 1599.54 m.
+C15,Coastal Elevation Fidelity (Station 104),1.12,1.12,PASSED,Station 104 DEM matches 1.12 m.
+C16,Integrated Column Count,77,77,PASSED,Renamed 2 proxy columns + added 2 DEM columns = 77 columns.

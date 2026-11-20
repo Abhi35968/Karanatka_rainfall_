@@ -1,0 +1,5 @@
+dataset_name,file_name,row_count,column_count,date_start,date_end,file_size_bytes,file_size_mb,sha256_checksum
+Integrated Full Dataset,integrated_stage3_dataset.parquet,640836,77,2019-01-15,2025-12-31,67167735,64.06,d89d1cfa47536956690776034860691b3ea0a928592603afc0787f1e8321636f
+Integrated Training Set,integrated_train_dataset.parquet,364644,77,2019-01-15,2022-12-31,40656320,38.77,e2f9511c223d5f7aad9bac884693353ab21ea13dae21417be25036f25a965728
+Integrated Validation Set,integrated_validation_dataset.parquet,91980,77,2023-01-01,2023-12-31,10357195,9.88,89129ad8f9766ea30f6d93afdd211fa1f625474584fca6abcc1b9c6a7d01ba98
+Integrated Test Set,integrated_test_dataset.parquet,184212,77,2024-01-01,2025-12-31,20805083,19.84,66b465048d2c221b14c0cdc5ead1b444f2f6b3bce84048aa0984debb471a4d5e

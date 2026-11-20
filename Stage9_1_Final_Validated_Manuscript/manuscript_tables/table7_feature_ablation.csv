@@ -1,0 +1,7 @@
+Scenario_ID,Ablation_Description,Features_Retained_Count,Validation_RMSE_mm,Validation_KGE_2012,Validation_Heavy_CSI,Test_RMSE_mm,Test_KGE_2012,Test_Heavy_CSI,Delta_Test_RMSE_vs_Full_mm,Scientific_Interpretation
+Scenario A,A All 63 Primary Predictors,63,5.585,0.6494,0.4098,7.4427,0.6245,0.2868,0.0,Champion full configuration
+Scenario B,B Without Runoff and Hydrological Fluxes,55,5.7149,0.6463,0.4129,7.6854,0.5925,0.2721,0.2427,Hydrological land fluxes provide critical moisture saturation proxies
+Scenario C,C Without Antecedent IMD Rainfall,51,5.7147,0.6235,0.3316,7.5828,0.607,0.2693,0.1401,Local gauge memory essential for extreme threshold alerting
+Scenario D,D Without Terrain and Spatial Predictors,55,5.5809,0.6479,0.4097,7.4557,0.6252,0.2843,0.013,Terrain captures spatial orographic boundaries
+Scenario E,E Without ERA5 Predictors,26,6.3909,0.4181,0.2652,8.4511,0.4833,0.1536,1.0084,ERA5 atmospheric predictors provide measurable incremental predictive value
+Scenario F,F Only Antecedent IMD and Temporal,18,6.4289,0.4193,0.3043,8.5145,0.4686,0.1456,1.0718,Baseline autoregressive floor

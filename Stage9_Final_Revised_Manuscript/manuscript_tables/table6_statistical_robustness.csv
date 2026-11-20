@@ -1,0 +1,15 @@
+Model_Pair,Block_Length_Days,Temporal_Memory_Assumption,Bootstrap_Replicates,Mean_Delta_RMSE_mm,Standard_Error_mm,CI_95_Low_mm,CI_95_High_mm,Replicates_Delta_ge_Zero,Empirical_p_Value_Resolution
+LightGBM_Tweedie vs. Persistence,7,Synoptic weather persistence (7d),2000,-2.925,0.2046,-3.3241,-2.5175,0,p < 0.0005
+LightGBM_Tweedie vs. EQM,7,Synoptic weather persistence (7d),2000,-3.7542,0.3768,-4.4626,-3.0039,0,p < 0.0005
+LightGBM_Tweedie vs. Raw_ERA5,7,Synoptic weather persistence (7d),2000,-3.0109,0.3482,-3.7037,-2.3735,0,p < 0.0005
+CatBoost_Tweedie vs. Persistence,7,Synoptic weather persistence (7d),2000,-2.9337,0.2077,-3.3415,-2.5276,0,p < 0.0005
+CatBoost_Tweedie vs. EQM,7,Synoptic weather persistence (7d),2000,-3.7629,0.3848,-4.4936,-2.9954,0,p < 0.0005
+Hurdle_ExpectedValue vs. Persistence,7,Synoptic weather persistence (7d),2000,-2.9436,0.2025,-3.3413,-2.5449,0,p < 0.0005
+Hurdle_ExpectedValue vs. EQM,7,Synoptic weather persistence (7d),2000,-3.7728,0.3824,-4.4955,-3.0224,0,p < 0.0005
+LightGBM_Tweedie vs. Persistence,14,Bi-weekly intraseasonal / MJO persistence (14d),2000,-2.9298,0.2271,-3.3608,-2.4729,0,p < 0.0005
+LightGBM_Tweedie vs. EQM,14,Bi-weekly intraseasonal / MJO persistence (14d),2000,-3.7645,0.4243,-4.5976,-2.9587,0,p < 0.0005
+LightGBM_Tweedie vs. Raw_ERA5,14,Bi-weekly intraseasonal / MJO persistence (14d),2000,-3.0204,0.3785,-3.7669,-2.3255,0,p < 0.0005
+CatBoost_Tweedie vs. Persistence,14,Bi-weekly intraseasonal / MJO persistence (14d),2000,-2.9382,0.2322,-3.38,-2.4688,0,p < 0.0005
+CatBoost_Tweedie vs. EQM,14,Bi-weekly intraseasonal / MJO persistence (14d),2000,-3.7729,0.4338,-4.6235,-2.955,0,p < 0.0005
+Hurdle_ExpectedValue vs. Persistence,14,Bi-weekly intraseasonal / MJO persistence (14d),2000,-2.948,0.2293,-3.3901,-2.4876,0,p < 0.0005
+Hurdle_ExpectedValue vs. EQM,14,Bi-weekly intraseasonal / MJO persistence (14d),2000,-3.7827,0.4309,-4.6238,-2.963,0,p < 0.0005

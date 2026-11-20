@@ -1,0 +1,88 @@
+{
+  "correction_factor": 12.8,
+  "original_inflated_metrics": {
+    "model": "XGBoost Regressor",
+    "note": "COMPUTED ON INFLATED 12.8x ERA5 DATA \u2014 NOT INTERPRETABLE AS REAL RAINFALL",
+    "rmse": 78.6248,
+    "mae": 30.0064,
+    "r2": 0.4819,
+    "pearson_r": 0.6955,
+    "csi": 0.7173,
+    "accuracy_classification": 0.7368,
+    "macro_f1_classification": 0.6449
+  },
+  "corrected_xgboost_metrics": {
+    "n_samples": 2109289,
+    "mean_actual_mm": 3.384,
+    "mean_pred_mm": 3.3034,
+    "mae": 2.3442,
+    "rmse": 6.1426,
+    "r2": 0.4819,
+    "pearson_r": 0.6955,
+    "csi": 0.7669,
+    "kge": 0.5387,
+    "pbias": -2.38
+  },
+  "climatological_null_model_metrics": {
+    "n_samples": 2135778,
+    "mean_actual_mm": 3.4128,
+    "mean_pred_mm": 3.3349,
+    "mae": 3.8362,
+    "rmse": 8.2224,
+    "r2": 0.0676,
+    "pearson_r": 0.265,
+    "csi": 0.5826,
+    "kge": -0.0052,
+    "pbias": -2.28
+  },
+  "era5_raw_reanalysis_metrics": {
+    "n_samples": 2135778,
+    "mean_actual_mm": 3.4128,
+    "mean_pred_mm": 3.4266,
+    "mae": 2.689,
+    "rmse": 7.6052,
+    "r2": 0.2024,
+    "pearson_r": 0.6017,
+    "csi": 0.841,
+    "kge": 0.6016,
+    "pbias": 0.41
+  },
+  "monthly_null_model_metrics": {
+    "n_samples": 17,
+    "mean_actual_mm": 428757.4375,
+    "mean_pred_mm": 419127.8438,
+    "mae": 146639.3594,
+    "rmse": 218459.4375,
+    "r2": 0.6277,
+    "pearson_r": 0.8056,
+    "csi": 1.0,
+    "kge": 0.7978,
+    "pbias": -2.25
+  },
+  "monthly_era5_metrics": {
+    "n_samples": 17,
+    "mean_actual_mm": 428757.4375,
+    "mean_pred_mm": 430496.8125,
+    "mae": 19460.498,
+    "rmse": 40341.7344,
+    "r2": 0.9873,
+    "pearson_r": 0.9937,
+    "csi": 1.0,
+    "kge": 0.9839,
+    "pbias": 0.41
+  },
+  "monthly_climatology_mm_per_month": {
+    "1": 45411.0,
+    "2": 11383.5,
+    "3": 27168.6,
+    "4": 101101.4,
+    "5": 301218.0,
+    "6": 660321.2,
+    "7": 1229247.1,
+    "8": 711434.6,
+    "9": 753178.1,
+    "10": 540345.8,
+    "11": 272285.0,
+    "12": 97417.9
+  }
+}

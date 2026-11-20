@@ -1,0 +1,65 @@
+feature_name,source_variable,source_timestamp,target_timestamp,prediction_issue_time,max_information_timestamp,is_causal_permitted
+latitude,latitude,Static Geographic / Topographic,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Prior to Experiment,True
+longitude,longitude,Static Geographic / Topographic,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Prior to Experiment,True
+elevation_m,elevation_m,Static Geographic / Topographic,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Prior to Experiment,True
+slope_deg,slope_deg,Static Geographic / Topographic,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Prior to Experiment,True
+dist_to_coast_km,dist_to_coast_km,Static Geographic / Topographic,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Prior to Experiment,True
+dist_to_ghats_crest_km,dist_to_ghats_crest_km,Static Geographic / Topographic,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Prior to Experiment,True
+is_coastal_fallback,is_coastal_fallback,Static Geographic / Topographic,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Prior to Experiment,True
+interpolation_method,interpolation_method,Static Geographic / Topographic,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Prior to Experiment,True
+month,month,Deterministic Calendar Ephemeris,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Astronomical Ephemeris,True
+day_of_year,day_of_year,Deterministic Calendar Ephemeris,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Astronomical Ephemeris,True
+sin_day_of_year,sin_day_of_year,Deterministic Calendar Ephemeris,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Astronomical Ephemeris,True
+cos_day_of_year,cos_day_of_year,Deterministic Calendar Ephemeris,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Astronomical Ephemeris,True
+sin_month,sin_month,Deterministic Calendar Ephemeris,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Astronomical Ephemeris,True
+cos_month,cos_month,Deterministic Calendar Ephemeris,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Astronomical Ephemeris,True
+is_monsoon,is_monsoon,Deterministic Calendar Ephemeris,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Astronomical Ephemeris,True
+season,season,Deterministic Calendar Ephemeris,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Astronomical Ephemeris,True
+target_rain_lag_1d,target_rain,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+target_rain_lag_2d,target_rain,d-2 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-2 03:00 UTC,True
+target_rain_lag_3d,target_rain,d-3 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-3 03:00 UTC,True
+target_rain_lag_7d,target_rain,d-7 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-7 03:00 UTC,True
+target_rain_lag_14d,target_rain,d-14 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-14 03:00 UTC,True
+target_rain_roll_3d_sum,target_rain,d-N to d-1,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+target_rain_roll_7d_sum,target_rain,d-N to d-1,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+target_rain_roll_14d_sum,target_rain,d-N to d-1,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+target_rain_roll_3d_mean,target_rain,d-N to d-1,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+target_rain_roll_7d_mean,target_rain,d-N to d-1,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+target_rain_roll_14d_mean,target_rain,d-N to d-1,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+target_rain_roll_7d_max,target_rain,d-N to d-1,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+api_14d,api_14d,d-14 to d-1,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+era5_tp_lag_1d,era5_tp,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+era5_tp_lag_2d,era5_tp,d-2 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-2 03:00 UTC,True
+era5_tp_lag_3d,era5_tp,d-3 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-3 03:00 UTC,True
+era5_tp_roll_3d_sum,era5_tp,d-N to d-1,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+era5_tp_roll_7d_sum,era5_tp,d-N to d-1,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+t2m_mean_lag_1d,t2m_mean,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+t2m_min_lag_1d,t2m_min,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+t2m_max_lag_1d,t2m_max,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+temp_range_lag_1d,temp_range,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+d2m_mean_lag_1d,d2m_mean,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+dewpoint_depression_lag_1d,dewpoint_depression,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+t2m_roll_3d_mean,t2m,d-N to d-1,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+t2m_roll_7d_mean,t2m,d-N to d-1,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+sp_lag_1d,sp,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+wind_speed_lag_1d,wind_speed,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+wind_roll_3d_mean,wind,d-N to d-1,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+wind_roll_7d_mean,wind,d-N to d-1,Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+swvl1_lag_1d,swvl1,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+swvl1_lag_3d,swvl1,d-3 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-3 03:00 UTC,True
+swvl1_lag_7d,swvl1,d-7 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-7 03:00 UTC,True
+swvl2_lag_1d,swvl2,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+swvl3_lag_1d,swvl3,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+ssrd_lag_1d,ssrd,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+strd_lag_1d,strd,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+slhf_lag_1d,slhf,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+sshf_lag_1d,sshf,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+ro_lag_1d,ro,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+sro_lag_1d,sro,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+e_lag_1d,e,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+pev_lag_1d,pev,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+evabs_lag_1d,evabs,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+evatc_lag_1d,evatc,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+evavt_lag_1d,evavt,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+src_lag_1d,src,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
+fal_lag_1d,fal,d-1 (03:00 UTC),Day d (03:00 UTC d-1 to 03:00 UTC d),Day d-1 (03:00 UTC),Day d-1 03:00 UTC,True
